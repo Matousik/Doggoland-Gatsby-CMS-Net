@@ -1,114 +1,141 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { Link, graphql } from "gatsby";
+import { getImage } from "gatsby-plugin-image";
+
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
 import Features from "../components/Features";
+import BlogRoll from "../components/BlogRoll";
+import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
-export const AdopcePostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
+export const IndexPageTemplate = ({
+  image,
   title,
-  helmet,
+  heading,
+  subheading,
+  mainpitch,
+  description,
   intro,
 }) => {
-  const AdopceContent = contentComponent || Content;
+  const heroImage = getImage(image) || image;
 
   return (
-    <section className="section">
-      {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <AdopceContent content={content} />
-            <Features gridItems={intro.blurbs} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+    <div>
+      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="content">
+                  <div className="content">
+                    <div className="tile">
+                      <h1 className="title">{mainpitch.title}</h1>
+                    </div>
+                    <div className="tile">
+                      <h3 className="subtitle">{mainpitch.description}</h3>
+                    </div>
+                  </div>
+                  <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <p>{description}</p>
+                    </div>
+                  </div>
+                  <Features gridItems={intro.blurbs} />
+                  <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/products">
+                        See all products
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      Latest stories
+                    </h3>
+                    <BlogRoll />
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/blog">
+                        Read more
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
-            ) : null}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
-AdopcePostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
+IndexPageTemplate.propTypes = {
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  helmet: PropTypes.object,
+  heading: PropTypes.string,
+  subheading: PropTypes.string,
+  mainpitch: PropTypes.object,
+  description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
 };
 
-const AdopcePost = ({ data }) => {
-  const { markdownRemark: adopce } = data;
+const IndexPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <AdopcePostTemplate
-        content={adopce.html}
-        contentComponent={HTMLContent}
-        description={adopce.frontmatter.description}
-        intro={adopce.frontmatter.intro}
-        helmet={
-          <Helmet titleTemplate="%s | Adopce">
-            <title>{`${adopce.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${adopce.frontmatter.description}`}
-            />
-          </Helmet>
-        }
-        tags={adopce.frontmatter.tags}
-        title={adopce.frontmatter.title}
+      <IndexPageTemplate
+        image={frontmatter.image}
+        title={frontmatter.title}
+        heading={frontmatter.heading}
+        subheading={frontmatter.subheading}
+        mainpitch={frontmatter.mainpitch}
+        description={frontmatter.description}
+        intro={frontmatter.intro}
       />
     </Layout>
   );
 };
 
-AdopcePost.propTypes = {
+IndexPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
   }),
 };
 
-export default AdopcePost;
+export default IndexPage;
 
 export const pageQuery = graphql`
-  query AdopcePostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
+  query IndexPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        heading
+        subheading
+        mainpitch {
+          title
+          description
+        }
         description
         intro {
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(width: 350, quality: 64, layout: CONSTRAINED)
               }
             }
             text
