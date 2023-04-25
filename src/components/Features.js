@@ -10,14 +10,13 @@ const FeatureGrid = ({ gridItems }) => (
           <div className="has-text-centered">
             <div
               style={{
-                width: "350px",
+                width: "100%",
                 display: "inline-block",
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
         </section>
       </div>
     ))}

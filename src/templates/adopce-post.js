@@ -48,8 +48,8 @@ export const AdopcePostTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
+                      <Link className="btn" to="/adopce">
+                        Zpět na seznam adopcí
                       </Link>
                     </div>
                   </div>
@@ -124,10 +124,9 @@ query AdopcePostByID($id: String!) {
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(width: 400, quality: 64, layout: CONSTRAINED)
               }
             }
-            text
           }
           heading
           description

@@ -18,7 +18,7 @@ const AdopcePostPreview = ({ entry, getAsset }) => {
       />
     )
   } else {
-    return <div>Loading...</div>
+    return <div>Adopce se načítá...</div>
   }
 }
 
