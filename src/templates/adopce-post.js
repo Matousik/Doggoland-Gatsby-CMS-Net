@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Features from "../components/Features";
 
 // eslint-disable-next-line
 export const AdopcePostTemplate = ({
@@ -14,6 +15,7 @@ export const AdopcePostTemplate = ({
   tags,
   title,
   helmet,
+  intro,
 }) => {
   const AdopceContent = contentComponent || Content;
 
@@ -28,6 +30,7 @@ export const AdopcePostTemplate = ({
             </h1>
             <p>{description}</p>
             <AdopceContent content={content} />
+            <Features gridItems={intro.blurbs} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -53,6 +56,9 @@ AdopcePostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  intro: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
 };
 
 const AdopcePost = ({ data }) => {
@@ -64,6 +70,7 @@ const AdopcePost = ({ data }) => {
         content={adopce.html}
         contentComponent={HTMLContent}
         description={adopce.frontmatter.description}
+        intro={adopce.frontmatter.intro}
         helmet={
           <Helmet titleTemplate="%s | Adopce">
             <title>{`${adopce.frontmatter.title}`}</title>
@@ -97,6 +104,18 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        intro {
+          blurbs {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+              }
+            }
+            text
+          }
+          heading
+          description
+        }
       }
     }
   }
