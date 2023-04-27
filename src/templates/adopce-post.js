@@ -85,7 +85,7 @@ const AdopcePost = ({ data }) => {
   return (
     <Layout>
       <AdopcePostTemplate
-        content={data.html}
+        content={data.markdownRemark.html}
         contentComponent={HTMLContent}      
         image={data.markdownRemark.frontmatter.image}
         title={data.markdownRemark.frontmatter.title}
