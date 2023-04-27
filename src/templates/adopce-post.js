@@ -2,14 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
-
+import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const AdopcePostTemplate = ({
+  content,
+  contentComponent,
   image,
   title,
   heading,
@@ -19,6 +20,7 @@ export const AdopcePostTemplate = ({
   intro,
 }) => {
   const heroImage = getImage(image) || image;
+  const PostContent = contentComponent || Content;
 
   return (
     <div>
@@ -45,6 +47,7 @@ export const AdopcePostTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>
+                  <PostContent content={content} />
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
@@ -64,6 +67,8 @@ export const AdopcePostTemplate = ({
 };
 
 AdopcePostTemplate.propTypes = {
+  content: PropTypes.node.isRequired,
+  contentComponent: PropTypes.func,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -76,18 +81,19 @@ AdopcePostTemplate.propTypes = {
 };
 
 const AdopcePost = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <AdopcePostTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        content={data.html}
+        contentComponent={HTMLContent}      
+        image={data.markdownRemark.frontmatter.image}
+        title={data.markdownRemark.frontmatter.title}
+        heading={data.markdownRemark.frontmatter.heading}
+        subheading={data.markdownRemark.frontmatter.subheading}
+        mainpitch={data.markdownRemark.frontmatter.mainpitch}
+        description={data.markdownRemark.frontmatter.description}
+        intro={data.markdownRemark.frontmatter.intro}
       />
     </Layout>
   );
@@ -106,6 +112,7 @@ export default AdopcePost;
 export const pageQuery = graphql`
 query AdopcePostByID($id: String!) {
   markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         image {
