@@ -15,8 +15,6 @@ export const AdopcePostTemplate = ({
   title,
   heading,
   subheading,
-  mainpitch,
-  description,
   intro,
 }) => {
   const heroImage = getImage(image) || image;
@@ -32,19 +30,12 @@ export const AdopcePostTemplate = ({
               <div className="column is-10 is-offset-1">
                 <div className="content">
                   <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
                   </div>
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p>{description}</p>
                     </div>
                   </div>
                   <PostContent content={content} />
@@ -73,8 +64,6 @@ AdopcePostTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -91,8 +80,6 @@ const AdopcePost = ({ data }) => {
         title={data.markdownRemark.frontmatter.title}
         heading={data.markdownRemark.frontmatter.heading}
         subheading={data.markdownRemark.frontmatter.subheading}
-        mainpitch={data.markdownRemark.frontmatter.mainpitch}
-        description={data.markdownRemark.frontmatter.description}
         intro={data.markdownRemark.frontmatter.intro}
       />
     </Layout>
@@ -122,11 +109,6 @@ query AdopcePostByID($id: String!) {
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
-        description
         intro {
           blurbs {
             image {
