@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import AdopceRoll from "../../components/AdopceRoll";
 import Layout from "../../components/Layout";
 
 export default class AdopceIndexPage extends React.Component {
@@ -24,6 +24,13 @@ export default class AdopceIndexPage extends React.Component {
             K Adopci
           </h1>
         </div>
+        <section className="section">
+          <div className="container">
+            <div className="content">
+              <AdopceRoll />
+            </div>
+          </div>
+        </section>
       </Layout>
     );
   }

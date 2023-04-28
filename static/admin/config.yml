@@ -69,6 +69,8 @@ collections:
                   },
                 ],
             }
+          - { label: Popis na stránku adopcí, name: description, widget: string }
+
 
   - name: "pages"
     label: "Pages"
