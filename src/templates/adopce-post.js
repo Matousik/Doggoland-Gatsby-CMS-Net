@@ -108,7 +108,6 @@ query AdopcePostByID($id: String!) {
           }
         }
         heading
-        subheading
         intro {
           blurbs {
             image {

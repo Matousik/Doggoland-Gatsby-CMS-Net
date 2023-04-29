@@ -45,26 +45,24 @@ collections:
               widget: "hidden",
               default: "adopce",
             }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Title, name: title, widget: string }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Obrázek na stránce adopcí", name: "featuredimage", widget: image }
+          - { label: "Úvodní obrázek", name: image, widget: image }
+          - { label: "Oranžový nadpis", name: title, widget: string }
+          - { label: "Nadpis nad textovou kostrou", name: heading, widget: string }
+          - { label: "Textová kostra", name: "body", widget: "markdown" }
           - {
-              label: Intro,
+              label: "Galerie obrázků",
               name: intro,
               widget: object,
               fields:
                 [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
                   {
-                    label: Blurbs,
+                    label: Obrázky,
                     name: blurbs,
                     widget: list,
                     fields:
                       [
-                        { label: Image, name: image, widget: image },
+                        { label: Obrázek, name: image, widget: image },
                       ],
                   },
                 ],

@@ -11,7 +11,6 @@ const AdopcePostPreview = ({ entry, widgetFor, getAsset }) => {
       content={widgetFor('body')}
       intro={data.intro || { blurbs: [] }}
       heading={data.heading}
-      subheading={data.subheading}
     />
   )
 }
