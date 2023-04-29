@@ -6,7 +6,7 @@ import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
+import FullWidthImage from "../components/FullWidthImageLooping";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} height={"93vh"} />
+      <FullWidthImage img={intro.blurbs} title={title} subheading={subheading} height={"93vh"} />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -135,10 +135,9 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(width: 500, quality: 100, layout: CONSTRAINED)
               }
             }
-            text
           }
           heading
           description
