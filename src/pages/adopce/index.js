@@ -1,6 +1,7 @@
 import * as React from "react";
 import AdopceRoll from "../../components/AdopceRoll";
 import Layout from "../../components/Layout";
+import { Link } from "gatsby";
 
 export default class AdopceIndexPage extends React.Component {
   render() {
@@ -24,13 +25,19 @@ export default class AdopceIndexPage extends React.Component {
             K Adopci
           </h1>
         </div>
+        <h2 className="has-text-centered has-text-weight-bold is-size-2">Níže naleznete pejsky k adopci</h2>
+        <p className="has-text-centered mgt-small">
+          Pokud máte zájem o adopci, vyplňte prosím <Link to="/contact">kontaktní formulář</Link> a my se vám ozveme.
+        </p>
+        <p className="has-text-centered mgt-medium">
+          <a className="button is-primary is-light has-text-centered" href="#prubeh-adopce">
+            Jak u nás adopce probíhá?
+          </a>
+        </p>
         <section className="section">
-          <div className="container">
-            <div className="content">
-              <AdopceRoll />
-            </div>
-          </div>
+          <AdopceRoll />
         </section>
+        <h2 id="prubeh-adopce" className="has-text-centered has-text-weight-bold is-size-2">Průběh adopce</h2>
       </Layout>
     );
   }

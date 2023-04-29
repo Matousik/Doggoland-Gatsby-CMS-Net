@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import "./masonry-posts.css";
 
 
 const AdopceRollTemplate = (props) => {
@@ -9,16 +10,15 @@ const AdopceRollTemplate = (props) => {
   const { edges: vsechnyAdopce } = props.data.allMarkdownRemark;
 
   return (
-    <div className="columns is-multiline">
+    <div className="masonry-post">
       {vsechnyAdopce &&
         vsechnyAdopce.map(({ node: adopce }) => (
-          <div className="is-parent column is-6" key={adopce.id}>
+          <div className="masonry-post-item" key={adopce.id}>
             <article
-              className={`blog-list-item tile is-child box notification`}
+              className={`adopce-list-item tile is-child box notification`}
             >
-              <header>
                 {adopce?.frontmatter?.featuredimage && (
-                  <div className="featured-thumbnail">
+                  <div className="adopce-thumbnail has-text-centered">
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: adopce.frontmatter.featuredimage,
@@ -40,12 +40,7 @@ const AdopceRollTemplate = (props) => {
                   >
                     {adopce.frontmatter.title}
                   </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-5 is-block">
-                    {adopce.frontmatter.date}
-                  </span>
                 </p>
-              </header>
               <p>
                 {adopce.frontmatter.description}
                 <br />
@@ -92,7 +87,7 @@ export default function AdopceRoll() {
                 featuredimage {
                   childImageSharp {
                     gatsbyImageData(
-                      width: 120
+                      height: 400
                       quality: 100
                       layout: CONSTRAINED
                     )

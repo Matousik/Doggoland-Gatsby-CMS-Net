@@ -10,6 +10,14 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+$spacing-shortcuts: ("margin": "mg")
+$spacing-horizontal: "h"
+$spacing-vertical: null
+$spacing-values: ("small": 10px, "medium": 30px, "large": 60px)
+
+html
+  scroll-behavior: smooth
+
 .navbar .navbar-menu
   box-shadow: none !important
 
@@ -121,6 +129,14 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
+
+// adopce roll
+.adopce-list-item
+  display: flex
+  margin-bottom: 1em
+.adopce-list-item .adopce-thumbnail
+  flex-basis: 60%
+  margin: 0 1em 0 0
 
 
 @import "~bulma"
