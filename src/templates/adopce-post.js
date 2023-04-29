@@ -112,8 +112,14 @@ query AdopcePostByID($id: String!) {
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 400, quality: 64, layout: CONSTRAINED)
-              }
+                gatsbyImageData(
+                  quality: 100
+                layout: CONSTRAINED
+                transformOptions: {fit: CONTAIN, cropFocus: CENTER}
+                height: 600
+                placeholder: BLURRED
+                )           
+            }
             }
           }
           heading
