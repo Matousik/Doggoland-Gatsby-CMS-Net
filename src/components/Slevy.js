@@ -1,6 +1,8 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import Content, { HTMLContent } from "../components/Content";
+
 
 const Slevy = () => {
   const data = useStaticQuery(graphql`
@@ -10,13 +12,14 @@ const Slevy = () => {
       ) {
         edges {
           node {
+            html
             frontmatter {
               title
               description
               featuredimage {
                 childImageSharp {
                   gatsbyImageData(
-                    height: 50
+                    height: 70
                     quality: 100
                     layout: CONSTRAINED
                   )
@@ -39,12 +42,15 @@ const Slevy = () => {
     margin: "0 auto",
   };
 
+  const contentComponent = HTMLContent;
+  const PostContent = contentComponent || Content;
+
   return (
     <div>
       <h1 className="has-text-centered has-text-weight-bold is-size-2">Slevové kódy</h1>
       <div className="container" style={containerStyle}>
         <div className="columns is-multiline">
-          {Slevy.map(({ node: { frontmatter: sleva } }, index) => (
+          {Slevy.map(({ node: { frontmatter: sleva, html } }, index) => (
             <div key={`sleva-${index}`} className="column is-12">
               <div className="box">
                 <div className="columns is-vcentered">
@@ -64,16 +70,16 @@ const Slevy = () => {
                     <div className="content">
                       <h3 className="is-size-4 has-text-weight-semibold">{sleva.title}</h3>
                       <p>
-                        {sleva.discount} &bull; "{sleva.code}" &bull;{" "}
+                        {sleva.discount} &bull; Kód: "{sleva.code}" &bull;{" "}
                         <a href={`https://${sleva.website}`} target="_blank" rel="noopener noreferrer">
-                          www.krmiva-pucalka.cz
+                        {sleva.website}
                         </a>
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="content">
-                  <p>{sleva.description}</p>
+                  <PostContent content={html} />
                 </div>
               </div>
             </div>

@@ -32,7 +32,7 @@ collections:
       - { name: "discount", label: "Míra slevy", widget: "text" }
       - { name: "code", label: "Slevový kód", widget: "text" }
       - { name: "website", label: "Webové stránky sponzora", widget: "text" }
-      - { name: "description", label: "Popis slevy", widget: "text" }
+      - { name: "body", label: "Popis slevy", widget: "markdown" }
       - { name: "featuredimage", label: "Logo sponzora", widget: "image" }
   - name: "blog"
     label: "Blog"
