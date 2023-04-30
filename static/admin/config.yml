@@ -21,7 +21,19 @@ collections:
       - { name: "templateKey", widget: "hidden", default: "psi-v-nasi-peci" }
       - { name: "title", label: "Dog's Name", widget: "string" }
       - { name: "description", label: "Description", widget: "text" }
-      - { name: "image", label: "Dog's Image", widget: "image" }
+      - { label: "Obrázek psa", name: "featuredimage", widget: image }
+  - name: "slevy"
+    label: "Slevy a sponzoři"
+    folder: "src/pages/slevy"
+    create: true
+    fields:
+      - { name: "templateKey", widget: "hidden", default: "slevy" }
+      - { name: "title", label: "Jméno sponzora", widget: "string" }
+      - { name: "discount", label: "Míra slevy", widget: "text" }
+      - { name: "code", label: "Slevový kód", widget: "text" }
+      - { name: "website", label: "Webové stránky sponzora", widget: "text" }
+      - { name: "description", label: "Popis slevy", widget: "text" }
+      - { name: "featuredimage", label: "Logo sponzora", widget: "image" }
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"

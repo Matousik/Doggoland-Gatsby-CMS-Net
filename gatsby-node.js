@@ -34,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach((edge) => {
       const id = edge.node.id
       const templateKey = String(edge.node.frontmatter.templateKey);
-      if (templateKey === "psi-v-nasi-peci") {
+      if (templateKey === "psi-v-nasi-peci" || templateKey === "slevy") {
         return;
       }
       createPage({
