@@ -1,67 +1,35 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImageLooping";
+import BankAccountQRCode from "../components/BankAccountQRCode";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
-  image,
   title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
 
   return (
     <div>
-      <FullWidthImage img={intro.blurbs} title={title} subheading={subheading} height={"93vh"} />
-      <section className="section section--gradient">
+      <FullWidthImage img={intro.blurbs} title={title} height={"95vh"} />
+      <section className="section">
         <div className="container">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
+                      Vítejte v Doggolandu!
                       </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
+                      <p>Vítejte v našem malém psím světe, kde léčíme nemocné psí duše. Pomáháme pejskům, kterých se ostatní zbavili. Často u nás potkáte pejsky dříve týrané, psychicky zlomené či hodně nemocné. Každý den jim ukazujeme, že ne všichni lidé jsou zlí a že už se není čeho bát.</p>
+                      <p>Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo.</p>
+                      <p>V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci.</p>
+                      <p>Více o naší práci a o tom, jak to u nás chodí, najdete v záložce "Jak to u nás chodí".</p>
                     </div>
                   </div>
                 </div>
@@ -70,6 +38,9 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
+      <div>
+        <BankAccountQRCode />
+      </div>
     </div>
   );
 };
@@ -78,9 +49,6 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -94,10 +62,6 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -124,18 +88,11 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
         intro {
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 500, quality: 100, layout: CONSTRAINED)
+                gatsbyImageData(width: 2000, quality: 100, layout: CONSTRAINED)
               }
             }
           }

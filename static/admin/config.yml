@@ -13,6 +13,15 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "psi-v-nasi-peci"
+    label: "Psi v naší péči"
+    folder: "src/pages/psi-v-nasi-peci"
+    create: true
+    fields:
+      - { name: "templateKey", widget: "hidden", default: "psi-v-nasi-peci" }
+      - { name: "title", label: "Dog's Name", widget: "string" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "image", label: "Dog's Image", widget: "image" }
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
@@ -87,16 +96,6 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
-          - {
-              label: Mainpitch,
-              name: mainpitch,
-              widget: object,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
-                ],
-            }
           - { label: Description, name: description, widget: string }
           - {
               label: Intro,

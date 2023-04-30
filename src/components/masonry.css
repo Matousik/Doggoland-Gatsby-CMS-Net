@@ -6,7 +6,6 @@
   }
   
   .masonry-item {
-    display: inline-block;
     background: white;
     margin-bottom: 1rem;
     break-inside: avoid;

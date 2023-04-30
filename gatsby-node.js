@@ -29,9 +29,14 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+    
 
     posts.forEach((edge) => {
       const id = edge.node.id
+      const templateKey = String(edge.node.frontmatter.templateKey);
+      if (templateKey === "psi-v-nasi-peci") {
+        return;
+      }
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,

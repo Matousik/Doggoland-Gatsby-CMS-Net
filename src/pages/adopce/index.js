@@ -2,6 +2,7 @@ import * as React from "react";
 import AdopceRoll from "../../components/AdopceRoll";
 import Layout from "../../components/Layout";
 import { Link } from "gatsby";
+import PsiVNasiPeci from '../../components/PsiVNasiPeci';
 
 export default class AdopceIndexPage extends React.Component {
   render() {
@@ -38,6 +39,9 @@ export default class AdopceIndexPage extends React.Component {
           <AdopceRoll />
         </section>
         <h2 id="prubeh-adopce" className="has-text-centered has-text-weight-bold is-size-2">Průběh adopce</h2>
+        <div>
+      <PsiVNasiPeci />
+    </div>
       </Layout>
     );
   }

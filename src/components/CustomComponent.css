@@ -1,0 +1,13 @@
+.custom-component {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    width: 100vw;
+  }
+  
+  .qr-placeholder {
+    margin-top: 20px;
+  }
+  

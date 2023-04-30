@@ -24,11 +24,25 @@ const FeatureGrid = ({ gridItems }) => {
     setActiveImageIndex((activeImageIndex - 1 + gridItems.length) % gridItems.length);
   };
 
+  const handleKeyDown = (event, callback) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      callback(event);
+    }
+  };
+
   return (
     <>
       <div className="masonry">
         {gridItems.map((item, index) => (
-          <div key={item.text} className="masonry-item" onClick={() => handleImageClick(index)}>
+          <div
+            key={`masonry-item-${index}`}
+            className="masonry-item"
+            onClick={() => handleImageClick(index)}
+            onKeyDown={(event) => handleKeyDown(event, () => handleImageClick(index))}
+            role="button"
+            tabIndex={0}
+          >
             <div className="has-text-centered">
               <div style={{ width: "100%", display: "inline-block" }}>
                 <PreviewCompatibleImage imageInfo={item} />
@@ -38,7 +52,14 @@ const FeatureGrid = ({ gridItems }) => {
         ))}
       </div>
       {activeImageIndex !== null && (
-        <div className="image-detail" onClick={handleClose} style={{ height: "100vh", }}>
+        <div
+          className="image-detail"
+          onClick={handleClose}
+          onKeyDown={(event) => handleKeyDown(event, handleClose)}
+          role="button"
+          tabIndex={0}
+          style={{ height: "100vh" }}
+        >
           <div className="image-container">
             <button className="close-button" onClick={handleClose}>
               &times;
@@ -47,14 +68,14 @@ const FeatureGrid = ({ gridItems }) => {
               &larr;
             </button>
             <PreviewCompatibleImage
-  imageInfo={gridItems[activeImageIndex]}
-  containerStyle={{
-    width: "100%",
-    height: "100%",
-    maxWidth: "75vw",
-    maxHeight: "100vh",
-  }}
-/>
+              imageInfo={gridItems[activeImageIndex]}
+              containerStyle={{
+                width: "100%",
+                height: "100%",
+                maxWidth: "75vw",
+                maxHeight: "100vh",
+              }}
+            />
             <button className="arrow right-arrow" onClick={handleNextImage}>
               &rarr;
             </button>
