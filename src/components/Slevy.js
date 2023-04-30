@@ -71,7 +71,7 @@ const Slevy = () => {
                       <h3 className="is-size-4 has-text-weight-semibold">{sleva.title}</h3>
                       <p>
                         {sleva.discount} &bull; Kód: "{sleva.code}" &bull;{" "}
-                        <a href={`https://${sleva.website}`} target="_blank" rel="noopener noreferrer">
+                        <a href={`https://${sleva.website}`} target="_blank" rel="noopener noreferrer" style={{ whiteSpace: 'nowrap' }}>
                         {sleva.website}
                         </a>
                       </p>

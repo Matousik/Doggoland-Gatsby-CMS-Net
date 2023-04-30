@@ -62,6 +62,9 @@ const Navbar = () => {
             <Link className="navbar-item" to="/contact/examples">
               Form Examples
             </Link>
+            <Link className="navbar-item" to="/slevy">
+              Slevy
+            </Link>
             </li>
           <li className="navbar-end has-text-centered">
             <a
