@@ -28,6 +28,10 @@ export default class HarmonogramIndexPage extends React.Component {
         <div>
       <HarmonogramAkce limit={10000} />
     </div>
+    <div>
+          <a href="../../downloads/Matous-Vondrak.pdf" download>Download File</a>
+        </div>
+
       </Layout>
     );
   }

@@ -31,6 +31,14 @@ collections:
       - { name: "title", label: "Dog's Name", widget: "string" }
       - { name: "description", label: "Description", widget: "text" }
       - { label: "Obrázek psa", name: "featuredimage", widget: image }
+  - name: "adoptovani-psi"
+    label: "Adoptovaní psi"
+    folder: "src/pages/adoptovani-psi"
+    create: true
+    fields:
+      - { name: "templateKey", widget: "hidden", default: "adoptovani-psi" }
+      - { name: "title", label: "Jméno adoptovaného pejska", widget: "string" }
+      - { label: "Obrázek adoptovaného pejska", name: "featuredimage", widget: image }
   - name: "slevy"
     label: "Slevy a sponzoři"
     folder: "src/pages/slevy"

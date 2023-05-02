@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 import { Link } from "gatsby";
 import Slevy from '../../components/Slevy';
 import PsiVNasiPeci from '../../components/PsiVNasiPeci';
+import AdoptovaniPsi from "../../components/AdoptovaniPsi";
 
 export default class AdopceIndexPage extends React.Component {
   render() {
@@ -51,6 +52,8 @@ export default class AdopceIndexPage extends React.Component {
       <h2 className="has-text-centered has-text-weight-bold is-size-2">Níže naleznete všechny pejsky v naší péči</h2>
 
       <PsiVNasiPeci limit={10000} />
+
+      <AdoptovaniPsi limit={10000} />
 
       </div>
     </div>
