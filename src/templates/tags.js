@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 
@@ -16,7 +15,6 @@ const TagRoute = (props) =>  {
     ));
 
     const { tag } = props.pageContext;
-    const { title } = props.data.site.siteMetadata;
     const { totalCount } = props.data.allMarkdownRemark;
     const tagHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
@@ -25,7 +23,6 @@ const TagRoute = (props) =>  {
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
               <div
