@@ -1,8 +1,8 @@
 import * as React from "react";
 import Layout from "../../components/Layout";
-import Slevy from '../../components/Slevy';
+import HarmonogramAkce from "../../components/HarmonogramAkce";
 
-export default class SlevyIndexPage extends React.Component {
+export default class HarmonogramIndexPage extends React.Component {
   render() {
     return (
       <Layout>
@@ -21,12 +21,12 @@ export default class SlevyIndexPage extends React.Component {
               padding: "1rem",
             }}
           >
-            Slevy a sponzoři
+            Harmonogram akcí
           </h1>
         </div>
         
         <div>
-      <Slevy limit={10000} />
+      <HarmonogramAkce limit={10000} />
     </div>
       </Layout>
     );

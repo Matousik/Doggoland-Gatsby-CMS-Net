@@ -3,8 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
 
-
-const Slevy = () => {
+const Slevy = ({ limit = 10000 }) => {
   const data = useStaticQuery(graphql`
     query Slevy {
       allMarkdownRemark(
@@ -23,7 +22,6 @@ const Slevy = () => {
                     quality: 100
                     layout: CONSTRAINED
                   )
-
                 }
               }
               discount
@@ -36,7 +34,7 @@ const Slevy = () => {
     }
   `);
 
-  const Slevy = data.allMarkdownRemark.edges;
+  const slevyData = data.allMarkdownRemark.edges.slice(0, limit);
   const containerStyle = {
     maxWidth: "800px",
     margin: "0 auto",
@@ -50,7 +48,7 @@ const Slevy = () => {
       <h1 className="has-text-centered has-text-weight-bold is-size-2">Slevové kódy</h1>
       <div className="container" style={containerStyle}>
         <div className="columns is-multiline">
-          {Slevy.map(({ node: { frontmatter: sleva, html } }, index) => (
+          {slevyData.map(({ node: { frontmatter: sleva, html } }, index) => (
             <div key={`sleva-${index}`} className="column is-12">
               <div className="box">
                 <div className="columns is-vcentered">

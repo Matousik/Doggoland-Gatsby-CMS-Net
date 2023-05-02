@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import "./masonry.css";
 
-const PsiVNasiPeci = () => {
+const PsiVNasiPeci = ({ limit = 10000 }) => {
   const data = useStaticQuery(graphql`
     query PsiVNasiPeciQuery {
       allMarkdownRemark(
@@ -31,33 +31,30 @@ const PsiVNasiPeci = () => {
     }
   `);
 
-  const dogs = data.allMarkdownRemark.edges;
+  const dogs = data.allMarkdownRemark.edges.slice(0, limit);
 
   return (
     <div>
-        <h1 className="has-text-centered has-text-weight-bold is-size-2" >Psi v naší péči</h1>
-<div className="masonry container">
-      {dogs.map(({ node: { frontmatter: dog } }, index) => (
-        <div key={`dog-${index}`} className="masonry-item has-text-centered tile is-child box notification is-primary">
-          <PreviewCompatibleImage
-                      imageInfo={{
-                        image: dog.featuredimage,
-                        alt: `featured image thumbnail for adopce ${dog.title}`,
-                        width:
-                        dog.featuredimage.childImageSharp
-                            .gatsbyImageData.width,
-                        height:
-                        dog.featuredimage.childImageSharp
-                            .gatsbyImageData.height,
-                      }}
-                    />
-          <h3>{dog.title}</h3>
-          <p>{dog.description}</p>
-        </div>
-      ))}
+      <h1 className="has-text-centered has-text-weight-bold is-size-2">Psi v naší péči</h1>
+      <div className="masonry container">
+        {dogs.map(({ node: { frontmatter: dog } }, index) => (
+          <div key={`dog-${index}`} className="masonry-item has-text-centered tile is-child box notification is-primary">
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: dog.featuredimage,
+                alt: `featured image thumbnail for adopce ${dog.title}`,
+                width:
+                  dog.featuredimage.childImageSharp.gatsbyImageData.width,
+                height:
+                  dog.featuredimage.childImageSharp.gatsbyImageData.height,
+              }}
+            />
+            <h3>{dog.title}</h3>
+            <p>{dog.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
-    </div>
-    
   );
 };
 

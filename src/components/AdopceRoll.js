@@ -1,12 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import "./masonry-posts.css";
 
-
 const AdopceRollTemplate = (props) => {
-  
   const { edges: vsechnyAdopce } = props.data.allMarkdownRemark;
 
   return (
@@ -56,7 +54,7 @@ const AdopceRollTemplate = (props) => {
   )
 }
 
-AdopceRoll.propTypes = {
+AdopceRollTemplate.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -64,44 +62,43 @@ AdopceRoll.propTypes = {
   }),
 }
 
-
-export default function AdopceRoll() {
-  return (
-    <StaticQuery
-      query={graphql`
-      query AdopceRollQuery {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "adopce-post" } } }
-        ) {
-          edges {
-            node {
-              id
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredimage {
-                  childImageSharp {
-                    gatsbyImageData(
-                      height: 400
-                      quality: 100
-                      layout: CONSTRAINED
-                    )
-
-                  }
+const AdopceRoll = ({ limit = 10000 }) => {
+  const data = useStaticQuery(graphql`
+    query AdopceRollQuery {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: { frontmatter: { templateKey: { eq: "adopce-post" } } }
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              templateKey
+              date(formatString: "MMMM DD, YYYY")
+              featuredimage {
+                childImageSharp {
+                  gatsbyImageData(
+                    height: 400
+                    quality: 100
+                    layout: CONSTRAINED
+                  )
                 }
-                description
               }
+              description
             }
           }
         }
       }
-      `}
-      render={(data, count) => <AdopceRollTemplate data={data} count={count} />}
-    />
-  );
-}
+    }
+  `);
+
+  const vsechnyAdopce = data.allMarkdownRemark.edges.slice(0, limit);
+
+  return <AdopceRollTemplate data={{ allMarkdownRemark: { edges: vsechnyAdopce } }} />;
+};
+
+export default AdopceRoll;

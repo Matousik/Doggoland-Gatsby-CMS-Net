@@ -38,11 +38,7 @@ const Navbar = () => {
                 O nás
               </Link>
             </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/products">
-              Products
-            </Link>
-            </li>
+
             <li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/adopce">
               Adopce
@@ -64,6 +60,9 @@ const Navbar = () => {
             </Link>
             <Link className="navbar-item" to="/slevy">
               Slevy
+            </Link>
+            <Link className="navbar-item" to="/harmonogram">
+              Harmonogram
             </Link>
             </li>
           <li className="navbar-end has-text-centered">
