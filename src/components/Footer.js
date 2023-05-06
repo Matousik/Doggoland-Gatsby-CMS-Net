@@ -102,6 +102,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="content has-text-centered autor">
+          <p>Matouš Vondrák</p>
+        </div>
       </footer>
     );
 };

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.png";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -14,8 +12,8 @@ const Navbar = () => {
     >
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/" className=" navbar-logo-item" title="Logo">
-            <img src={logo} alt="Doggoland Logo" style={{ width: '100px', height: 'auto' }} />
+          <Link to="/" className=" navbar-item-logo" title="Logo">
+
           </Link>
           {/* Hamburger menu */}
           <button
@@ -29,52 +27,77 @@ const Navbar = () => {
           </button>
         </div>
         <ul id="navMenu" className={` navbar-start has-text-centered navbar-menu ${isActive && "is-active"}`}>
-            {/* TODO: inline override of padding is a result of refactoring
+          {/* TODO: inline override of padding is a result of refactoring
                 to a ul for accessibilty purposes, would like to see a css
                 re-write that makes this unneccesary.
              */}
-            <li className="navbar-item" style={{padding: "0px"}}>
-              <Link className="navbar-item" to="/about">
-                O nás
-              </Link>
-            </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item" to="/about">
+              O nás
+            </Link>
+          </li>
 
-            <li className="navbar-item" style={{padding: "0px"}}>
+          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/adopce">
               Adopce
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/blog">
               Blog
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/contact">
               Kontakt
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/contact/examples">
               Form Examples
             </Link>
+            <li className="navbar-item" style={{ padding: "0px" }}>
+            </li>
             <Link className="navbar-item" to="/slevy">
               Slevy
             </Link>
+            <li className="navbar-item" style={{ padding: "0px" }}>
+            </li>
+            <li className="navbar-item" style={{ padding: "0px" }}></li>
             <Link className="navbar-item" to="/harmonogram">
               Harmonogram
             </Link>
-            </li>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <Link className="navbar-link">
+                Více informací
+              </Link>
+
+              <div className="navbar-dropdown">
+                <Link className="navbar-item">
+                  About
+                </Link>
+                <Link className="navbar-item">
+                  Jobs
+                </Link>
+                <Link className="navbar-item">
+                  Contact
+                </Link>
+                  <Link className="navbar-item">
+                    Report an issue
+                  </Link>
+              </div>
+            </div>
+          </li>
+
           <li className="navbar-end has-text-centered">
             <a
               className="navbar-item"
               href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <img src={github} alt="Github" />
-              </span>
+            >End placeholder(tréninky)
             </a>
           </li>
         </ul>

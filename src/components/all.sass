@@ -15,17 +15,21 @@ $spacing-horizontal: "h"
 $spacing-vertical: null
 $spacing-values: ("small": 10px, "medium": 30px, "large": 60px)
 
-$navbar-height: 5rem
 
-.navbar-logo-item
-  margin: 1rem 0
+$navbar-height: 4.7rem
 
-
+.navbar-item-logo
+  background: url(../img/logo.png) no-repeat center center
+  background-size: cover
+  width: 85px
+.navbar-brand
+  margin: 0.5em 0.5em
 html
   scroll-behavior: smooth
 
 .navbar .navbar-menu
   box-shadow: none !important
+
 
 .content .taglist
   list-style: none
@@ -143,6 +147,12 @@ $menu-label-color: $white-ter
 .adopce-list-item .adopce-thumbnail
   flex-basis: 60%
   margin: 0 1em 0 0
+
+
+
+
+.autor
+  color: gray
 
 
 @import "~bulma"
