@@ -43,16 +43,13 @@ export default class AdopceIndexPage extends React.Component {
         <h2 id="prubeh-adopce" className="has-text-centered has-text-weight-bold is-size-2">Průběh adopce</h2>
         <p className="has-text-centered mgt-small">Dodělat </p>
         <div>
-      <div className="container mgt-medium mgb-medium">
-      <Slevy />
-
-      </div>
 
       <div className="container mgt-medium mgb-medium">
       <h2 className="has-text-centered has-text-weight-bold is-size-2">Níže naleznete všechny pejsky v naší péči</h2>
 
       <PsiVNasiPeci limit={10000} />
 
+      <h1 className="has-text-centered has-text-weight-bold is-size-2">Spokojení adoptovaní pejsci</h1>
       <AdoptovaniPsi limit={10000} />
 
       </div>

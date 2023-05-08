@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
+import { Helmet } from "react-helmet";
 import Features from "../components/Features";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -16,6 +17,7 @@ export const AdopcePostTemplate = ({
   heading,
   subheading,
   intro,
+  helmet,
 }) => {
   const heroImage = getImage(image) || image;
   const PostContent = contentComponent || Content;
@@ -24,6 +26,7 @@ export const AdopcePostTemplate = ({
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
+      {helmet || ""}
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -81,6 +84,15 @@ const AdopcePost = ({ data }) => {
         heading={data.markdownRemark.frontmatter.heading}
         subheading={data.markdownRemark.frontmatter.subheading}
         intro={data.markdownRemark.frontmatter.intro}
+        helmet={
+          <Helmet titleTemplate="%s | Doggoland - Adopce">
+            <title>{`${data.markdownRemark.frontmatter.title}`}</title>
+            <meta
+              name="description"
+              content={`${data.markdownRemark.frontmatter.description}`}
+            />
+          </Helmet>
+        }
       />
     </Layout>
   );

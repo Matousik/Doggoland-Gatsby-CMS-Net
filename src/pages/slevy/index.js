@@ -25,9 +25,10 @@ export default class SlevyIndexPage extends React.Component {
           </h1>
         </div>
         
-        <div>
-      <Slevy limit={10000} />
-    </div>
+        <div className="container mgt-medium mgb-medium">
+      <Slevy />
+
+      </div>
       </Layout>
     );
   }

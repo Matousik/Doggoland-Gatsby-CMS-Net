@@ -34,7 +34,6 @@ const AdoptovaniPsi = ({ limit = 10000 }) => {
 
   return (
     <div>
-      <h1 className="has-text-centered has-text-weight-bold is-size-2">Spokojení adoptovaní pejsci</h1>
       <div className="masonry container">
         {dogs.map(({ node: { frontmatter: dog } }, index) => (
           <div key={`dog-${index}`} className="masonry-item has-text-centered tile is-child box notification is-primary">

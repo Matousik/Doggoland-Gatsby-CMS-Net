@@ -2,19 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import "./masonry-posts.css";
 
 const BlogRollTemplate = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
 
   return (
-    <div className="columns is-multiline">
+    <div className="masonry-post">
       {posts &&
         posts.map(({ node: post }) => (
-          <div className="is-parent column is-6" key={post.id}>
+          <div className="masonry-post-item" key={post.id}>
             <article
-              className={`blog-list-item tile is-child box notification ${
-                post.frontmatter.featuredpost ? 'is-featured' : ''
-              }`}
+              className={`blog-list-item tile is-child box notification`}
             >
               <header>
                 {post?.frontmatter?.featuredimage && (
@@ -51,7 +50,7 @@ const BlogRollTemplate = (props) => {
                 <br />
                 <br />
                 <Link className="button is-primary is-light" to={post.fields.slug}>
-                  Keep Reading →
+                  Čtěte více →
                 </Link>
               </p>
             </article>
@@ -86,12 +85,11 @@ const BlogRoll = ({ limit = 10000 }) => {
             frontmatter {
               title
               templateKey
-              date(formatString: "MMMM DD, YYYY")
-              featuredpost
+              date(formatString: "DD.MM.YYYY")
               featuredimage {
                 childImageSharp {
                   gatsbyImageData(
-                    width: 120
+                    width: 350
                     quality: 100
                     layout: CONSTRAINED
                   )

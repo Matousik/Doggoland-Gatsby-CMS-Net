@@ -1,6 +1,13 @@
 import * as React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import GoogleMap from "../../components/GoogleMap";
+import mapIcon from "../../img/logo75px.png";
+
+
+const apiKey = "AIzaSyDECvz0CMS7ZaOnfDqcsURg8GnHLjTOVjk";
+const mapTitle = "Doggoland z.s.";
+const markerPosition = { lat: 50.37150004740581, lng: 13.787847486233012 };
 
 function encode(data) {
   return Object.keys(data)
@@ -39,7 +46,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Kontaktní formulář</h1>
               <form
                 name="contact"
                 method="post"
@@ -58,7 +65,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={"name"}>
-                    Your name
+                    Vaše jméno
                   </label>
                   <div className="control">
                     <input
@@ -88,7 +95,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={"message"}>
-                    Message
+                    Zpráva
                   </label>
                   <div className="control">
                     <textarea
@@ -102,12 +109,22 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Send
+                    Odeslat
                   </button>
                 </div>
               </form>
             </div>
           </div>
+        </section>
+        <section>
+        <div style={{ height: "80vh", width: "100%" }}>
+        <GoogleMap
+        apiKey={apiKey}
+        markerLatLng={markerPosition}
+        markerTitle={mapTitle}
+        markerIcon={mapIcon}
+      />
+    </div>
         </section>
       </Layout>
     );
