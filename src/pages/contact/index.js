@@ -5,7 +5,7 @@ import GoogleMap from "../../components/GoogleMap";
 import mapIcon from "../../img/logo75px.png";
 
 
-const apiKey = "AIzaSyDECvz0CMS7ZaOnfDqcsURg8GnHLjTOVjk";
+const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 const mapTitle = "Doggoland z.s.";
 const markerPosition = { lat: 50.37150004740581, lng: 13.787847486233012 };
 
