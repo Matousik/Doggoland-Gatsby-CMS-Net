@@ -37,7 +37,7 @@ export const BlogPostTemplate = ({
     {author.image && (
       <GatsbyImage
         image={author.image.childImageSharp.gatsbyImageData}
-        style={{ ...imageStyle, marginRight: '10px' }}
+        style={imageStyle}
         alt={author.name}
       />
     )}
