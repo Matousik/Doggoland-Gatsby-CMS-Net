@@ -3,6 +3,8 @@ import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
 import GoogleMap from "../../components/GoogleMap";
 import mapIcon from "../../img/logo75px.png";
+import "./kontakt.css";
+
 
 
 const apiKey = process.env.GATSBY_GOOGLE_MAPS_API_KEY;
@@ -43,9 +45,26 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+                <div className="presentation-container">
+      <div className="presentation-box">
+        <h1 className="presentation-title">Sídlo spolku Doggoland z.s.</h1>
+        <p className="presentation-content">Předsedkyně spolku: Daniela Jana Vršková</p>
+        <p className="presentation-content">IČO: 11719222</p>
+        <p className="presentation-content">Tel.: +420 739 071 777</p>
+        <p className="presentation-content">E-mail: <a href="mailto:info@doggoland.cz">info@doggoland.cz</a></p>
+        <p className="presentation-content">Adresa: Komenského 354, Dobroměřice, 440 01</p>
+      </div>
+      <div className="presentation-box">
+        <h1 className="presentation-title">Můžete nás sledovat také na našich sociálních sítích</h1>
+        <p className="presentation-content">Facebook: <a href="https://www.facebook.com/Doggolandz.s" target="_blank" rel="noopener noreferrer">DOGGOLAND z.s.</a></p>
+        <p className="presentation-content">Instagram: <a href="https://www.instagram.com/_doggoland_" target="_blank" rel="noopener noreferrer">_doggoland_</a></p>
+        <p className="presentation-content">TikTok: <a href="https://www.tiktok.com/@_doggoland_" target="_blank" rel="noopener noreferrer">_doggoland_</a></p>
+      </div>
+    </div>
         <section className="section">
           <div className="container">
             <div className="content">
+
               <h1>Kontaktní formulář</h1>
               <form
                 name="contact"
