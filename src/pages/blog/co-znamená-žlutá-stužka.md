@@ -7,6 +7,7 @@ tags:
   - stužka
   - grizzly
 description: Co znamená žlutá stužka u pejska a jak se chovat k pejskovi, který ji nosí?
+author: Dája Vršková
 ---
 ![Grizzly žlutá stužka](/img/grizzly-zluta-stuzka-1-.jpg "Grizzly")
 
