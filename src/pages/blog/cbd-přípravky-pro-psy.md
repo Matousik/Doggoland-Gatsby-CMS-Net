@@ -68,7 +68,7 @@ Po pár dnech si nožičky přestal úplně olizovat a boláčky jsme díky mast
 
 ## Lze koupí CBD produktů podpořit i náš spolek a naše pejsky?
 
-Ano! Pokud použijete při nákupu jakýchkoliv výrobků na webových stránkách [www.zelenazeme.cz](https://www.zelenazeme.cz/) kód “Doggoland” tak získáte 10% slevu na celý nákup.
+Ano! Pokud použijete při nákupu jakýchkoli výrobků na webových stránkách [www.zelenazeme.cz](https://www.zelenazeme.cz/)kód “Doggoland”, tak získáte 10% slevu na celý nákup. 
 
 > Ale co je to hlavní, **Zelená Země pošle našim pejskům na účet 20% z celé vaší objednávky**.
 
