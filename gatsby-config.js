@@ -7,6 +7,15 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Montserrat\:400,700` // you can also include other Google Fonts you need
+        ],
+        display: 'swap'
+      }
+    },
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-sass",
