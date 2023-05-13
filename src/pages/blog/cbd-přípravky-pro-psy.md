@@ -27,7 +27,6 @@ Dnes už můžeme pyšně říci, že firma [Zelená Země](https://www.zelenaz
 
 CBD oleje jsou vhodné především pro pejsky s epilepsií, osteoartritidou, psychickými problémy, chronickými bolestmi, slabší imunitou atd.
 
-> \
 > Více informací o konopných olejích najdete přímo na [E-shopu](https://www.zelenazeme.cz/obchod/cbd-oleje-pro-psy).
 
 Oleje se liší podle koncentrace, při výběru je třeba brát ohled na váhu pejska a závažnost jeho onemocnění. Pokud si nejste jisti, který olej pro své miláčky vybrat, tak Zelená Země má [konopnou poradnu](https://www.zelenazeme.cz/konopna-poradna-odborne-poradenstvi), kde vám rádi poradí, aby byl účinek co největší.
