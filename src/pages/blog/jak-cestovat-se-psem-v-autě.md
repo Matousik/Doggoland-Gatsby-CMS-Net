@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Jak cestovat se psem v autě?
 date: 2023-05-13T08:58:51.987Z
-featuredimage: /img/psi-klec-kufr.jpg
+featuredimage: /img/psi-klec-kufr-1-.jpg
 tags:
   - Klece
   - auto
