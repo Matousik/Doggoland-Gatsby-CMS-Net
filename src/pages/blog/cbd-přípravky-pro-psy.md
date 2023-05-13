@@ -65,9 +65,9 @@ Po pár dnech si nožičky přestal úplně olizovat a boláčky jsme díky mast
 
 > [Konopnou mast](https://www.zelenazeme.cz/obchod/konopna-mast-na-kuzi-pro-zvirata-100-ml) pro psí akčnáky, pro něž oděrky nejsou cizí, naprosto doporučujeme!
 
-## Lze koupí CBD produktů podpořit i náš spolek a naše pejsky?
+## Lze koupí CBD produktů podpořit i náš spolek a naše pejsky? 
 
-Ano! Pokud použijete při nákupu jakýchkoli výrobků na webových stránkách [www.zelenazeme.cz](https://www.zelenazeme.cz/)kód “Doggoland”, tak získáte 10% slevu na celý nákup. 
+A﻿no! Pokud použijete při nákupu jakýchkoli výrobků na webových stránkách [www.zelenazeme.cz](https://www.zelenazeme.cz/) kód Doggoland, tak získáte 10% slevu na celý nákup.
 
 > Ale co je to hlavní, **Zelená Země pošle našim pejskům na účet 20% z celé vaší objednávky**.
 
