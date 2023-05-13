@@ -6,6 +6,7 @@ featuredimage: /img/barf-naloz-pro-barneyho.png
 tags:
   - BARF
 description: Znovuzrozeni ke krmení syrovou stravou
+author: Dája Vršková
 ---
 #### Znovuzrozeni ke krmení syrovou stravou
 
