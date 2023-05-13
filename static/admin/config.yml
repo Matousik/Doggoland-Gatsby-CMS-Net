@@ -13,6 +13,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "authors"
+    label: "Autoři"
+    folder: "src/pages/authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Jméno autora", name: "name", widget: "string" }
+      - { label: "Fotka autora", name: "image", widget: "image" }
+      - {
+          name: "templateKey",
+          widget: "hidden",
+          default: "author"
+        }
   - name: "harmonogram-akce"
     label: "Konané akce"
     folder: "src/pages/harmonogram"
@@ -69,6 +82,15 @@ collections:
       - { label: "Text", name: "body", widget: "markdown" }
       - { label: "Tagy", name: "tags", widget: "list" }
       - { label: Popis (meta tag), name: description, widget: string }
+      - {
+        label: "Autor článku",
+        name: "author",
+        widget: "relation",
+        collection: "authors",
+        search_fields: ["name"],
+        value_field: "name",
+        display_fields: ["name"]
+        }
 
 
   - name: "adopce"

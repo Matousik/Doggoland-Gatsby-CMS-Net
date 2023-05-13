@@ -6,6 +6,8 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import "./blogstyling.css";
+import { GatsbyImage } from "gatsby-plugin-image";
+
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -15,8 +17,11 @@ export const BlogPostTemplate = ({
   description,
   title,
   helmet,
+  author,
 }) => {
   const PostContent = contentComponent || Content;
+  const imageStyle = { borderRadius: "5px" };
+
 
   return (
     <section className="section">
@@ -27,6 +32,25 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <div className="media" style={{ marginBottom: '20px' }}>
+  <div className="media-left">
+    {author.image && (
+      <GatsbyImage
+        image={author.image.childImageSharp.gatsbyImageData}
+        style={{ ...imageStyle, marginRight: '10px' }}
+        alt={author.name}
+      />
+    )}
+  </div>
+  <div className="media-content">
+    <p className="is-size-5 has-text-weight-bold">
+      {author.name}
+    </p>
+  </div>
+</div>
+
+
+
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -43,6 +67,7 @@ export const BlogPostTemplate = ({
           </div>
         </div>
       </div>
+
     </section>
   );
 };
@@ -56,7 +81,10 @@ BlogPostTemplate.propTypes = {
 };
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: post, allMarkdownRemark: authors } = data;
+  const author = authors.edges.find(
+    author => author.node.frontmatter.name === post.frontmatter.author
+  ).node.frontmatter;
 
   return (
     <Layout>
@@ -75,6 +103,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        author={author}
       />
     </Layout>
   );
@@ -89,16 +118,34 @@ BlogPost.propTypes = {
 export default BlogPost;
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        title
-        tags
-        description
+query BlogPostByID($id: String!) {
+  markdownRemark(id: { eq: $id }) {
+    id
+    html
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      title
+      tags
+      description
+      author
+    }
+  }
+  allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "author"}}}) {
+    edges {
+      node {
+        frontmatter {
+          name
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: CONSTRAINED, width: 50)
+            }
+          }
+        }
       }
     }
   }
+}
 `;
+
+
+
