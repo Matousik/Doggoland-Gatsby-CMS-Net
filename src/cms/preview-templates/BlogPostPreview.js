@@ -10,6 +10,11 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}
       title={entry.getIn(['data', 'title'])}
+      author={{
+        name: entry.getIn(['data', 'author']),
+        // image is not available in the CMS preview
+        image: null,
+      }}
     />
   )
 }
