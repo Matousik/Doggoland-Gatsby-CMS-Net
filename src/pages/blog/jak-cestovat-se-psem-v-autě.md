@@ -11,7 +11,7 @@ description: Cestujete se svým psím parťákem? Většina pejskařů bere své
   všude s sebou, včetně mě. Cestovat se dá všemi dopravními prostředky, ale
   nejpoužívanějším je jednoznačně auto! Jak tedy nejčastěji páníčci své pejsky v
   autě přepravují a zda to je nebo není bezpečné si projdeme v tomto článku.
-author: Dája Vršková
+author: Kája Kolečkářová
 ---
 ![Psi v autě](/img/psi-klec-kufr-2-.jpg)
 
