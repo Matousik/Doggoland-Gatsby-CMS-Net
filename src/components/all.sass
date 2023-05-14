@@ -12,6 +12,9 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$special-color: #88C9A1
+$special-hover-color: #66A982
+
 
 $spacing-shortcuts: ("margin": "mg")
 $spacing-horizontal: "h"
@@ -32,6 +35,12 @@ html
 
 .navbar .navbar-menu
   box-shadow: none !important
+
+.special-item .navbar-item
+  color: $special-color !important
+  font-weight: bold
+  &:hover
+    color: $special-hover-color !important
 
 
 .content .taglist

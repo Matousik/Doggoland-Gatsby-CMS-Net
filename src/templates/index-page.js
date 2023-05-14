@@ -6,6 +6,10 @@ import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImageLooping";
 import BankAccountQRCode from "../components/BankAccountQRCode";
 
+import BlogRoll from "../components/BlogRoll";
+import AdopceRoll from "../components/AdopceRoll";
+
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   title,
@@ -41,6 +45,18 @@ export const IndexPageTemplate = ({
       <div>
         <BankAccountQRCode />
       </div>
+      <section className="section">
+        <div className="container">
+          <h2 className="has-text-centered has-text-weight-bold is-size-2">Nová várka pejsků k adopci</h2>
+          <AdopceRoll limit={3} />
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <h2 className="has-text-centered has-text-weight-bold is-size-2">Napsali jsme</h2>
+          <BlogRoll limit={3} />
+        </div>
+      </section>
     </div>
   );
 };

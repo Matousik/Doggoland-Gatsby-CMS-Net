@@ -2,7 +2,6 @@ import * as React from "react";
 import AdopceRoll from "../../components/AdopceRoll";
 import Layout from "../../components/Layout";
 import { Link } from "gatsby";
-import Slevy from '../../components/Slevy';
 import PsiVNasiPeci from '../../components/PsiVNasiPeci';
 import AdoptovaniPsi from "../../components/AdoptovaniPsi";
 

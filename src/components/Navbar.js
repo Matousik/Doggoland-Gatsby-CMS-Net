@@ -32,8 +32,8 @@ const Navbar = () => {
                 re-write that makes this unneccesary.
              */}
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/about">
-              O nás
+            <Link className="navbar-item" to="/o-nas">
+              Kdo jsme?
             </Link>
           </li>
 
@@ -44,7 +44,12 @@ const Navbar = () => {
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/blog">
-              Blog
+              Články
+            </Link>
+          </li>
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item" to="/blog">
+              Jak pomoci
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
@@ -53,51 +58,31 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
-            </Link>
-            <li className="navbar-item" style={{ padding: "0px" }}>
-            </li>
-            <Link className="navbar-item" to="/slevy">
-              Slevy
-            </Link>
-            <li className="navbar-item" style={{ padding: "0px" }}>
-            </li>
-            <li className="navbar-item" style={{ padding: "0px" }}></li>
-            <Link className="navbar-item" to="/harmonogram">
-              Harmonogram
-            </Link>
-          </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
             <div className="navbar-item has-dropdown is-hoverable">
               <Link className="navbar-link">
                 Více informací
               </Link>
-
               <div className="navbar-dropdown">
-                <Link className="navbar-item">
-                  About
+                <Link className="navbar-item" to="/slevy">
+                  Jak to u nás chodí?
                 </Link>
-                <Link className="navbar-item">
-                  Jobs
+                <Link className="navbar-item" to="/harmonogram">
+                  Harmonogram
                 </Link>
-                <Link className="navbar-item">
-                  Contact
+                <Link className="navbar-item" to="/slevy">
+                  Slevové kódy
                 </Link>
-                  <Link className="navbar-item">
-                    Report an issue
-                  </Link>
               </div>
             </div>
           </li>
 
-          <li className="navbar-end has-text-centered">
+          <li className="navbar-end has-text-centered special-item">
             <a
               className="navbar-item"
-              href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+              href="https://trenujemesdajou.doggoland.cz/"
               target="_blank"
               rel="noopener noreferrer"
-            >End placeholder(tréninky)
+            >Trénujeme s Dájou
             </a>
           </li>
         </ul>

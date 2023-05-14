@@ -4,8 +4,9 @@ import { Link } from "gatsby";
 import logo from "../img/logo.png";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   
@@ -15,7 +16,7 @@ const Footer = () => {
           <img
             src={logo}
             alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
+            style={{ width: "14em", height: "12em" }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
@@ -26,17 +27,17 @@ const Footer = () => {
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
-                        Home
+                        <FontAwesomeIcon icon={faHouse} />
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/about">
-                        About
+                        Adopce
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
+                        Články
                       </Link>
                     </li>
                     <li>
@@ -46,7 +47,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Admin
+                        Admin (pouze vývoj, sem pak třeba harmonogram)
                       </a>
                     </li>
                   </ul>
@@ -57,53 +58,53 @@ const Footer = () => {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                        Jak pomoci?
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        O nás
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/blog">
+                        Kontakt
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/contact">
+                        Slevové kódy
                       </Link>
                     </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
+              <div className="column is-4 has-text-left">
+                
+                <div className="social">
+                  <a title="facebook" href="https://www.facebook.com/groups/650759782685550">
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      style={{ width: "1em", height: "1em" }}
+                    />
+                  </a>
+                  <a title="instagram" href="https://www.instagram.com/_doggoland_/">
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ width: "1em", height: "1em" }}
+                    />
+                  </a>
+                </div>
+                <p>E-mail: info@doggoland.cz</p>
+                <p>Tel.: +420 739 071 777</p>
               </div>
             </div>
           </div>
         </div>
         <div className="content has-text-centered autor">
-          <p>Matouš Vondrák</p>
+          <p>© Matouš Vondrák</p>
         </div>
       </footer>
     );

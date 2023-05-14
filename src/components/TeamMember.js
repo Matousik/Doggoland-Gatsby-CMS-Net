@@ -1,11 +1,17 @@
 import React from 'react';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const TeamMember = ({ member }) => {
+  const image = getImage(member.image);
   return (
     <div className="card">
       <div className="card-image">
-        <figure className="image is-4by3">
-          <img src={member.image} alt={member.name} style={{objectFit: 'cover'}}/>
+        <figure className="image">
+          {image && <GatsbyImage
+            image={image}
+            style={{objectFit: 'cover'}}
+            alt={member.name}
+          />}
         </figure>
       </div>
       <div className="card-content">
