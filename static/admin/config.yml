@@ -15,6 +15,21 @@ logo_url: https://doggoland.cz/pics/logo.png
 locale: 'cs'
 
 collections:
+  - name: "aktuality"
+    label: "Aktuality"
+    folder: "src/pages/aktuality"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titulek", name: "name", widget: "string" }
+      - { label: "Obrázek", name: "image", widget: "image", required: false}
+      - { name: "body", label: "Text aktuality", widget: "markdown" }
+      - { label: "Datum publikace (pro řazení)", name: "date", widget: "datetime" }
+      - {
+          name: "templateKey",
+          widget: "hidden",
+          default: "aktuality"
+        }
   - name: "authors"
     label: "Autoři"
     folder: "src/pages/authors"

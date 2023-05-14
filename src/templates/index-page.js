@@ -9,6 +9,8 @@ import BankAccountQRCode from "../components/BankAccountQRCode";
 import BlogRoll from "../components/BlogRoll";
 import AdopceRoll from "../components/AdopceRoll";
 
+import NewsFeed from "../components/NewsFeed";
+
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -45,6 +47,11 @@ export const IndexPageTemplate = ({
       <div>
         <BankAccountQRCode />
       </div>
+      <section className="section">
+        <div className="container">
+         <NewsFeed limit={2} />
+        </div>
+      </section>
       <section className="section">
         <div className="container">
           <h2 className="has-text-centered has-text-weight-bold is-size-2">Nová várka pejsků k adopci</h2>
