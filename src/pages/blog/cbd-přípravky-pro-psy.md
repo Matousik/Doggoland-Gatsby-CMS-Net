@@ -13,7 +13,7 @@ description: Už delší dobu jsme hledali pro naše dočaskové pesany, kteří
   tom psychicky špatně, nějaké podpůrné bylinky/tinktury/přírodní preparáty, po
   nichž by se jim alespoň trochu ulevilo. Poslední dobou se zaměřujeme především
   na psychicky narušené psy vyžadující speciální péči. A povedlo se!
-author: Dája Vršková
+author: Daniela Jana Vršková
 ---
 ![Grizzly s CBD](/img/zelena-zeme-uvod-1-.jpg)
 
