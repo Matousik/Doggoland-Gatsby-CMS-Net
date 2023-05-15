@@ -63,7 +63,7 @@ const Navbar = () => {
                 Více informací
               </Link>
               <div className="navbar-dropdown">
-                <Link className="navbar-item" to="/slevy">
+                <Link className="navbar-item" to="/jaktounaschodi">
                   Jak to u nás chodí?
                 </Link>
                 <Link className="navbar-item" to="/harmonogram">
