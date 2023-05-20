@@ -97,8 +97,17 @@ const Footer = () => {
                     />
                   </a>
                 </div>
-                <p>E-mail: info@doggoland.cz</p>
-                <p>Tel.: +420 739 071 777</p>
+                <ul className="menu-list">
+                    <li>
+                      <p>E-mail: info@doggoland.cz</p>
+                    </li>
+                    <li>
+                      <br></br>
+                    </li>
+                    <li>
+                      <p>Tel.: +420 739 071 777</p>
+                    </li>
+                  </ul>
               </div>
             </div>
           </div>
