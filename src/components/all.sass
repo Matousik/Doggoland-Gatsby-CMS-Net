@@ -5,15 +5,19 @@
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-body
-  font-family: 'Montserrat', sans-serif !important
+h1, h2, h3, h4
+  font-family: 'Corben', sans-serif !important
+
+p, span
+  font-family: 'Noto Sans', sans-serif !important
+
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
-$special-color: #88C9A1
-$special-hover-color: #66A982
+$button-color: #F16533
+$button-hover-color: #FFFFFF
 
 
 $spacing-shortcuts: ("margin": "mg")
@@ -22,25 +26,16 @@ $spacing-vertical: null
 $spacing-values: ("small": 10px, "medium": 30px, "large": 60px)
 
 
-$navbar-height: 4.7rem
 
-.navbar-item-logo
-  background: url(../img/logo.png) no-repeat center center
-  background-size: cover
-  width: 85px
+$navbar-height: 3rem
+
 .navbar-brand
-  margin: 0.5em 0.5em
+  margin: 0.5em 2.5em
 html
   scroll-behavior: smooth
 
 .navbar .navbar-menu
   box-shadow: none !important
-
-.special-item .navbar-item
-  color: $special-color !important
-  font-weight: bold
-  &:hover
-    color: $special-hover-color !important
 
 
 .content .taglist
@@ -161,7 +156,25 @@ $menu-label-color: $white-ter
   margin: 0 1em 0 0
 
 
+.custom-button 
+  background-color: $button-color !important
+  color: $button-hover-color !important
+  border-radius: 50px
+  padding: 12px 20px
+  height: 50px
+  margin: auto 0
 
+.custom-button-inverse
+  background-color: $button-hover-color !important
+  color: #000000 !important
+  border-radius: 50px
+  padding: 12px 20px
+  height: 50px
+  margin: auto 0
+
+@media screen and (max-width: 768px)
+  .last-menu-element
+    margin-bottom: 20px
 
 .autor
   color: gray

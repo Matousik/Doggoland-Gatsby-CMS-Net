@@ -44,7 +44,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Montserrat\:400,700` // you can also include other Google Fonts you need
+          `Corben\:400,700`,
+          `Noto Sans\:400,700`,
+          // you can also include other Google Fonts you need
         ],
         display: 'swap'
       }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 export default function FullWidthImage(props) {
   const {
@@ -9,6 +10,8 @@ export default function FullWidthImage(props) {
     title,
     subheading,
     imgPosition = "top center",
+    ctaPejsciKAdopci = "Pejsci k adopci",
+    ctaViceInformaci = "Zjistit více",
   } = props;
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -57,7 +60,7 @@ export default function FullWidthImage(props) {
         }}
       >
         {images.map((img, index) => renderImage(img, index))}
-        {(title || subheading) && (
+        {(title) && (
           <div
             style={{
               gridArea: "1/1",
@@ -67,38 +70,52 @@ export default function FullWidthImage(props) {
             }}
           >
             {title && (
-              <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25em",
-                }}
-              >
-                {title}
-              </h1>
-            )}
-            {subheading && (
-              <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25rem",
-                  marginTop: "0.5rem",
-                }}
-              >
-                {subheading}
-              </h3>
+              <div>
+                <h1
+                  style={{
+                    color: "white",
+                    lineHeight: "1",
+                    fontSize: "clamp(4rem, 8vw, 9rem)",
+                    paddingBottom: "2rem",
+                    textAlign: "center",
+                  }}
+                >
+                  {title}
+                </h1>
+                <div
+                  style={{
+                    marginTop: "2rem",
+                    display: "flex",
+                    justifyContent: "center",
+                    gap: "2rem",
+                  }}
+                >
+                  <Link
+                    className="custom-button"
+                    to="/adopce"
+                  >Pejsci k adopci
+                  </Link>
+                  <Link
+                    className="custom-button-inverse"
+                    to="/blog"
+                  >Zjistit více
+                  </Link>
+                </div>
+              </div>
             )}
           </div>
         )}
+        {(
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+
+          </div>
+        )}
+
       </div>
     </React.Fragment>
   );

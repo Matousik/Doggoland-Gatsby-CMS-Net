@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
+import logo from "../img/Logo_black_left_aligned.svg";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -12,8 +13,8 @@ const Navbar = () => {
     >
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/" className=" navbar-item-logo" title="Logo">
-
+          <Link to="/" className=" navbar-logo-item" title="Logo">
+            <img src={logo} alt="Doggoland Logo" style={{ width: 'clamp(220px, 8vw, 300px)', height: 'auto' }} />
           </Link>
           {/* Hamburger menu */}
           <button
@@ -26,16 +27,11 @@ const Navbar = () => {
             <span />
           </button>
         </div>
-        <ul id="navMenu" className={` navbar-start has-text-centered navbar-menu ${isActive && "is-active"}`}>
+        <ul id="navMenu" className={`navbar-start navbar-menu ${isActive && "is-active"}`}>
           {/* TODO: inline override of padding is a result of refactoring
                 to a ul for accessibilty purposes, would like to see a css
                 re-write that makes this unneccesary.
              */}
-          <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/o-nas">
-              Kdo jsme?
-            </Link>
-          </li>
 
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/adopce">
@@ -57,33 +53,33 @@ const Navbar = () => {
               Kontakt
             </Link>
           </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
-            <div className="navbar-item has-dropdown is-hoverable">
-              <Link className="navbar-link">
-                Více informací
+          <a className="navbar-item has-dropdown is-hoverable" style={{ padding: "0px" }}>
+            <Link className="navbar-link">
+              Více informací
+            </Link>
+            <div className="navbar-dropdown is-boxed">
+              <Link className="navbar-item" to="/jaktounaschodi">
+                Jak to u nás chodí?
               </Link>
-              <div className="navbar-dropdown">
-                <Link className="navbar-item" to="/jaktounaschodi">
-                  Jak to u nás chodí?
-                </Link>
-                <Link className="navbar-item" to="/harmonogram">
-                  Harmonogram
-                </Link>
-                <Link className="navbar-item" to="/slevy">
-                  Slevové kódy
-                </Link>
-              </div>
+              <Link className="navbar-item" to="/harmonogram">
+                Harmonogram
+              </Link>
+              <Link className="navbar-item" to="/slevy">
+                Slevové kódy
+              </Link>
             </div>
-          </li>
+          </a>
 
-          <li className="navbar-end has-text-centered special-item">
-            <a
-              className="navbar-item"
-              href="https://trenujemesdajou.doggoland.cz/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >Trénujeme s Dájou
-            </a>
+          <li className="navbar-end has-text-centered">
+            <div className="navbar-item">
+              <a
+                className="custom-button last-menu-element"
+                href="https://trenujemesdajou.doggoland.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Trénujeme s Dájou
+              </a>
+            </div>
           </li>
         </ul>
       </div>

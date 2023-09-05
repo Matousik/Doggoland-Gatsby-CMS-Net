@@ -20,7 +20,7 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={intro.blurbs} title={"Doggoland z.s."} height={"95vh"} style={{marginTop: "-5rem"}} />
+      <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
       <section className="section">
         <div className="container">
           <div className="section">
