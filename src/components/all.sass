@@ -21,6 +21,7 @@ p, span
 $big-sizing: 56px
 $medium-sizing: 40px
 $small-sizing: 24px
+$tiny-sizing: 16px
 p
   font-size: $small-sizing
 h2
@@ -36,6 +37,16 @@ $black: #2b2523
 $button-color: $doggoland-orange
 $button-hover-color: $doggoland-white
 $button-black-color: $doggoland-black
+
+.line-before-text
+  &:before
+    content: ""
+    display: inline-block
+    width: 25px
+    height: 1px
+    background-color: black
+    margin-right: 15px
+    margin-bottom: 10px
 
 
 // Navbar miscelaneous settings
@@ -150,6 +161,14 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
 
+// rollers
+.roller-container
+  display: flex
+  justify-content: center
+  align-items: center
+  max-width: 1400px
+  margin: 0 auto
+
 // blog roll
 .blog-list-item.is-featured
   background-color: #d6400033
@@ -180,6 +199,10 @@ $menu-label-color: $white-ter
   color: $doggoland-white !important
 .qr-code-container .content h2, strong
   color: $doggoland-white !important
+
+// news feed
+.news-post p 
+  font-size: $tiny-sizing
 
 
 .custom-button 

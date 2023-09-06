@@ -26,7 +26,9 @@ export const IndexPageTemplate = ({
           <h2 className="has-text-centered">Nová várka pejsků k adopci</h2>
           <p className="text-max-width-margining has-text-centered">Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo. V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci.</p>
         </div>
-        <AdopceRoll limit={3} />
+        <div className="roller-container">
+          <AdopceRoll limit={3} />
+        </div>
         <div className="container has-text-centered">
           <Link
               className="custom-button"
@@ -39,6 +41,8 @@ export const IndexPageTemplate = ({
         <BankAccountQRCode />
       </div>
       <section className="section">
+        <p className="line-before-text">Aktuality</p>
+        <h2 className="has-text-centered">Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
         <div className="container">
          <NewsFeed limit={2} />
         </div>
