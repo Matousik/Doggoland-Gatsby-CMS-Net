@@ -1,32 +1,44 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+// Color configuration
+$kaldi-red: #F16533
 $kaldi-red-invert: #fff
+$doggoland-white: #FFFFFF
+$doggoland-orange: #F16533
+// correct these
+$doggoland-blue: #00d4ff
+$doggoland-cream: #ffcb00
+$doggoland-brown: #ff00dd
+$doggoland-black: #000000
 
-h1, h2, h3, h4
+// Font setting
+h1, h2, h3, h4, h5, h6
   font-family: 'Corben', sans-serif !important
-
 p, span
   font-family: 'Noto Sans', sans-serif !important
 
+// Text sizing
+$big-sizing: 56px
+$medium-sizing: 40px
+$small-sizing: 24px
+p
+  font-size: $small-sizing
+h2
+  font-size: $big-sizing !important
+  margin-bottom: 50px !important
 
+
+// Remove these first two when done
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
+$body-color: $black
 $black: #2b2523
-$button-color: #F16533
-$button-hover-color: #FFFFFF
+$button-color: $doggoland-orange
+$button-hover-color: $doggoland-white
+$button-black-color: $doggoland-black
 
 
-$spacing-shortcuts: ("margin": "mg")
-$spacing-horizontal: "h"
-$spacing-vertical: null
-$spacing-values: ("small": 10px, "medium": 30px, "large": 60px)
-
-
-
+// Navbar miscelaneous settings
 $navbar-height: 3rem
 
 .navbar-brand
@@ -36,6 +48,8 @@ html
 
 .navbar .navbar-menu
   box-shadow: none !important
+
+
 
 
 .content .taglist
@@ -93,18 +107,17 @@ html
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
+.text-max-width-margining
+  max-width: 1200px
+  margin: 0 auto
 .margin-top-0
   margin-top: 0 !important
 
-.navbar-item .icon
-  color: $primary
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
-.navbar-brand .navbar-item.logo
-  padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
@@ -151,9 +164,22 @@ $menu-label-color: $white-ter
 .adopce-list-item
   display: flex
   margin-bottom: 1em
+  background-color: $doggoland-cream
 .adopce-list-item .adopce-thumbnail
   flex-basis: 60%
-  margin: 0 1em 0 0
+.adopce-list-item img 
+  border-radius: 20px
+.adopce-list-item h4
+  margin: 2rem 2rem
+.adopce-roll-section-container
+  background-color: $doggoland-cream
+
+// qr code block
+.qr-code-container
+  background-color: $doggoland-orange
+  color: $doggoland-white !important
+.qr-code-container .content h2, strong
+  color: $doggoland-white !important
 
 
 .custom-button 
@@ -162,7 +188,6 @@ $menu-label-color: $white-ter
   border-radius: 50px
   padding: 12px 20px
   height: 50px
-  margin: auto 0
 
 .custom-button-inverse
   background-color: $button-hover-color !important
@@ -171,6 +196,13 @@ $menu-label-color: $white-ter
   padding: 12px 20px
   height: 50px
   margin: auto 0
+
+.custom-button-black
+  background-color: $button-black-color !important
+  color: $button-hover-color !important
+  border-radius: 50px
+  padding: 12px 20px
+  height: 50px
 
 @media screen and (max-width: 768px)
   .last-menu-element

@@ -12,11 +12,11 @@ const AdopceRollTemplate = (props) => {
       {vsechnyAdopce &&
         vsechnyAdopce.map(({ node: adopce }) => (
           <div className="masonry-post-item" key={adopce.id}>
-            <article
-              className={`adopce-list-item tile is-child box notification`}
+            <div
+              className={`adopce-list-item tile is-child`}
             >
                 {adopce?.frontmatter?.featuredimage && (
-                  <div className="adopce-thumbnail has-text-centered">
+                  <div className="adopce-thumbnail has-text-centered mg-large">
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: adopce.frontmatter.featuredimage,
@@ -31,23 +31,23 @@ const AdopceRollTemplate = (props) => {
                     />
                   </div>
                 ) }
-                <p className="post-meta">
+                <h4 className="post-meta has-text-centered">
                   <Link
                     className="title has-text-primary is-size-4"
                     to={adopce.fields.slug}
                   >
                     {adopce.frontmatter.title}
                   </Link>
-                </p>
-              <p>
+                </h4>
+              {/* <p>
                 {adopce.frontmatter.description}
                 <br />
                 <br />
                 <Link className="button is-primary is-light" to={adopce.fields.slug}>
                   Více informací →
                 </Link>
-              </p>
-            </article>
+              </p> */}
+            </div>
           </div>
         ))}
     </div>
@@ -85,6 +85,7 @@ const AdopceRoll = ({ limit = 10000 }) => {
                     height: 400
                     quality: 100
                     layout: CONSTRAINED
+                    placeholder: BLURRED
                   )
                 }
               }

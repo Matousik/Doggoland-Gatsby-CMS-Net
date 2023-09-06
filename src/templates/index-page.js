@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-
+import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImageLooping";
 import BankAccountQRCode from "../components/BankAccountQRCode";
@@ -21,6 +21,34 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
+      <section className="section adopce-roll-section-container">
+        <div className="container">
+          <h2 className="has-text-centered">Nová várka pejsků k adopci</h2>
+          <p className="text-max-width-margining has-text-centered">Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo. V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci.</p>
+        </div>
+        <AdopceRoll limit={3} />
+        <div className="container has-text-centered">
+          <Link
+              className="custom-button"
+              to="/adopce"
+            >Další pejsci
+            </Link>
+        </div>
+      </section>
+      <div>
+        <BankAccountQRCode />
+      </div>
+      <section className="section">
+        <div className="container">
+         <NewsFeed limit={2} />
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <h2 className="has-text-centered has-text-weight-bold is-size-2">Napsali jsme</h2>
+          <BlogRoll limit={3} />
+        </div>
+      </section>
       <section className="section">
         <div className="container">
           <div className="section">
@@ -30,7 +58,7 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
-                      Vítejte v Doggolandu!
+                      Co s tímhle? - Vítejte v Doggolandu!
                       </h3>
                       <p>Vítejte v našem malém psím světe, kde léčíme nemocné psí duše. Pomáháme pejskům, kterých se ostatní zbavili. Často u nás potkáte pejsky dříve týrané, psychicky zlomené či hodně nemocné. Každý den jim ukazujeme, že ne všichni lidé jsou zlí a že už se není čeho bát.</p>
                       <p>Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo.</p>
@@ -44,26 +72,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
-      <div>
-        <BankAccountQRCode />
-      </div>
-      <section className="section">
-        <div className="container">
-         <NewsFeed limit={2} />
-        </div>
-      </section>
-      <section className="section">
-        <div className="container">
-          <h2 className="has-text-centered has-text-weight-bold is-size-2">Nová várka pejsků k adopci</h2>
-          <AdopceRoll limit={3} />
-        </div>
-      </section>
-      <section className="section">
-        <div className="container">
-          <h2 className="has-text-centered has-text-weight-bold is-size-2">Napsali jsme</h2>
-          <BlogRoll limit={3} />
-        </div>
-      </section>
+
     </div>
   );
 };

@@ -8,10 +8,7 @@ export default function FullWidthImage(props) {
     height = 400,
     img,
     title,
-    subheading,
     imgPosition = "top center",
-    ctaPejsciKAdopci = "Pejsci k adopci",
-    ctaViceInformaci = "Zjistit více",
   } = props;
 
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -12,7 +12,8 @@ const Navbar = () => {
       aria-label="main-navigation"
     >
       <div className="container">
-        <div className="navbar-brand">
+        <div className="navbar-brand"  style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
+>
           <Link to="/" className=" navbar-logo-item" title="Logo">
             <img src={logo} alt="Doggoland Logo" style={{ width: 'clamp(220px, 8vw, 300px)', height: 'auto' }} />
           </Link>
@@ -22,9 +23,9 @@ const Navbar = () => {
             aria-expanded={isActive}
             onClick={() => setIsActive(!isActive)}
           >
-            <span />
-            <span />
-            <span />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
           </button>
         </div>
         <ul id="navMenu" className={`navbar-start navbar-menu ${isActive && "is-active"}`}>
