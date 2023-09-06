@@ -6,10 +6,10 @@ import Content, { HTMLContent } from "../components/Content";
 const PostContent = HTMLContent || Content;
 
 const NewsPost = ({ post }) => (
-  <div className="news-post box glow-box news-post-width" style={{marginBottom: '2rem'}}>
+  <div className="news-item" style={{marginBottom: '2rem'}}>
     <div>
       {post.frontmatter.image && (
-          <div style={{display: 'flex', justifyContent: 'center'}}>
+          <div style={{display: 'flex', justifyContent: 'center', marginBottom: '30px'}}>
             <GatsbyImage
               image={post.frontmatter.image.childImageSharp.gatsbyImageData}
               style={{objectFit: 'cover', borderRadius: '200px'}}

@@ -2,7 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import NewsPost from './NewsPost';
 import PropTypes from "prop-types";
-import "./masonry-posts.css";
 
 
 const NewsFeed = ({ limit = 10000 }) => {
@@ -39,9 +38,9 @@ const NewsFeed = ({ limit = 10000 }) => {
   const posts = data.allMarkdownRemark.edges.map(edge => edge.node).slice(0, limit);
 
   return (
-    <div className="masonry-post">
+    <div className='news-wrapper'>
       {posts.map((post, index) => (
-        <NewsPost post={post} key={index} className='masonry-post-item'/>
+        <NewsPost post={post} key={index}/>
       ))}
     </div>
   );

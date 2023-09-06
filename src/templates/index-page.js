@@ -42,14 +42,17 @@ export const IndexPageTemplate = ({
       </div>
       <section className="section">
         <p className="line-before-text">Aktuality</p>
-        <h2 className="has-text-centered">Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
         <div className="container">
-         <NewsFeed limit={2} />
+          <h2>Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
+          <div className="container">
+          <NewsFeed limit={3} />
+          </div>
         </div>
       </section>
-      <section className="section">
+      <section className="section blog-roll-container">
+        <p className="line-before-text">Blog</p>
         <div className="container">
-          <h2 className="has-text-centered has-text-weight-bold is-size-2">Napsali jsme</h2>
+          <h2>Některé naše myšlenky zpracováváme do článků</h2>
           <BlogRoll limit={3} />
         </div>
       </section>

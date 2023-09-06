@@ -8,7 +8,7 @@ $doggoland-orange: #F16533
 // correct these
 $doggoland-blue: #00d4ff
 $doggoland-cream: #ffcb00
-$doggoland-brown: #ff00dd
+$doggoland-brown: #a18370
 $doggoland-black: #000000
 
 // Font setting
@@ -178,6 +178,10 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
+.blog-roll-container
+  background-color: $doggoland-brown
+.blog-list-item p
+  font-size: $tiny-sizing
 
 // adopce roll
 .adopce-list-item
@@ -201,8 +205,25 @@ $menu-label-color: $white-ter
   color: $doggoland-white !important
 
 // news feed
-.news-post p 
-  font-size: $tiny-sizing
+.news-wrapper
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  align-items: flex-start
+  justify-content: center
+  margin: 0 auto
+  width: 100%
+  max-width: 1300px
+  padding: 0 20px
+  box-sizing: border-box
+
+.news-wrapper .news-item
+  max-width: 400px
+  margin: 10px
+  box-sizing: border-box
+  background-color: $doggoland-cream
+  border-radius: 20px
+  padding: 30px
 
 
 .custom-button 

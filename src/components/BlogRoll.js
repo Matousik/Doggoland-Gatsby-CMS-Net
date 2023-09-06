@@ -11,48 +11,29 @@ const BlogRollTemplate = (props) => {
     <div className="masonry-post">
       {posts &&
         posts.map(({ node: post }) => (
-          <div className="masonry-post-item" key={post.id}>
+          <div className="masonry-post-item" key={post.id} style={{borderRadius: '30px'}}>
             <article
-              className={`blog-list-item tile is-child box notification`}
+              className={`blog-list-item tile is-child has-text-centered`}
+              style={{padding: '3rem'}}
             >
               <header>
-                {post?.frontmatter?.featuredimage && (
-                  <div className="featured-thumbnail">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        width:
-                          post.frontmatter.featuredimage.childImageSharp
-                            .gatsbyImageData.width,
-                        height:
-                          post.frontmatter.featuredimage.childImageSharp
-                            .gatsbyImageData.height,
-                      }}
-                    />
-                  </div>
-                ) }
-                <p className="post-meta">
+                <h3 className="post-meta">
                   <Link
                     className="title has-text-primary is-size-4"
                     to={post.fields.slug}
                   >
                     {post.frontmatter.title}
                   </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-5 is-block">
-                    {post.frontmatter.date}
-                  </span>
-                </p>
+                </h3>
               </header>
               <p>
                 {post.excerpt}
                 <br />
                 <br />
-                <Link className="button is-primary is-light" to={post.fields.slug}>
+              </p>
+              <Link className="custom-button" to={post.fields.slug}>
                   Čtěte více →
                 </Link>
-              </p>
             </article>
           </div>
         ))}

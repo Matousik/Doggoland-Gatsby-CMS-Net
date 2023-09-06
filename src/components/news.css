@@ -1,0 +1,18 @@
+.news-wrapper {
+    display: flex;
+    flex-direction: row;  /* Change direction to row */
+    flex-wrap: wrap;  /* Enabling wrap */
+    align-items: center;  /* Align items to the start */
+    justify-content: center;  /* Center the items horizontally */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.news-wrapper .news-item {
+    max-width: 400px;  /* Change this to your maximum desired width */
+    margin: 10px;  /* Add margins for better visual separation */
+    box-sizing: border-box;
+}
