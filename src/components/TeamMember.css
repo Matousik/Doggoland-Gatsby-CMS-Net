@@ -1,0 +1,33 @@
+.team-member-container {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .team-member-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;  
+  }
+  
+  .team-member-details {
+    display: flex;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .team-member-image {
+    flex: 1;
+  }
+  
+  .team-member-info {
+    flex: 3;
+  }
+
+  .team-list {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  

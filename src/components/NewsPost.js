@@ -9,10 +9,10 @@ const NewsPost = ({ post }) => (
   <div className="news-item" style={{marginBottom: '2rem'}}>
     <div>
       {post.frontmatter.image && (
-          <div style={{display: 'flex', justifyContent: 'center', marginBottom: '30px'}}>
+          <div style={{display: 'flex', justifyContent: 'center'}}>
             <GatsbyImage
               image={post.frontmatter.image.childImageSharp.gatsbyImageData}
-              style={{objectFit: 'cover', borderRadius: '200px'}}
+              style={{objectFit: 'cover', borderRadius: '200px', marginBottom: '1rem'}}
               alt={post.frontmatter.title}
             />
           </div>

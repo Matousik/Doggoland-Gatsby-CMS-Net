@@ -5,10 +5,10 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImageLooping";
 import BankAccountQRCode from "../components/BankAccountQRCode";
-
+import TeamList from "../components/teamMembersList";
 import BlogRoll from "../components/BlogRoll";
 import AdopceRoll from "../components/AdopceRoll";
-
+import logo from "../img/logo75px.png";
 import NewsFeed from "../components/NewsFeed";
 
 
@@ -42,10 +42,20 @@ export const IndexPageTemplate = ({
       </div>
       <section className="section">
         <p className="line-before-text">Aktuality</p>
-        <div className="container">
           <h2>Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
-          <div className="container">
           <NewsFeed limit={3} />
+      </section>
+      <section className="section our-team-section">
+        <p className="line-before-text">Náš tým</p>
+        <div className="container">
+          <h2>Jsme tým dobrovolníků, kteří se o pejsky starají z lásky a bez nároku na odměnu.</h2>
+          <div className="illustration-container">
+            <div className="illustration has-text-centered">
+              <img src={logo} alt="team"/>
+            </div>
+            <div className="actual-content-after-illustration">
+              <TeamList />
+            </div>
           </div>
         </div>
       </section>
@@ -64,9 +74,9 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
+                      <h2>
                       Co s tímhle? - Vítejte v Doggolandu!
-                      </h3>
+                      </h2>
                       <p>Vítejte v našem malém psím světe, kde léčíme nemocné psí duše. Pomáháme pejskům, kterých se ostatní zbavili. Často u nás potkáte pejsky dříve týrané, psychicky zlomené či hodně nemocné. Každý den jim ukazujeme, že ne všichni lidé jsou zlí a že už se není čeho bát.</p>
                       <p>Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo.</p>
                       <p>V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci.</p>
@@ -77,6 +87,18 @@ export const IndexPageTemplate = ({
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="contact-cta-section">
+        <div className="container has-text-centered">
+          <h2>
+            Máte zájem o adopci či více informací? Napište nám!
+          </h2>
+          <Link
+            className="custom-button"
+            to="/kontakt"
+          >Kontaktujte nás!
+          </Link>     
         </div>
       </section>
 
