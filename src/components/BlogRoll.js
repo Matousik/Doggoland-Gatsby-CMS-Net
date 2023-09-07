@@ -31,7 +31,7 @@ const BlogRollTemplate = (props) => {
                 <br />
                 <br />
               </p>
-              <Link className="custom-button" to={post.fields.slug}>
+              <Link className="custom-button-brown" to={post.fields.slug}>
                   Čtěte více →
                 </Link>
             </article>

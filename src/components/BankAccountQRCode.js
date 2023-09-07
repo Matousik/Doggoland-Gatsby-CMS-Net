@@ -1,6 +1,7 @@
 import React from 'react';
 import './CustomComponent.css';
 import qr from "../img/qr-kod-bankovni-ucet.png";
+import frisbee from "../img/illustrations/frisbee.svg";
 
 
 const CustomComponent = () => {
@@ -22,6 +23,9 @@ const CustomComponent = () => {
                           alt="QR code placeholder"
                           className="qr-placeholder"
                         />
+                        <div className='frisbee-illustration'>
+                          <img src={frisbee} alt="frisbee"/>
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -10,6 +10,9 @@ import BlogRoll from "../components/BlogRoll";
 import AdopceRoll from "../components/AdopceRoll";
 import logo from "../img/logo75px.png";
 import NewsFeed from "../components/NewsFeed";
+import falco from "../img/illustrations/falco.svg";
+import freckles from "../img/illustrations/freckles-dog.svg";
+import browndog from "../img/illustrations/mild-brown-dog.svg";
 
 
 // eslint-disable-next-line
@@ -42,8 +45,10 @@ export const IndexPageTemplate = ({
       </div>
       <section className="section">
         <p className="line-before-text">Aktuality</p>
+        <div className="container">
           <h2>Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
           <NewsFeed limit={3} />
+        </div>
       </section>
       <section className="section our-team-section">
         <p className="line-before-text">Náš tým</p>
@@ -51,7 +56,7 @@ export const IndexPageTemplate = ({
           <h2>Jsme tým dobrovolníků, kteří se o pejsky starají z lásky a bez nároku na odměnu.</h2>
           <div className="illustration-container">
             <div className="illustration has-text-centered">
-              <img src={logo} alt="team"/>
+              <img src={freckles} alt="team"/>
             </div>
             <div className="actual-content-after-illustration">
               <TeamList />
@@ -62,7 +67,12 @@ export const IndexPageTemplate = ({
       <section className="section blog-roll-container">
         <p className="line-before-text">Blog</p>
         <div className="container">
-          <h2>Některé naše myšlenky zpracováváme do článků</h2>
+          <div className="falco-illustration-container">
+            <h2 className="falco-illustration-content">Některé naše myšlenky zpracováváme do článků</h2>
+            <div className="falco-illustration">
+              <img src={falco} alt="falco"/>
+            </div>
+          </div>
           <BlogRoll limit={3} />
         </div>
       </section>
@@ -98,7 +108,10 @@ export const IndexPageTemplate = ({
             className="custom-button"
             to="/kontakt"
           >Kontaktujte nás!
-          </Link>     
+          </Link>
+          <div className="cta-section-illustration">
+            <img src={browndog} alt="browndog"/>
+          </div>
         </div>
       </section>
 

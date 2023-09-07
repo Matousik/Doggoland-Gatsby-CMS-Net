@@ -6,9 +6,10 @@ $kaldi-red-invert: #fff
 $doggoland-white: #FFFFFF
 $doggoland-orange: #F16533
 // correct these
-$doggoland-blue: #00d4ff
-$doggoland-cream: #ffcb00
-$doggoland-brown: #B7A281
+$doggoland-blue: #E1EDFF
+$doggoland-cream: #FBF4EA
+$doggoland-mild-brown: #B7A281
+$doggoland-dark-brown: #564120
 $doggoland-black: #000000
 
 // Font setting
@@ -19,7 +20,7 @@ p, span
   font-family: 'Noto Sans', sans-serif !important
 
 // Text sizing
-$big-sizing: 56px
+$big-sizing: 50px
 $medium-sizing: 40px
 $medium-still-sizing: 28px
 $small-sizing: 24px
@@ -187,9 +188,22 @@ $menu-label-color: $white-ter
   flex-basis: 35%
   margin: 0 1.5em 0 0
 .blog-roll-container
-  background-color: $doggoland-brown
+  background-color: $doggoland-mild-brown
 .blog-list-item p
   font-size: $tiny-sizing
+.falco-illustration-container
+  display: flex
+  align-items: center
+.falco-illustration-content
+  flex-basis: 80%
+.falco-illustration
+  flex-basis: 20%
+@media (max-width: 768px)
+  .falco-illustration-content
+    width: 100%
+  .falco-illustration
+    display: none
+
 
 // adopce roll
 .adopce-list-item
@@ -218,6 +232,10 @@ $menu-label-color: $white-ter
   color: $doggoland-white !important
 .qr-code-container .content h2, .qr-code-container .content strong
   color: $doggoland-white !important
+.frisbee-illustration
+  text-align: right
+.qr-placeholder
+  margin-bottom: 20px
 
 // news feed
 .news-wrapper
@@ -245,7 +263,12 @@ $menu-label-color: $white-ter
 
 //contact-cta-section
 .contact-cta-section
-  margin: 200px 0
+  margin: 50px 0
+.cta-section-illustration
+  margin-top: 20px
+  text-align: right
+  margin-right: 15px
+
 
 // our team section
 .our-team-section
@@ -262,6 +285,8 @@ $menu-label-color: $white-ter
 @media (max-width: 768px)
   .illustration, .actual-content-after-illustration
     width: 100%
+  .illustration
+    margin: 0 auto
 .team-member-name
   text-decoration: underline
 .team-member-info .team-member-name 
@@ -269,7 +294,7 @@ $menu-label-color: $white-ter
 .team-member-role
   text-transform: capitalize
 hr
-  background-color: $doggoland-brown !important
+  background-color: $doggoland-mild-brown !important
 .custom-button 
   background-color: $button-color !important
   color: $button-hover-color !important
@@ -277,6 +302,15 @@ hr
   padding: 12px 20px
   height: 50px
   text-transform: uppercase
+
+.custom-button-brown 
+  background-color: $doggoland-dark-brown !important
+  color: $button-hover-color !important
+  border-radius: 50px
+  padding: 12px 20px
+  height: 50px
+  text-transform: uppercase
+
 
 .custom-button-inverse
   background-color: $button-hover-color !important
