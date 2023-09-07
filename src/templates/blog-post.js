@@ -38,13 +38,13 @@ export const BlogPostTemplate = ({
       <GatsbyImage
         image={author.image.childImageSharp.gatsbyImageData}
         style={imageStyle}
-        alt={author.name}
+        alt={author.title}
       />
     )}
   </div>
   <div className="media-content">
     <p className="is-size-5 has-text-weight-bold">
-      {author.name}
+      {author.title}
     </p>
   </div>
 </div>
@@ -80,7 +80,7 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
   const { markdownRemark: post, allMarkdownRemark: authors } = data;
   const author = authors.edges.find(
-    author => author.node.frontmatter.name === post.frontmatter.author
+    author => author.node.frontmatter.title === post.frontmatter.author
   ).node.frontmatter;
 
   return (
@@ -131,7 +131,7 @@ query BlogPostByID($id: String!) {
     edges {
       node {
         frontmatter {
-          name
+          title
           image {
             childImageSharp {
               gatsbyImageData(quality: 100, layout: CONSTRAINED, width: 50)

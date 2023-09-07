@@ -19,9 +19,8 @@ collections:
     label: "Aktuality"
     folder: "src/pages/aktuality"
     create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "Titulek", name: "name", widget: "string" }
+      - { label: "Titulek", name: "title", widget: "string" }
       - { label: "Obrázek", name: "image", widget: "image", required: false}
       - { name: "body", label: "Text aktuality", widget: "markdown" }
       - { label: "Datum publikace (pro řazení)", name: "date", widget: "datetime" }
@@ -34,9 +33,8 @@ collections:
     label: "Autoři"
     folder: "src/pages/authors"
     create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "Jméno autora", name: "name", widget: "string" }
+      - { label: "Jméno autora", name: "title", widget: "string" }
       - { label: "Fotka autora", name: "image", widget: "image" }
       - {
           name: "templateKey",

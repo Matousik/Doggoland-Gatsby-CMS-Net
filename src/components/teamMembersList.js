@@ -10,7 +10,7 @@ const TeamList = () => {
         edges {
           node {
             frontmatter {
-              name
+              title
               image {
                 childImageSharp {
                   gatsbyImageData(
@@ -32,32 +32,32 @@ const TeamList = () => {
 
   const teamMembers = [
     {
-      name: 'Daniela Jana Vršková',
+      title: 'Daniela Jana Vršková',
       role: 'předsedkyně',
       description: 'Dája je předsedkyní a zakladatelkou celého spolku.'
     },
     {
-      name: 'Matouš Vondrák',
+      title: 'Matouš Vondrák',
       role: 'spoluzakladatel',
       description: 'Matouš má pod palcem správu a tvorbu našich webových stránek. Je to on, kdo se stará o to, aby všechno fungovalo jak má.'
     },
     {
-      name: 'Vladislava Wallachová',
+      title: 'Vladislava Wallachová',
       role: 'člen',
       description: 'John is a full-stack developer with a passion for React.John is a full-stack developer with a passion for React.'
     },
     {
-      name: 'Terka Vostradovská',
+      title: 'Terka Vostradovská',
       role: 'člen',
       description: 'John is a full-stack developer with a passion for React.'
     },
     {
-      name: 'Kája Kolečkářová',
+      title: 'Kája Kolečkářová',
       role: 'člen',
       description: 'John is a full-stack developer with a passion for React.'
     },
   ].map(member => {
-    const author = authors.find(author => author.name === member.name);
+    const author = authors.find(author => author.title === member.title);
     return {
       ...member,
       image: author?.image?.childImageSharp?.gatsbyImageData,

@@ -15,7 +15,7 @@ const NewsFeed = ({ limit = 10000 }) => {
             node {
               html
               frontmatter {
-                name
+                title
                 templateKey
                 date(formatString: "DD.MM.YYYY")
                 image {

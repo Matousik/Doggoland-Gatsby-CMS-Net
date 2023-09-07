@@ -18,7 +18,7 @@ const NewsPost = ({ post }) => (
           </div>
         )}
       <div>
-        <h3 className="has-text-centered title is-size-4">{post.frontmatter.name}</h3>
+        <h3 className="has-text-centered title is-size-4">{post.frontmatter.title}</h3>
         <PostContent className="content has-text-centered" content={post.html} />
       </div>
     </div>
