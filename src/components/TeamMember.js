@@ -13,7 +13,7 @@ const TeamMember = ({ member }) => {
   return (
     <div className="team-member-container">
       <div className="team-member-header" onClick={toggleVisibility}>
-        <span className="team-member-name medium-still-sizing">{member.name}</span>
+        <span className="team-member-name medium-still-sizing">{member.title}</span>
         <span className="team-member-role medium-still-sizing">{member.role}</span>
       </div>
       {isVisible && (
@@ -28,7 +28,7 @@ const TeamMember = ({ member }) => {
             )}
           </figure>
           <div className="team-member-info">
-            <p className="team-member-name">{member.name}</p>
+            <p className="team-member-name">{member.title}</p>
             <p className="team-member-role">{member.role}</p>
             <p className="team-member-description">{member.description}</p>
           </div>
