@@ -56,8 +56,8 @@ collections:
     create: true
     fields:
       - { name: "templateKey", widget: "hidden", default: "psi-v-nasi-peci" }
-      - { name: "title", label: "Dog's Name", widget: "string" }
-      - { name: "description", label: "Description", widget: "text" }
+      - { name: "title", label: "Jméno psa v naší péči", widget: "string" }
+      - { name: "description", label: "Popis psa v naší péči", widget: "text" }
       - { label: "Obrázek psa", name: "featuredimage", widget: image }
   - name: "adoptovani-psi"
     label: "Adoptovaní psi"
@@ -65,8 +65,8 @@ collections:
     create: true
     fields:
       - { name: "templateKey", widget: "hidden", default: "adoptovani-psi" }
-      - { name: "title", label: "Jméno adoptovaného pejska", widget: "string" }
-      - { label: "Obrázek adoptovaného pejska", name: "featuredimage", widget: image }
+      - { name: "title", label: "Jméno adoptovaného psa", widget: "string" }
+      - { label: "Obrázek adoptovaného psa", name: "featuredimage", widget: image }
   - name: "slevy"
     label: "Slevy a sponzoři"
     folder: "src/pages/slevy"
@@ -93,8 +93,8 @@ collections:
         }
       - { label: "Nadpis", name: "title", widget: "string" }
       - { label: "Datum publikace", name: "date", widget: "datetime" }
-      - { label: "Úvodní obrázek", name: "featuredimage", widget: image }
-      - { label: "Text", name: "body", widget: "markdown" }
+      - { label: "Úvodní obrázek (na titulce)", name: "featuredimage", widget: image }
+      - { label: "Text (obrázek na začátek nebo kousek dál, ale určitě dávat)", name: "body", widget: "markdown" }
       - { label: "Tagy", name: "tags", widget: "list" }
       - { label: Popis (meta tag), name: description, widget: string }
       - {
@@ -122,7 +122,7 @@ collections:
             }
           - { label: "Obrázek na stránce adopcí", name: "featuredimage", widget: image }
           - { label: "Úvodní obrázek", name: image, widget: image }
-          - { label: "Oranžový nadpis", name: title, widget: string }
+          - { label: "Titulní nadpis", name: title, widget: string }
           - { label: "Nadpis nad textovou kostrou", name: heading, widget: string }
           - { label: "Textová kostra", name: "body", widget: "markdown" }
           - {

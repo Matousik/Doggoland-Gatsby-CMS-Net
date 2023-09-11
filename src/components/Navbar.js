@@ -54,7 +54,7 @@ const Navbar = () => {
               Kontakt
             </Link>
           </li>
-          <a className="navbar-item has-dropdown is-hoverable" style={{ padding: "0px" }}>
+          <span id="button-in-navbar-instead-of-a" className="navbar-item has-dropdown is-hoverable" style={{ padding: "0px" }} href="#">
             <Link className="navbar-link">
               Více informací
             </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 Slevové kódy
               </Link>
             </div>
-          </a>
+          </span>
 
           <li className="navbar-end has-text-centered">
             <div className="navbar-item">

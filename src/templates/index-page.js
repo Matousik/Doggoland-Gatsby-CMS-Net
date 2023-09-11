@@ -8,7 +8,6 @@ import BankAccountQRCode from "../components/BankAccountQRCode";
 import TeamList from "../components/teamMembersList";
 import BlogRoll from "../components/BlogRoll";
 import AdopceRoll from "../components/AdopceRoll";
-import logo from "../img/logo75px.png";
 import NewsFeed from "../components/NewsFeed";
 import falco from "../img/illustrations/falco.svg";
 import freckles from "../img/illustrations/freckles-dog.svg";
