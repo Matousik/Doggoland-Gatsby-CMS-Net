@@ -50,7 +50,7 @@ export default function FullWidthImage(props) {
   return (
     <React.Fragment>
       <div
-        className="margin-top-0"
+        className="margin-top-0 looping-image-h1"
         style={{
           display: "grid",
           alignItems: "center",
@@ -72,7 +72,6 @@ export default function FullWidthImage(props) {
                   style={{
                     color: "white",
                     lineHeight: "1",
-                    fontSize: "clamp(4rem, 8vw, 9rem)",
                     paddingBottom: "2rem",
                     textAlign: "center",
                   }}

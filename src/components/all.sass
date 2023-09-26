@@ -11,7 +11,10 @@ $doggoland-cream: #FBF4EA
 $doggoland-mild-brown: #B7A281
 $doggoland-dark-brown: #564120
 $doggoland-black: #000000
-
+.mild-cream
+  background-color: $doggoland-cream !important
+.mild-brown
+  background-color: $doggoland-mild-brown !important
 // Font setting
 h1, h2, h3, h4, h5, h6
   font-family: 'Corben', sans-serif !important
@@ -20,7 +23,7 @@ p, span, ul, li
   font-family: 'Noto Sans', sans-serif !important
 
 // Text sizing
-$big-sizing: 50px
+$big-sizing: 70px
 $medium-sizing: 40px
 $medium-still-sizing: 28px
 $small-sizing: 24px
@@ -29,9 +32,11 @@ $tiny-sizing: 16px
   font-size: $medium-still-sizing
 p, span, ul, li
   font-size: $small-sizing
-h2
+h2, h1
   font-size: $big-sizing !important
   margin-bottom: 50px !important
+.looping-image-h1 h1
+  font-size: clamp(4rem, 8vw, 9rem) !important
 h3
   font-size: $medium-sizing !important
 .clanek h4
@@ -198,6 +203,8 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
+.blog-list-item img 
+  border-radius: 20px
 .blog-roll-container
   background-color: $doggoland-mild-brown
 .blog-list-item p
@@ -214,6 +221,19 @@ $menu-label-color: $white-ter
     width: 100%
   .falco-illustration
     display: none
+
+// blog introduction
+.blog-introduction
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-evenly
+  align-items: center
+.blog-introduction-image img
+  padding-top: 3rem
+  padding-bottom: 3rem
+  max-height: 80vh
+  width: min(450px, 60vw)
+  border-radius: 180px
 
 
 // adopce roll
@@ -279,7 +299,6 @@ $menu-label-color: $white-ter
   margin-top: 20px
   text-align: right
   margin-right: 15px
-
 
 // our team section
 .our-team-section

@@ -34,11 +34,23 @@ const Navbar = () => {
                 re-write that makes this unneccesary.
              */}
 
-          <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/adopce">
-              Adopce
+
+          <span id="button-in-navbar-instead-of-a" className="navbar-item has-dropdown is-hoverable" style={{ padding: "0px" }} href="#">
+            <Link className="navbar-link">
+              Pejsci
             </Link>
-          </li>
+            <div className="navbar-dropdown is-boxed">
+              <Link className="navbar-item" to="/pejsci-v-nasi-peci">
+                Pejsci v naší péči
+              </Link>
+              <Link className="navbar-item" to="/adopce">
+                Pejsci k adopci
+              </Link>
+              <Link className="navbar-item" to="/adoptovani-pejsci">
+                Adoptovaní pejsci
+              </Link>
+            </div>
+          </span>
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/blog">
               Články

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 import "./masonry-posts.css";
 
 const BlogRollTemplate = (props) => {
@@ -15,6 +16,21 @@ const BlogRollTemplate = (props) => {
               className={`blog-list-item tile is-child has-text-centered`}
               style={{padding: '3rem'}}
             >
+                            <div className="adopce-thumbnail has-text-centered mg-large">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `Úvodní obrázek pro článek ${post.frontmatter.title}`,
+                        width:
+                        post.frontmatter.featuredimage.childImageSharp
+                            .gatsbyImageData.width,
+                        height:
+                        post.frontmatter.featuredimage.childImageSharp
+                            .gatsbyImageData.height,
+                      }}
+                    />
+                  </div>
+
               <header>
                 <h3 className="post-meta">
                   <Link

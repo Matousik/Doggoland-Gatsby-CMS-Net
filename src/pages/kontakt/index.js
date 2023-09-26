@@ -46,7 +46,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-         <div className="presentation-container">
+         <div className="presentation-container mild-cream">
       <div className="presentation-box">
         <h1 className="presentation-title">Sídlo spolku Doggoland z.s.</h1>
         <ul className="presentation-list">
@@ -62,84 +62,10 @@ export default class Index extends React.Component {
         <ul className="presentation-list">
           <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> Facebook: <a href="https://www.facebook.com/groups/650759782685550" target="_blank" rel="noopener noreferrer">DOGGOLAND z.s.</a></li>
           <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> Instagram: <a href="https://www.instagram.com/_doggoland_/" target="_blank" rel="noopener noreferrer">_doggoland_</a></li>
-          <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> TikTok: <a href="https://www.tiktok.com/@_doggoland_" target="_blank" rel="noopener noreferrer">_doggoland_</a></li>
+          {/* <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> TikTok: <a href="https://www.tiktok.com/@_doggoland_" target="_blank" rel="noopener noreferrer">_doggoland_</a></li> */}
         </ul>
       </div>
     </div>
-       <section className="section">
-          <div className="container">
-            <div className="content">
-
-              <h1>Kontaktní formulář</h1>
-              <form
-                name="contact"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                  <label>
-                    Nevyplňovat:{" "}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"name"}>
-                    Vaše jméno
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={"text"}
-                      name={"name"}
-                      onChange={this.handleChange}
-                      id={"name"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"email"}>
-                    Email
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={"email"}
-                      name={"email"}
-                      onChange={this.handleChange}
-                      id={"email"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"message"}>
-                    Zpráva
-                  </label>
-                  <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={"message"}
-                      onChange={this.handleChange}
-                      id={"message"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Odeslat
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
         <section>
         <div style={{ height: "80vh", width: "100%" }}>
         <GoogleMap

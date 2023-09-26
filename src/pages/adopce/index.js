@@ -9,36 +9,40 @@ export default class AdopceIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
+{/*         <div
           className="full-width-image-container margin-top-0"
           style={{
             backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
+            className="is-size-1"
             style={{
-              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-              backgroundColor: "#f40",
               color: "white",
               padding: "1rem",
             }}
           >
             K Adopci
           </h1>
-        </div>
-        <h2 className="has-text-centered has-text-weight-bold is-size-2">Níže naleznete pejsky k adopci</h2>
-        <p className="has-text-centered mgt-small">
+        </div> */}
+        <div
+          className="mild-cream"
+        >
+        <div className="section">
+        <h2 className="has-text-centered">Níže naleznete pejsky k adopci</h2>
+        <p className="has-text-centered">
           Pokud máte zájem o adopci, vyplňte prosím <Link to="/contact">kontaktní formulář</Link> a my se vám ozveme.
         </p>
-        <p className="has-text-centered mgt-medium">
-          <a className="button is-primary is-light has-text-centered" href="#prubeh-adopce">
+        <div className="has-text-centered" style={{marginTop: "4rem"}}>
+          <a className="custom-button has-text-centered" href="#prubeh-adopce">
             Jak u nás adopce probíhá?
           </a>
-        </p>
+        </div>
+        </div>
         <section className="section">
         <AdopceRoll limit={10000} />
         </section>
+        </div>
         <section className="section">
           <div className="container">
             <div className="column is-10 is-offset-1 clanek">
@@ -62,18 +66,6 @@ export default class AdopceIndexPage extends React.Component {
             </div>
          </div>
       </section>
-        <div>
-
-      <div className="container mgt-medium mgb-medium">
-      <h2 className="has-text-centered has-text-weight-bold is-size-2">Níže naleznete všechny pejsky v naší péči</h2>
-
-      <PsiVNasiPeci limit={10000} />
-
-      <h1 className="has-text-centered has-text-weight-bold is-size-2">Spokojení adoptovaní pejsci</h1>
-      <AdoptovaniPsi limit={10000} />
-
-      </div>
-    </div>
       </Layout>
     );
   }

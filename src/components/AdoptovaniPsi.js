@@ -19,6 +19,7 @@ const AdoptovaniPsi = ({ limit = 10000 }) => {
                     height: 400
                     quality: 100
                     layout: CONSTRAINED
+                    placeholder: BLURRED
                   )
 
                 }
@@ -34,9 +35,12 @@ const AdoptovaniPsi = ({ limit = 10000 }) => {
 
   return (
     <div>
-      <div className="masonry container">
+      <div className="masonry-post container">
+        
         {dogs.map(({ node: { frontmatter: dog } }, index) => (
-          <div key={`dog-${index}`} className="masonry-item has-text-centered tile is-child box notification is-primary">
+          
+          <div key={`dog-${index}`} className="masonry-post-item">
+            <div className=" adopce-list-item  tile has-text-centered is-child">
             <PreviewCompatibleImage
               imageInfo={{
                 image: dog.featuredimage,
@@ -48,9 +52,11 @@ const AdoptovaniPsi = ({ limit = 10000 }) => {
               }}
             />
             <h3>{dog.title}</h3>
-            <p>{dog.description}</p>
+            </div>
           </div>
         ))}
+      
+
       </div>
     </div>
   );

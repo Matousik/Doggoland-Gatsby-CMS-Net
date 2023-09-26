@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import freckles from "../../img/falco-clever-boi.jpeg";
 import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll";
 
@@ -8,22 +8,16 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
-          }}
+          className="mild-cream blog-introduction"
         >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-              backgroundColor: "#f40",
-              color: "white",
-              padding: "1rem",
-            }}
+          <h1 className="has-text-centered"
           >
             Chcete vědět víc?
           </h1>
+          <div className="blog-introduction-image">
+            <img src={freckles}></img>
+          </div>
+          
         </div>
         <section className="section">
           <div className="container">
