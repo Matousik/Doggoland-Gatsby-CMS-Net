@@ -1,9 +1,6 @@
 import * as React from "react";
-import AdopceRoll from "../../components/AdopceRoll";
 import Layout from "../../components/Layout";
-import { Link } from "gatsby";
 import PsiVNasiPeci from '../../components/PsiVNasiPeci';
-import AdoptovaniPsi from "../../components/AdoptovaniPsi";
 
 export default class AdopceIndexPage extends React.Component {
   render() {
