@@ -45,7 +45,7 @@ const Slevy = ({ limit = 10000 }) => {
 
   return (
     <div>
-      <h1 className="has-text-centered has-text-weight-bold is-size-2">Slevové kódy</h1>
+      <h1 className="has-text-centered">Slevové kódy</h1>
       <div className="container" style={containerStyle}>
         <div className="columns is-multiline">
           {slevyData.map(({ node: { frontmatter: sleva, html } }, index) => (
@@ -66,7 +66,7 @@ const Slevy = ({ limit = 10000 }) => {
                   </div>
                   <div className="column">
                     <div className="content">
-                      <h3 className="is-size-4 has-text-weight-semibold">{sleva.title}</h3>
+                      <h3>{sleva.title}</h3>
                       <p>
                         {sleva.discount} &bull; Kód: "{sleva.code}" &bull;{" "}
                         <a href={`https://${sleva.website}`} target="_blank" rel="noopener noreferrer" style={{ whiteSpace: 'nowrap' }}>

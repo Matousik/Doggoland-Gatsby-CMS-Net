@@ -13,10 +13,7 @@ export default class HarmonogramIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-              backgroundColor: "#f40",
               color: "white",
               padding: "1rem",
             }}
@@ -24,14 +21,10 @@ export default class HarmonogramIndexPage extends React.Component {
             Harmonogram akcí
           </h1>
         </div>
-        
-        <div>
-      <HarmonogramAkce limit={10000} />
-    </div>
-    <div>
-          <a href="../../downloads/Matous-Vondrak.pdf" download>Download File</a>
-        </div>
 
+        <div>
+          <HarmonogramAkce limit={10000} />
+        </div>
       </Layout>
     );
   }

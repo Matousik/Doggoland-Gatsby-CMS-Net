@@ -33,7 +33,7 @@ $tiny-sizing: 16px
 p, span, ul, li
   font-size: $small-sizing
 h2, h1
-  font-size: $big-sizing !important
+  font-size: clamp($medium-sizing, 8vw, $big-sizing) !important
   margin-bottom: 50px !important
 .looping-image-h1 h1
   font-size: clamp(4rem, 8vw, 9rem) !important
@@ -228,19 +228,72 @@ $menu-label-color: $white-ter
   flex-wrap: wrap
   justify-content: space-evenly
   align-items: center
+.blog-introduction-no-wrap
+  display: flex
+  justify-content: space-evenly
+  align-items: center
 .blog-introduction-image img
   padding-top: 3rem
   padding-bottom: 3rem
   max-height: 80vh
   width: min(450px, 60vw)
   border-radius: 180px
+.erase-on-phone
 
+// timeline
+.timeline
+  display: flex
+  flex-direction: column
+  margin: 20px
+  align-items: center
+
+.timeline-entry
+  display: flex
+  flex-direction: row
+  padding: 20px
+
+.timeline-image
+  width: 200px
+  height: 200px
+  margin-right: 20px
+
+.timeline-content
+  flex-grow: 1
+
+.timeline-label
+  color: #2c3e50
+  margin-bottom: 10px
+
+.timeline-description
+  color: #34495e
+
+.jaktounaschodi-illustration-right
+  display: flex
+.jaktounaschodi-illustration-right .illustration-right-illustration
+  width: 100%
+
+.jaktounaschodi-illustration-left
+  display: flex
+.jaktounaschodi-illustration-left .illustration-left-illustration
+  width: 100%
+
+/* Responsiveness */
+@media (max-width: 768px) 
+  .timeline-entry
+    flex-direction: column
+    align-items: center
+  
+  .timeline-content
+    text-align: center
+  .illustration-right-illustration, .illustration-left-illustration
+    display: none
 
 // adopce roll
 .adopce-list-item
   display: flex
   margin-bottom: 1em
   background-color: $doggoland-cream
+  margin-bottom: 2rem
 .adopce-list-item .adopce-thumbnail
   flex-basis: 60%
 .adopce-list-item img 
@@ -249,6 +302,11 @@ $menu-label-color: $white-ter
   margin: 2rem 2rem
 .adopce-roll-section-container
   background-color: $doggoland-cream
+.adopce-list-item p 
+  font-size: $tiny-sizing
+  margin-bottom: 4rem
+  margin-left: 1rem
+  margin-right: 1rem
 
 // adopce main page
 .clanek p
@@ -332,6 +390,22 @@ hr
   padding: 12px 20px
   height: 50px
   text-transform: uppercase
+
+// jak pomoci
+.jak-pomoci-cards-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 20px
+.jak-pomoci-card
+  max-width: 400px
+  display: flex
+  flex-direction: column
+  gap: 30px
+.jak-pomoci-icon
+  color: $doggoland-dark-brown
+  font-size: $big-sizing
+
 
 .custom-button-brown 
   background-color: $doggoland-dark-brown !important

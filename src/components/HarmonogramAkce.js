@@ -32,7 +32,7 @@ const HarmonogramAkce = ({ limit = 10000 }) => {
 
   return (
     <div>
-      <h1 className="has-text-centered has-text-weight-bold is-size-2">Konané akce</h1>
+      <h1 className="has-text-centered">Konané akce</h1>
       <div className="container" style={containerStyle}>
         <div className="columns is-multiline">
           {AkceData.map(({ node: { frontmatter: akce, html } }, index) => (
@@ -41,7 +41,7 @@ const HarmonogramAkce = ({ limit = 10000 }) => {
                 <div className="columns is-centered">
                   <div className="column">
                     <div className="content">
-                      <h3 className="is-size-4 has-text-weight-semibold">{akce.title}</h3>
+                      <h3>{akce.title}</h3>
                       <p>
                         {akce.date}
                       </p>

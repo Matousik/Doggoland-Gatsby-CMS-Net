@@ -44,7 +44,7 @@ export default class AdopceIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="column is-10 is-offset-1 clanek">
-              <h2 id="prubeh-adopce" className="has-text-centered has-text-weight-bold is-size-2">Průběh adopce</h2>
+              <h2 id="prubeh-adopce" className="has-text-centered">Průběh adopce</h2>
               <h3 className="">1. Hovor po telefonu</h3>
               <p className="mb-6">U každého našeho pejska je zveřejněné telefonní číslo, na kterém čeká jedna z našich kolegyň. O pejskovi Vám řekne více informací, které se do inzerátu nevešly, a především se vyptá na více informací a podmínkách, které pejskovi můžete nabídnout.</p>
               <h3 className="">2. Návštěva pejska</h3>
