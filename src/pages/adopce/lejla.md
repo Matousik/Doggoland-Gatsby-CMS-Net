@@ -12,6 +12,15 @@ intro:
     - image: /img/lejla-trava.jpeg
 description: Něžná fenka za odměnu
 ---
+
+
+* Pohlaví: pes
+* Plemeno: kříženec
+* Odhadovaný věk: 4 roky
+* Hodí se k dětem? Ano
+* Vhodný do bytu? Ne
+* Vhodný k dalším zvířatům? Ano
+
 Zhruba 4 letá kráska Lejla (30kg) hledá ten nejlepší domov. Je to náš něžný psí anděl do kterého se zamiluje hned každý na první pohled ![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png). Lejla se snese s pejsky i fenečkami (až na vyjímky).
 
 S dočaskovou tetou pracuje na základní poslušnosti. Tato princezna je opravdu neskutečný mazel, miluje dospělé i děti, kam půjdete vy, půjde i Lejla. Doma je čistotná.
