@@ -8,5 +8,5 @@ description: "Maxík je 4 roky starý pejsek, který byl odebrán z velmi špatn
   začíná chápat. Při prudčím pohybu nebo mávnutím ruky se krčí u země. Bohužel
   ze zkušenosti ví, co by mohlo přijít. Takže i na tom se ještě musí zapracovat.
   "
-featuredimage: /img/maxík-v-trávě.jpg
+featuredimage: /img/maxik-v-trave.jpeg
 ---
