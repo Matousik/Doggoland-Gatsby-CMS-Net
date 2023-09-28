@@ -19,14 +19,6 @@ intro:
   blurbs:
     - image: /img/marp-falco-ben-lejla.jpeg
       text: falco-ben-lejla
-    - image: /img/falco-pelisek.jpg
-      text: falco na pelíšku
-    - image: /img/ben-marp.jpeg
-      text: ben marp
-    - image: /img/falco-marp.jpeg
-      text: falco marp
-    - image: /img/lejla-marp.jpeg
-      text: lejla marp
     - image: /img/duchove-coklojzen.jpeg
       text: duchove
   heading: What we offer
