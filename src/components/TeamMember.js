@@ -4,11 +4,18 @@ import './TeamMember.css';  // Importing CSS
 
 const TeamMember = ({ member }) => {
   const [isVisible, setIsVisible] = useState(false);  // State to toggle visibility
+  const [imageClass, setImageClass] = useState("");
   const image = getImage(member.image);
 
   const toggleVisibility = () => {
+    if (!isVisible) {
+      setImageClass("active");
+    } else {
+      setImageClass("");
+    }
     setIsVisible(!isVisible);
   };
+  
 
   return (
     <div className="team-member-container">
@@ -18,7 +25,7 @@ const TeamMember = ({ member }) => {
       </div>
       {isVisible && (
         <div className="team-member-details">
-          <figure className="team-member-image">
+          <figure className={`team-member-image ${imageClass}`}>
             {image && (
               <GatsbyImage
                 image={image}
@@ -28,8 +35,6 @@ const TeamMember = ({ member }) => {
             )}
           </figure>
           <div className="team-member-info">
-            <p className="team-member-name">{member.title}</p>
-            <p className="team-member-role">{member.role}</p>
             <p className="team-member-description">{member.description}</p>
           </div>
         </div>

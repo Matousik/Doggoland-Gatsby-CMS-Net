@@ -3,6 +3,7 @@
     padding: 10px;
     border-radius: 5px;
     width: 100%;
+    transition: all 0.3s ease-in-out;
   }
   
   .team-member-header {
@@ -17,13 +18,28 @@
     margin-top: 10px;
     transition: all 0.3s ease-in-out;
   }
+
+  .team-member-image img {
+    border-radius: 250px;  /* Makes the image circular */
+  }
   
+
   .team-member-image {
     flex: 1;
+    transform: scale(0.1);
+    transition: transform 0.3s ease-in-out;
   }
+  
+  .team-member-image.active {
+    transform: scale(1);
+  }
+  
   
   .team-member-info {
     flex: 3;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .team-list {

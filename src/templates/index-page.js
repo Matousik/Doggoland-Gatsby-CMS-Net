@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
       <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
       <section className="section adopce-roll-section-container">
         <div className="container">
-          <h2 className="has-text-centered">Nová várka pejsků k adopci</h2>
+          <h2 className="has-text-centered">Pejsci k adopci</h2>
           <p className="text-max-width-margining has-text-centered">Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo. V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci.</p>
         </div>
         <div className="roller-container">
@@ -75,7 +75,7 @@ export const IndexPageTemplate = ({
           <BlogRoll limit={3} />
         </div>
       </section>
-      <section className="section">
+{/*       <section className="section">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -98,7 +98,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </section>
-      <section className="contact-cta-section">
+ */}      <section className="contact-cta-section">
         <div className="container has-text-centered">
           <h2>
             Máte zájem o adopci či více informací? Napište nám!

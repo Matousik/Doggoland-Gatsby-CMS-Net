@@ -44,17 +44,17 @@ const TeamList = () => {
     {
       title: 'Vladislava Wallachová',
       role: 'člen',
-      description: 'John is a full-stack developer with a passion for React.John is a full-stack developer with a passion for React.'
+      description: ''
     },
     {
-      title: 'Terka Vostradovská',
+      title: 'Terka Holešovská',
       role: 'člen',
-      description: 'John is a full-stack developer with a passion for React.'
+      description: ''
     },
     {
       title: 'Kája Kolečkářová',
       role: 'člen',
-      description: 'John is a full-stack developer with a passion for React.'
+      description: ''
     },
   ].map(member => {
     const author = authors.find(author => author.title === member.title);
