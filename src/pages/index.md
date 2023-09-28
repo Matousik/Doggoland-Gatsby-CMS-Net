@@ -17,10 +17,8 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   knowledge to anyone.
 intro:
   blurbs:
-    - image: /img/marp-falco-ben-lejla.jpeg
-      text: falco-ben-lejla
-    - image: /img/duchove-coklojzen.jpeg
-      text: duchove
+    - image: /img/chemex.jpg
+      text: chem
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
