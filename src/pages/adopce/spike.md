@@ -1,14 +1,14 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/spike-se-šátkem.jpg
-image: /img/spike-se-šátkem.jpg
+featuredimage: /img/spike-satek.jpg
+image: /img/spike-satek.jpg
 title: Spike
 heading: "Půlroční štěňátko "
 intro:
   blurbs:
-    - image: /img/spike-se-šátkem.jpg
-    - image: /img/spike-netopýr.jpg
-    - image: /img/spike.-na-gauči.jpg
+    - image: /img/spike-satek.jpg
+    - image: /img/spike-netopyp.jpg
+    - image: /img/spike-gauc.jpg
 description: Spike je správný malý zvědavka. Miluje pejsky, kočičky i děti.
 ---
 
