@@ -1,14 +1,14 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/beník-sedí-a-směje-se.jpg
-image: /img/beník-sedí-a-směje-se.jpg
+featuredimage: /img/ben-sedi-usmev.jpg
+image: /img/ben-lezi.jpg
 title: Beník
 heading: Energetické štěně
 intro:
   blurbs:
-    - image: /img/beník-sedí.jpg
-    - image: /img/beník-sedí-a-směje-se.jpg
-    - image: /img/beník-leží.jpg
+    - image: /img/ben-sedi-usmev.jpg
+    - image: /img/ben-lezi.jpg
+    - image: /img/ben-sedi.jpg
 description: 10 měsíců starý pejsek Ben je milovník lidí i pejsků. Hůře snáší
   samotu a proto se v dočasné péči učí odložení v klícce.
 ---
