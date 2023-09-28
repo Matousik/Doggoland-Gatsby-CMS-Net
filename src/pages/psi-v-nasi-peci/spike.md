@@ -7,5 +7,5 @@ description: "Půlroční štěňátko Spike měl těžký start do života, ne�
   Teď už je to správný zvědavák, který je občas nejistý, ale pokud se bude
   pokračovat se socializací, tak to na něm v dospělosti nikdo nepozná. Miluje
   pejsky, kočičky i děti. "
-featuredimage: /img/spike-se-šátkem.jpg
+featuredimage: /img/spike-satek.jpg
 ---
