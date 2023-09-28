@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/lejla-lezi.jpeg
-image: /img/lejla-listi.jpeg
+image: /img/lejla-sedi.jpg
 title: Lejla
 heading: Něžná fenka za odměnu
 intro:
