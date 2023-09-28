@@ -19,18 +19,18 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix("/")}img/apple-touch-icon.png`}
+          href={`${withPrefix("/")}img/apple-touch-icon.svg`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix("/")}img/favicon-32x32.png`}
+          href={`${withPrefix("/")}img/favicon-32x32.svg`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix("/")}img/favicon-16x16.png`}
+          href={`${withPrefix("/")}img/favicon-16x16.svg`}
           sizes="16x16"
         />
 
@@ -46,7 +46,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/og-image.png`}
         />
       </Helmet>
       <Navbar />
@@ -54,13 +54,13 @@ const TemplateWrapper = ({ children }) => {
       <Footer />
       <CookieConsent
     location="bottom"
-    buttonText="I Understand"
+    buttonText="Chápu"
     cookieName="gatsby-gdpr-google-analytics"
     style={{ background: "#2B373B" }}
     buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
     expires={150}
 >
-    This website uses cookies to enhance the user experience.{" "}
+    Aby se o našich pejscích dozvědělo co nejvíce lidí, používáme cookies.{" "}
 </CookieConsent>
     </div>
   );
