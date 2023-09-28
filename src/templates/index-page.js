@@ -22,7 +22,9 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
+      <div className="dark-overlay">
+        <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
+      </div>
       <section className="section adopce-roll-section-container">
         <div className="container">
           <h2 className="has-text-centered">Pejsci k adopci</h2>

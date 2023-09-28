@@ -36,7 +36,7 @@
   
   
   .team-member-info {
-    flex: 3;
+    flex: 2;
     margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
@@ -45,5 +45,15 @@
   .team-list {
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  /* set flex to wrap on phone */
+  @media (max-width: 600px) {
+    .team-member-details {
+      display: block;
+    }
+    .team-member-image {
+      margin-bottom: 30px;
+    }
   }
   

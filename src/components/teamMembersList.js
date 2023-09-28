@@ -16,7 +16,7 @@ const TeamList = () => {
                   gatsbyImageData(
                     quality: 100
                     layout: CONSTRAINED
-                    width: 400
+                    width: 500
                     placeholder: BLURRED
                   )
                 }
