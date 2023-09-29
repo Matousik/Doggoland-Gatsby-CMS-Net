@@ -36,7 +36,7 @@
   
   
   .team-member-info {
-    flex: 3;
+    flex: 2;
     margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
@@ -47,3 +47,12 @@
     margin: 0 auto;
   }
   
+  /* do display bock of team member details on phone */
+  @media (max-width: 600px) {
+    .team-member-details {
+      display: block;
+    }
+    .team-member-info {
+      margin-top: 20px;
+    }
+  }
