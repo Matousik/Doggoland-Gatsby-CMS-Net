@@ -20,7 +20,7 @@ Kategorie: 
 * Chůze 5 km
 * Chůze 10 km
 
-![💪](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f4aa.png)Přihlas se do závodu: https://docs.google.com/forms/d/e/1FAIpQLScWtYtMR3-91454rDzPwxu6diq7G11S5oN_iVg06ar4ifS8FQ/viewform\
+![💪](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f4aa.png)Přihlas se do závodu\
 ![🏃‍♀️](https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1/16/1f3c3_200d_2640.png)![🏃](https://static.xx.fbcdn.net/images/emoji.php/v9/t3b/1/16/1f3c3.png)Absolvuj běh či chůzi 28.10.2023 nebo 29.10.2023 (kdekoliv v jakýkoliv čas)\
 ![⏱️](https://static.xx.fbcdn.net/images/emoji.php/v9/tb5/1/16/23f1.png)Změř si svou aktivitu (pomocí sportovních hodinek nebo dostupných mobilních aplikací, např. SportsTracker, Strava a další)\
 ![📲](https://static.xx.fbcdn.net/images/emoji.php/v9/td8/1/16/1f4f2.png)Nahraj výsledek na událost nebo ho pošli na e-mail (virtualnibehy@doggoland.cz)\
