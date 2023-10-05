@@ -7,6 +7,7 @@ const HarmonogramAkce = ({ limit = 10000 }) => {
   query HarmonogramAkce {
     allMarkdownRemark(
       filter: {frontmatter: {templateKey: {eq: "harmonogram-akce"}}}
+      sort: {order: ASC, fields: frontmatter___date}
     ) {
       edges {
         node {

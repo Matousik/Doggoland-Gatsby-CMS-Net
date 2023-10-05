@@ -29,7 +29,7 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2">
+            <h1 className="title">
               {title}
             </h1>
             <div className="media" style={{ marginBottom: '20px' }}>
