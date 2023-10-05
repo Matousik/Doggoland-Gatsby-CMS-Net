@@ -9,7 +9,7 @@ export default class HarmonogramIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/marp-falco-ben-lejla-40dim.png')`,
+            backgroundImage: `url('/img/marp-lejla-falco-ben-40dim-compresed.png')`,
             backgroundPositionY: "center",
           }}
         >

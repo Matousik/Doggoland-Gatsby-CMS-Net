@@ -9,7 +9,7 @@ export default class SlevyIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/marp-falco-40dim.png')`,
+            backgroundImage: `url('/img/marp-falco-compressed.png')`,
             backgroundPositionY: "center",
           }}
         >
