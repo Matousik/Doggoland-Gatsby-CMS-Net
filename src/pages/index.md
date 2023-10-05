@@ -17,15 +17,15 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   knowledge to anyone.
 intro:
   blurbs:
-    - image: /img/marp-falco-ben-lejla-40dim.png
-      text: falco-lejla-ben
-    - image: /img/marp-falco-40dim.png
-      text: falco-marp
-    - image: /img/marp-ben-40dim.png
-      text: ben-marp
-    - image: /img/marp-lejla-40dim.png
-      text: lejla-marp
-    - image: /img/duchove-coklojzen-40dim.png
+    - image: /img/marp-lejla-falco-ben-40dim-compresed.png
+      text: falco-ben-lejla-marp
+    - image: /img/marp-falco-compressed.png
+      text: falco
+    - image: /img/marp-ben-40dim-compressed.png
+      text: ben
+    - image: /img/marp-lejla-compressed.png
+      text: lejla
+    - image: /img/duchove-dim40-compressed.png
       text: duchove
   heading: What we offer
   description: >
