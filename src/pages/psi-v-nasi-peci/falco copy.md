@@ -7,6 +7,6 @@ description: >-
   pravé vořechové. A nakonec jsme jej přijali my. 
 
 
-  Falco je nadšený sportovec, který by se pro svého pánička rozdal. Miluje psi, hračky, dobroty, blbnutí....rozhodně nezkazí žádnou legraci. Canicross, turistika, agility, poslušnost, stopy, zkrátka s vými půjde do všeho s nadšením. Je to velký srdcař. 
+  Falco je nadšený sportovec, který by se pro svého pánička rozdal. Miluje psy, hračky, dobroty, blbnutí... rozhodně nezkazí žádnou legraci. Canicross, turistika, agility, poslušnost, stopy, zkrátka s vámi půjde do všeho s nadšením. Je to velký srdcař. 
 featuredimage: /img/falco-pelisek.jpg
 ---
