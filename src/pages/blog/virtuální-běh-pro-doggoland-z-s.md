@@ -8,32 +8,34 @@ tags:
 description: Virtuální běh pro Doggoland z.s.
 author: Terka Holešovská
 ---
-Jednou z mnoha aktivit, které děláme pro finanční zajištění pejsků u nás ve spolku je pořádání virtuálních běhů. 
+V našem spolku Doggoland neustále vymýšlíme nové možnosti, jak získat finance na péči o naše pejsky. Kromě [aukcí](https://www.facebook.com/groups/512692203599382) a účastí na [nejrůznějších psích akcích](https://doggoland.cz/harmonogram) pořádáme také virtuální běhy. Co to virtuální běh vůbec je a jak se jej i vy můžete účastnit a udělat tak dobrý skutek? Pojďme se na to podívat.
 
 ## Co je to virtuální běh?
 
-Virtuální běh je forma sportovní aktivity, která probíhá online nebo na virtuálních platformách, kde jednotlivci nebo skupinky běží na základě vlastních preferencí a času, často s využitím mobilních aplikací. Tuto sportovní aktivitu však skutečně musíte provést, online je pouze tabulka výsledků, vše ostatní je reálné. 
+S běháním virtuálně se roztrhl pytel zejména za doby covidu. Skutečně "virtuální" běh ani tak úplně není - ve virtuální podobě je totiž pouze záznam o vaší sportovní aktivitě a vyhodnocení výsledků. Slovo virtuální tu tedy znamená náhradu za skutečnou, fyzicky pořádanou akci - místo toho, abyste se tak v 50 lidech sešli a společně běželi, vyrazí na běh každý sám a čas si poctivě změří. Výsledek pak nahraje na web či pošle na email organizátorovi.
 
 ![Canicross Matouš s Falcem](/img/matous-falco-beh.jpg)
 
-## Kategorie
+> K﻿dyž se zúčastníte jakéhokoliv virtuálního běhu u nás, můžete si být jisti, že celé startovné, které nám na náš **transparentní účet 2302170901/2010** pošlete, půjde jen a pouze na péči o naše svěřence. 
 
-Každý pořadatel virtuálních běhů nabízí jiné kategorie závodu. Často v kategoriích nalezneme běhy dle různých délek kilometrů, chůzi dle různých délek kilometrů, ale můžeme zde také najít cyklistiku či jízdu na koloběžce. Trasu si naplánuješ podle zvolené délky závodu. 
+Samozřejmostí je i vzpomínková medaile, kterou dostane každý účastník!
 
-Kategorie v Doggolandu:
+### Kategorie virtuálních běhů
 
-* Canicross 2 km
-* Běh 5 km
-* Chůze 5 km
-* Chůze 10 km
+Podobně jako na oficiálních běžeckých akcích, i na virtuálních bězích si můžete vybrat z různých kategorií. Zábava je to tedy skutečně pro celou rodinu a pokud běhat nechcete, tak nemusíte. U nás v Doggolandu si můžete vybrat z následujících kategorií:
 
-## Jak to chodí na našich virtuálních bězích? 
+* canicross 2 km,
+* běh 5 km,
+* chůze 5 km,
+* chůze 10 km.
 
-![💪](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f4aa.png)Přihlas se do závodu, registrace probíhá online\
-![🏃‍♀️](https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1/16/1f3c3_200d_2640.png)![🏃](https://static.xx.fbcdn.net/images/emoji.php/v9/t3b/1/16/1f3c3.png)Absolvuj běh či chůzi (kdekoliv v jakýkoliv čas v den D)\
-![⏱️](https://static.xx.fbcdn.net/images/emoji.php/v9/tb5/1/16/23f1.png)Změř si svou aktivitu (pomocí sportovních hodinek nebo dostupných mobilních aplikací, např. SportsTracker, Strava a další)\
-![📲](https://static.xx.fbcdn.net/images/emoji.php/v9/td8/1/16/1f4f2.png)Nahraj výsledek na událost nebo ho pošli na e-mail (virtualnibehy@doggoland.cz)\
-![🌞](https://static.xx.fbcdn.net/images/emoji.php/v9/t5f/1/16/1f31e.png)Užij si radost z pohybu \
-![🏅](https://static.xx.fbcdn.net/images/emoji.php/v9/t3d/1/16/1f3c5.png)Těš se na krásnou medaily s námi vytvořeným motivem
+## Jak to chodí na našich virtuálních bězích?
 
-Výtěžek z virtuálního běhu jde na podporu pejskům ve spolku Doggoland z.s.
+1. ![💪](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f4aa.png) Přihlaste se do závodu, registrace probíhá online.
+2. ![🏃‍♀️](https://static.xx.fbcdn.net/images/emoji.php/v9/ta9/1/16/1f3c3_200d_2640.png)![🏃](https://static.xx.fbcdn.net/images/emoji.php/v9/t3b/1/16/1f3c3.png) Absolvujte běh či chůzi (kdekoliv v jakýkoliv čas v den D).
+3. ![⏱️](https://static.xx.fbcdn.net/images/emoji.php/v9/tb5/1/16/23f1.png) Změřte si svou aktivitu (pomocí sportovních hodinek nebo dostupných mobilních aplikací, např. SportsTracker, Strava a další).
+4. ![📲](https://static.xx.fbcdn.net/images/emoji.php/v9/td8/1/16/1f4f2.png) Nahrajte výsledek na událost nebo ho pošli na e-mail (virtualnibehy@doggoland.cz).
+5. ![🌞](https://static.xx.fbcdn.net/images/emoji.php/v9/t5f/1/16/1f31e.png) Užijte si radost z pohybu!
+6. ![🏅](https://static.xx.fbcdn.net/images/emoji.php/v9/t3d/1/16/1f3c5.png) Těšte se na krásnou medaili s námi vytvořeným motivem.
+
+Výtěžek z virtuálního běhu jde na podporu pejskům ve spolku Doggoland z.s. Virtuální běhy většinou pořádáme několikrát do roka a na všech vás rádi uvidíme! Aktuální informace o právě pořádaném virtuálním běhu nalezente na [hlavní stránce](https://doggoland.cz/) v sekci aktualit. Ať to běhá!
