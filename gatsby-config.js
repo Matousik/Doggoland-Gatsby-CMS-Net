@@ -3,7 +3,7 @@ module.exports = {
     title: "Doggoland z.s.",
     description:
       "Dogogland je spolek, který zachraňuje pejsky z nevhodných podmínek, vychovává je a hledá jim ten nejlepší nový domov.",
-    siteUrl: `https://main--magical-sprite-c7516f.netlify.app/`,
+    siteUrl: `https://doggoland.cz/`,
   },
   plugins: [
     "gatsby-plugin-react-helmet",
