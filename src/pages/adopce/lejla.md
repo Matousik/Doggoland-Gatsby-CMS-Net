@@ -19,10 +19,10 @@ description: Něžná fenka za odměnu
 * Vhodný do bytu? Ne
 * Vhodný k dalším zvířatům? Ano
 
-Zhruba 4 letá kráska Lejla (30kg) hledá ten nejlepší domov. Je to náš něžný psí anděl do kterého se zamiluje hned každý na první pohled ![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png). Lejla se snese s pejsky i fenečkami (až na vyjímky).
+Zhruba 4letá kráska Lejla (30kg) hledá ten nejlepší domov. Je to náš něžný psí anděl, do kterého se zamiluje hned každý na první pohled ![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png). Lejla se snese s pejsky i fenečkami (až na vyjímky).
 
 S dočaskovou tetou pracuje na základní poslušnosti. Tato princezna je opravdu neskutečný mazel, miluje dospělé i děti, kam půjdete vy, půjde i Lejla. Doma je čistotná.
 
-Hledáme pro Lejlu rodinku, která již jednoho pejska má a ráda tráví čas na zahradě, případně na krátkých procházkách. Lejluška má dle rtg špatnou kyčel (řešeno s ortopedem), momentálně je však bez problémů. Doporučeno zbytečně nožku nezatěžovat, aby nemusela být nutná operace. Bohužel k nám beruška přišla v katastrofálním stavu, zjistila se špatně fungující štítná žláza, takže se hned nasadili léky, které nyní bere. Hodnoty krve jsou již však v normálu. 
+Hledáme pro Lejlu rodinku, která již jednoho pejska má a ráda tráví čas na zahradě, případně na krátkých procházkách. Lejluška má dle rtg špatnou kyčel (řešeno s ortopedem), momentálně je však bez problémů. Doporučeno zbytečně nožku nezatěžovat, aby nemusela být nutná operace. Bohužel k nám beruška přišla v katastrofálním stavu, zjistila se špatně fungující štítná žláza, takže se hned nasadily léky, které nyní bere. Hodnoty krve jsou již v normálu. 
 
-Do nového domova odjede kastrovaná, odčervená, čipovaná, naočkovaná a s PetPasem. Samozřejmostí je startovací balíček s granulkami MARP od Pučálka krmiva na které je zvyklá a CBD produkty od Zelená Země. Na svou rodinu čeká u tety v Děčíně.
+Do nového domova odjede kastrovaná, odčervená, čipovaná, naočkovaná a s PetPasem. Samozřejmostí je startovací balíček s granulkami MARP od [Pučálka krmiva](https://www.krmiva-pucalka.cz/), na které je zvyklá a CBD produkty od Z[elené Země](https://www.zelenazeme.cz/). Na svou rodinu čeká u tety v Děčíně.
