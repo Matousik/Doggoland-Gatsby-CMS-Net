@@ -9,4 +9,4 @@ Horní Mísečky - bezkonkurenčně nejoblíbenější a největší stadion pro
 
 Běhat se bude po udržovaných cestách v lesích, připravují si pro vás trasy 5 a 7 km, opět pro canicrossaře i běžce. 
 
-Více informaci na: https://www.facebook.com/events/1319081718916209
+Více informaci naleznete na [facebookové události](https://www.facebook.com/events/1319081718916209).
