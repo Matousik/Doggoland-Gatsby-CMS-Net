@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovani-psi
 title: Dasty
-featuredimage: /img/dastik-stoji.jpg
+featuredimage: /img/dastik-domov.jpeg
 ---
