@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovani-psi
 title: Dáša
-featuredimage: /img/dasa-les.jpg
+featuredimage: /img/dasa-domov.jpg
 ---
