@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovani-psi
 title: "Rosie "
-featuredimage: /img/rosie-bull.jpg
+featuredimage: /img/rosie-domov.jpg
 ---
