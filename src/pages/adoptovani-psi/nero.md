@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovani-psi
 title: Nero
-featuredimage: /img/nero-oseklej.jpeg
+featuredimage: /img/nero-domov.jpeg
 ---
