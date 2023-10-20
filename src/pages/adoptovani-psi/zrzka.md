@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovani-psi
 title: Zrzka
-featuredimage: /img/zrzka-sedi.jpg
+featuredimage: /img/zrzka-domov.jpg
 ---
