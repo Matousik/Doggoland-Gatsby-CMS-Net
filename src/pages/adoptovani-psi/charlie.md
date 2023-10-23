@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovani-psi
-title: Charlie
+title: Cherry
 featuredimage: /img/cherry-gauc.jpg
 ---
