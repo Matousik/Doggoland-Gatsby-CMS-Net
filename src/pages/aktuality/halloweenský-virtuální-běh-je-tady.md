@@ -8,6 +8,6 @@ V﻿irtuální běh už je za námi a my bychom Vám všem chtěli moc poděkova
 
 Zúčastnilo se celkem 27 lidí a vybralo se na podporu Doggolandu neuvěřitelných 7.168,- Kč.
 
-D﻿oufáme, že si to každý účastník nesmírně užil a budeme se těšit na Vaši účast v dalším námi pořádaném virtuálním běhu. Samozřejmě nesmíme zapomenou pogratulovat všem výhercům v každé kategorii, občas byly časy opravdu o chlup. 
+Doufáme, že si to každý účastník nesmírně užil a budeme se těšit na Vaši účast v dalším námi pořádaném virtuálním běhu. Samozřejmě nesmíme zapomenou pogratulovat všem výhercům v každé kategorii, občas byly časy opravdu o chlup. 
 
 Odkaz na [oficiální facebookou událost](https://www.facebook.com/events/1550232449137922/).
