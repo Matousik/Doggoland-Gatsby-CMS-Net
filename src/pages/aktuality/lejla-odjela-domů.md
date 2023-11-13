@@ -1,5 +1,5 @@
 ---
-title: LEJLA ODJELA DOMŮ
+title: Lejla odjela domů
 image: /img/385551754_247349888330485_5184881460937580091_n.jpg
 date: 2023-11-13T07:33:50.140Z
 templateKey: aktuality
