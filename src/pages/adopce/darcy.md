@@ -16,7 +16,12 @@ intro:
     - image: /img/darcy-kamos.jpg
 description: "Malý ďáblík, který nezkazí žádnou srandu. "
 ---
-
+* Pohlaví: pes
+* Plemeno: kříženec
+* Odhadovaný věk: 3 měsíce
+* Hodí se k dětem? Ano
+* Vhodný do bytu? Ano
+* Vhodný k dalším psům? Ano
 
 3 měsíce starý chlapeček hledá ten nejúžasnější domov![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/t82/1.5/16/263a.png)! V dospělosti bude střední velikosti.
 
