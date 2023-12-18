@@ -13,6 +13,13 @@ intro:
 description: Nenechte se zmást! Za roztomilým kukučem se skrývá malá ďáblice, se
   kterou se člověk nikdy nudit opravdu nebude.
 ---
+* Pohlaví: fena
+* Plemeno: kříženec
+* Odhadovaný věk: 3 měsíce
+* Hodí se k dětem? Ano
+* Vhodná do bytu? Ano
+* Vhodná k dalším psům? Ano
+
 3 měsíce stará holčička hledá ten nejúžasnější domov![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/t82/1.5/16/263a.png)! V dospělosti bude střední velikosti.
 
 Nenechte se zmást! Za roztomilým kukučem se skrývá malá ďáblice, se kterou se člověk nikdy nudit opravdu nebude ![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/ta8/1.5/16/1f601.png). Bude potřebovat hodně času, trpělivosti, důsledné výchovy a především lásky. Je to klasicky zvídavé štěňátko, které nemá zábrany, objevuje svět a do všeho jde po hlavě ![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/ta8/1.5/16/1f601.png). Pokud si myslíte, že zvládnete denně lítat s mopem a vytírat průměrně asi [](<>)tak 63528 loužiček a máte nervy z oceli a vřelou náruč připravenou na štěněcí zoubky, tak čtěte dál!
