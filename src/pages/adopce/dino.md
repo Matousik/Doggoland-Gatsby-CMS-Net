@@ -15,6 +15,13 @@ intro:
     - image: /img/darcy-vana.jpg
 description: "Dinoušek je povahově zlatý psík. "
 ---
+* Pohlaví: pes
+* Plemeno: kříženec
+* Odhadovaný věk: 3 měsíce
+* Hodí se k dětem? Ano
+* Vhodný do bytu? Ano
+* Vhodný k dalším psům? Ano
+
 3 měsíce starý chlapeček hledá ten nejúžasnější domov![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/t82/1.5/16/263a.png)! V dospělosti bude střední velikosti.
 
 Dinoušek je povahově zlatý psík. Umí si hrát a pořádně zlobit, ale potom na vás koukne těma sladkýma kukadlama, schoulí se vám na klíně a je to najednou to nejhodnější štěňátko na světě ![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/tf3/1.5/16/2764.png).
