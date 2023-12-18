@@ -17,8 +17,8 @@ description: Darwin je malý dobrodruh, který je pro každou srandu.
 * Plemeno: kříženec
 * Odhadovaný věk: 3 měsíce
 * Hodí se k dětem? Ano
-* Vhodná do bytu? Ano
-* Vhodná k dalším psům? Ano
+* Vhodný do bytu? Ano
+* Vhodný k dalším psům? Ano
 
 3 měsíce starý chlapeček hledá ten nejúžasnější domov![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/t82/1.5/16/263a.png)! V dospělosti bude střední velikosti.
 
