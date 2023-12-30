@@ -11,7 +11,7 @@ backend:
 local_backend: true
 media_folder: static/img
 public_folder: /img
-logo_url: https://doggoland.cz/pics/logo.png
+logo_url: https://doggoland.cz/static/Logo_black_left_aligned-185b49c0568f1e0ffbb51a28e2252009.svg
 locale: 'cs'
 
 collections:

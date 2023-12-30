@@ -59,7 +59,7 @@ const TeamList = () => {
     {
       title: 'Andrea Nitkulincová',
       role: 'člen',
-      description: 'Andy je ve spolku hlavounem našeho kastračního programu koček. Zároveň je také dočaskovou tetou některých našich kočiček.'
+      description: 'Andy je ve spolku hlavounem našeho kastračního programu koček. Některé z našich kočiček a pejsků má také doma v dočasné péči.'
     },
   ].map(member => {
     const author = authors.find(author => author.title === member.title);
