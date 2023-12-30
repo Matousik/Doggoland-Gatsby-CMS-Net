@@ -44,17 +44,22 @@ const TeamList = () => {
     {
       title: 'Vladislava Wallachová',
       role: 'člen',
-      description: ''
+      description: 'Vlaďku nejčastěji potkáte v autě, když převáží pejsky do dočasné péče a jezdí pro materiální pomoc. A když zrovna není v autě, tak ji s námi vždy potkáte na psích akcích.'
     },
     {
       title: 'Terka Holešovská',
       role: 'člen',
-      description: ''
+      description: 'Terka je naše dočasková teta a zároveň se stará o naše webové stránky! Také je to ambasadorka projektu “rozběhejme Česko” pro město Děčín.'
     },
     {
       title: 'Kája Kolečkářová',
       role: 'člen',
-      description: ''
+      description: 'Kája se u nás stará o administrativu a také si občas zahraje na spisovatelku, proto od ní u nás najdete také pár zajímavých článků.'
+    },
+    {
+      title: 'Andrea Nitkulincová',
+      role: 'člen',
+      description: 'Andy je ve spolku hlavounem našeho kastračního programu koček. Zároveň je také dočaskovou tetou některých našich kočiček.'
     },
   ].map(member => {
     const author = authors.find(author => author.title === member.title);
