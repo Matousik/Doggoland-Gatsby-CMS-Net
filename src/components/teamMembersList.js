@@ -49,7 +49,7 @@ const TeamList = () => {
     {
       title: 'Terka Holešovská',
       role: 'člen',
-      description: 'Terka je naše dočasková teta a zároveň se stará o naše webové stránky. Také je to ambasadorka projektu “rozběhejme Česko” pro město Děčín.'
+      description: 'Terka je naše dočasková teta a zároveň se stará o naše webové stránky. Také je to ambasadorka projektu "Rozběháme Česko" pro město Děčín.'
     },
     {
       title: 'Kája Kolečkářová',
