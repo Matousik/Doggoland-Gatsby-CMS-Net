@@ -34,12 +34,12 @@ const TeamList = () => {
     {
       title: 'Daniela Jana Vršková',
       role: 'předsedkyně',
-      description: 'Dája je předsedkyní a zakladatelkou celého spolku.'
+      description: 'Dája je předsedkyní a zakladatelkou celého spolku. Zároveň je také hlavní dočaskovou tetou, hlavní trenérkou a organizátorkou akcí. Stará se také o sociální sítě a komunikaci se sponzory.'
     },
     {
       title: 'Matouš Vondrák',
       role: 'spoluzakladatel',
-      description: 'Matouš má pod palcem správu a tvorbu našich webových stránek. Je to on, kdo se stará o to, aby všechno fungovalo jak má.'
+      description: 'Matouš má pod palcem správu a tvorbu našich webových stránek. Je to on, kdo se stará o to, aby všechno fungovalo jak má. Také je to ultramaratonský běžec, jehož úkolem je unavit i toho největšího psího šílence, kterého má doma v dočasné péči.'
     },
     {
       title: 'Vladislava Wallachová',
@@ -49,7 +49,7 @@ const TeamList = () => {
     {
       title: 'Terka Holešovská',
       role: 'člen',
-      description: 'Terka je naše dočasková teta a zároveň se stará o naše webové stránky! Také je to ambasadorka projektu “rozběhejme Česko” pro město Děčín.'
+      description: 'Terka je naše dočasková teta a zároveň se stará o naše webové stránky. Také je to ambasadorka projektu “rozběhejme Česko” pro město Děčín.'
     },
     {
       title: 'Kája Kolečkářová',
