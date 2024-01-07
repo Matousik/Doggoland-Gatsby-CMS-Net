@@ -1,5 +1,5 @@
 ---
-templateKey: psi-v-nasi-peci
+templateKey: zvirata-v-nasi-peci
 title: Rex
 description: Rexíka jsme přijali z jednoho útulku se kterým dlouhodobě
   spolupracujeme. Rexík nezvládal pobyt v útulku, dostával epileptické záchvaty
