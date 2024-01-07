@@ -50,23 +50,23 @@ collections:
       - { name: "title", label: "Název akce", widget: "string" }
       - { label: "Datum konání akce", name: "date", widget: "datetime" }
       - { name: "body", label: "Popis akce", widget: "markdown" }
-  - name: "psi-v-nasi-peci"
-    label: "Psi v naší péči"
-    folder: "src/pages/psi-v-nasi-peci"
+  - name: "zvirata-v-nasi-peci"
+    label: "Zvířátka v naší péči"
+    folder: "src/pages/zvirata-v-nasi-peci"
     create: true
     fields:
-      - { name: "templateKey", widget: "hidden", default: "psi-v-nasi-peci" }
-      - { name: "title", label: "Jméno psa v naší péči", widget: "string" }
-      - { name: "description", label: "Popis psa v naší péči", widget: "text" }
-      - { label: "Obrázek psa", name: "featuredimage", widget: image }
-  - name: "adoptovani-psi"
-    label: "Adoptovaní psi"
-    folder: "src/pages/adoptovani-psi"
+      - { name: "templateKey", widget: "hidden", default: "zvirata-v-nasi-peci" }
+      - { name: "title", label: "Jméno zvířátka v naší péči", widget: "string" }
+      - { name: "description", label: "Popis zvířátka v naší péči", widget: "text" }
+      - { label: "Obrázek zvířátka", name: "featuredimage", widget: image }
+  - name: "adoptovana-zvirata"
+    label: "Adoptovaná zvířátka"
+    folder: "src/pages/adoptovana-zvirata"
     create: true
     fields:
-      - { name: "templateKey", widget: "hidden", default: "adoptovani-psi" }
-      - { name: "title", label: "Jméno adoptovaného psa", widget: "string" }
-      - { label: "Obrázek adoptovaného psa", name: "featuredimage", widget: image }
+      - { name: "templateKey", widget: "hidden", default: "adoptovana-zvirata" }
+      - { name: "title", label: "Jméno adoptovaného zvířete", widget: "string" }
+      - { label: "Obrázek adoptovaného zvířete", name: "featuredimage", widget: image }
   - name: "slevy"
     label: "Slevy a sponzoři"
     folder: "src/pages/slevy"

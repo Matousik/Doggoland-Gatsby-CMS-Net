@@ -34,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach((edge) => {
       const id = edge.node.id
       const templateKey = String(edge.node.frontmatter.templateKey);
-      if (templateKey === "psi-v-nasi-peci" || templateKey === "slevy" || templateKey === "harmonogram-akce" || templateKey === "adoptovani-psi" || templateKey === "author" || templateKey === "aktuality") {
+      if (templateKey === "zvirata-v-nasi-peci" || templateKey === "slevy" || templateKey === "harmonogram-akce" || templateKey === "adoptovana-zvirata" || templateKey === "author" || templateKey === "aktuality") {
         return;
       }
       createPage({

@@ -127,7 +127,7 @@ query AdopcePostByID($id: String!) {
                 gatsbyImageData(
                   quality: 100
                 layout: CONSTRAINED
-                transformOptions: {fit: CONTAIN, cropFocus: CENTER}
+                transformOptions: {fit: COVER, cropFocus: CENTER}
                 height: 600
                 placeholder: BLURRED
                 )           

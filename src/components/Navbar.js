@@ -40,14 +40,14 @@ const Navbar = () => {
               Pejsci
             </Link>
             <div className="navbar-dropdown is-boxed">
-              <Link className="navbar-item" to="/pejsci-v-nasi-peci">
-                Pejsci v naší péči
+              <Link className="navbar-item" to="/zviratka-v-nasi-peci">
+                Zvířátka v naší péči
               </Link>
               <Link className="navbar-item" to="/adopce">
-                Pejsci k adopci
+                Zvířátka k adopci
               </Link>
-              <Link className="navbar-item" to="/adoptovani-pejsci">
-                Adoptovaní pejsci
+              <Link className="navbar-item" to="/adoptovana-zviratka">
+                Adoptovaná zvířátka
               </Link>
             </div>
           </span>

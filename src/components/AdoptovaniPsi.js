@@ -7,7 +7,7 @@ const AdoptovaniPsi = ({ limit = 10000 }) => {
   const data = useStaticQuery(graphql`
     query AdoptovaniPsi {
       allMarkdownRemark(
-        filter: { frontmatter: { templateKey: { eq: "adoptovani-psi" } } }
+        filter: { frontmatter: { templateKey: { eq: "adoptovana-zvirata" } } }
       ) {
         edges {
           node {
@@ -20,6 +20,7 @@ const AdoptovaniPsi = ({ limit = 10000 }) => {
                     quality: 100
                     layout: CONSTRAINED
                     placeholder: BLURRED
+                    transformOptions: {fit: COVER, cropFocus: CENTER}
                   )
 
                 }

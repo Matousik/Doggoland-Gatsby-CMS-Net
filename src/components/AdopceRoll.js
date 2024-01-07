@@ -86,6 +86,7 @@ const AdopceRoll = ({ limit = 10000 }) => {
                     quality: 100
                     layout: CONSTRAINED
                     placeholder: BLURRED
+                    transformOptions: {fit: COVER, cropFocus: CENTER}
                   )
                 }
               }

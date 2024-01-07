@@ -7,7 +7,7 @@ const PsiVNasiPeci = ({ limit = 10000 }) => {
   const data = useStaticQuery(graphql`
     query PsiVNasiPeciQuery {
       allMarkdownRemark(
-        filter: { frontmatter: { templateKey: { eq: "psi-v-nasi-peci" } } }
+        filter: { frontmatter: { templateKey: { eq: "zvirata-v-nasi-peci" } } }
       ) {
         edges {
           node {
@@ -20,6 +20,7 @@ const PsiVNasiPeci = ({ limit = 10000 }) => {
                     height: 400
                     quality: 100
                     layout: CONSTRAINED
+                    transformOptions: {fit: COVER, cropFocus: CENTER}
                   )
 
                 }
