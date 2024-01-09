@@ -1,6 +1,6 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/sery-portret.jpeg
+featuredimage: /img/sery-deka.jpeg
 image: /img/spolecne1.jpeg
 title: Šery
 heading: Šery hledá domov
