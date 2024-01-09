@@ -5,5 +5,5 @@ description: "V Doggolandu jsme měli předčasné Vánoce, a to příjem 4 pejs
   majitelky, která se o ně bohužel již ze zdravotních důvodů nemohla nadále
   starat. Rita je 4 letá psí slečna, která drbání od svého páníčka raději vymění
   za lítání s psím bráchou, snese se však i s fenami. "
-featuredimage: /img/rita-portret.jpeg
+featuredimage: /img/rituska-deka.jpeg
 ---
