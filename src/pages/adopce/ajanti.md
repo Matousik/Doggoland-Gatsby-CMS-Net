@@ -1,6 +1,6 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/aja-dalka.jpeg
+featuredimage: /img/aja-deka.jpeg
 image: /img/spolecne1.jpeg
 title: Ajanti
 heading: Ája hledá domov
