@@ -4,6 +4,7 @@ featuredimage: /img/sery-deka.jpeg
 image: /img/spolecne1.jpeg
 title: Šery
 heading: Šery hledá domov
+date: 2023-11-12T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/seri-dalka.jpeg

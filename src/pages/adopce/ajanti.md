@@ -3,6 +3,7 @@ templateKey: adopce-post
 featuredimage: /img/aja-deka.jpeg
 image: /img/spolecne1.jpeg
 title: Ajanti
+date: 2024-01-09T20:03:06.323Z
 heading: Ája hledá domov
 intro:
   blurbs:

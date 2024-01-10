@@ -143,6 +143,7 @@ collections:
                 ],
             }
           - { label: Popis na stránku adopcí, name: description, widget: string }
+          - { label: "Datum přidání zvířátka (nebude vidět, jen pro řazení)", name: "date", widget: "datetime" }
 
 
   - name: "pages"

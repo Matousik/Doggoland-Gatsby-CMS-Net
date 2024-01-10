@@ -4,6 +4,7 @@ featuredimage: /img/aminka-usmev-klin.jpg
 image: /img/spolecne2.jpeg
 title: Aminka
 heading: Aminka hledá domov
+date: 2023-11-18T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/aminka-sedi.jpeg

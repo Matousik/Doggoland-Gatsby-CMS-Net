@@ -4,6 +4,7 @@ featuredimage: /img/rituska-deka.jpeg
 image: /img/spolecne1.jpeg
 title: Rituška
 heading: Rituška hledá domov
+date: 2023-11-13T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/spolecne1.jpeg

@@ -4,6 +4,7 @@ featuredimage: /img/eliasek-ruka.jpg
 image: /img/eliasek-gauc.jpg
 title: Eliášek
 heading: Eliášek hledá domov
+date: 2023-11-16T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/eliasek-ruka.jpg

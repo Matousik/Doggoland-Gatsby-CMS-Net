@@ -4,6 +4,7 @@ featuredimage: /img/eliska-naruc.jpg
 image: /img/eliska-micek.jpg
 title: Eliška
 heading: Eliška hledá domov
+date: 2023-11-15T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/eliska-mach.jpg

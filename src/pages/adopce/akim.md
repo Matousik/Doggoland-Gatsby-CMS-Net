@@ -3,6 +3,7 @@ templateKey: adopce-post
 featuredimage: /img/akim-naruc.jpg
 image: /img/moira-sirka.jpg
 title: Akim
+date: 2024-01-08T20:03:06.323Z
 heading: Akim hledá domov
 intro:
   blurbs:
