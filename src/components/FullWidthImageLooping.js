@@ -89,7 +89,7 @@ export default function FullWidthImage(props) {
                   <Link
                     className="custom-button"
                     to="/adopce"
-                  >Pejsci k adopci
+                  >Zvířátka k adopci
                   </Link>
                   <Link
                     className="custom-button-inverse"

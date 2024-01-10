@@ -37,7 +37,7 @@ const Navbar = () => {
 
           <span id="button-in-navbar-instead-of-a" className="navbar-item has-dropdown is-hoverable" style={{ padding: "0px" }} href="#">
             <Link className="navbar-link">
-              Pejsci
+              Zvířátka
             </Link>
             <div className="navbar-dropdown is-boxed">
               <Link className="navbar-item" to="/zviratka-v-nasi-peci">
