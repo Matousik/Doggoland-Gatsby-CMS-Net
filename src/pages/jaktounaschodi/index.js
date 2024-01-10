@@ -62,17 +62,6 @@ export default class SlevyIndexPage extends React.Component {
                   <div class="timeline-entry">
                     <div class="timeline-content">
                       <div class="timeline-label">
-                        <h3>Přijetí pejska pod spolek</h3>
-                      </div>
-                      <div class="timeline-description"><p>
-                        Pejsci se k nám dostávají z různých důvodů. Nejčastěji proto, že se o ně jejich majitelé již nemohou nebo nechtějí dále starat.
-                      </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline-entry">
-                    <div class="timeline-content">
-                      <div class="timeline-label">
                         <h3>Socializace</h3>
                       </div>
                       <div class="timeline-description"><p>

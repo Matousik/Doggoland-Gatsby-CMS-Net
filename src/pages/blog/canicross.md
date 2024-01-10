@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Canicross "
+title: "Jak na canicross aneb Běh se psem?"
 date: 2023-11-18T20:03:06.323Z
 featuredimage: /img/52842045674_2e1232851c_c.jpg
 description: "Canicross, relativně nový a vzrušující sport, který vstupuje do
