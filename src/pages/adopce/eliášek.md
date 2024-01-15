@@ -2,9 +2,8 @@
 templateKey: adopce-post
 featuredimage: /img/eliasek-ruka.jpg
 image: /img/eliasek-gauc.jpg
-title: Eliášek
+title: REZERVACE - Eliášek
 heading: Eliášek hledá domov
-date: 2023-11-16T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/eliasek-ruka.jpg
@@ -12,6 +11,7 @@ intro:
     - image: /img/eliasek-naruc.jpg
     - image: /img/eliasek-stoji.jpg
 description: "Eliášek je úžasný, extremně mazlivý kocourek. "
+date: 2023-11-16T20:03:06.323Z
 ---
 STANE SE ZÁZRAK?? NAJDOU TIHLE DVA SPOLEČNÝ DOMOV? 
 
