@@ -2,15 +2,15 @@
 templateKey: adopce-post
 featuredimage: /img/aminka-usmev-klin.jpg
 image: /img/spolecne2.jpeg
-title: Aminka
+title: REZERVACE - Aminka
 heading: Aminka hledá domov
-date: 2023-11-18T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/aminka-sedi.jpeg
     - image: /img/aminka-elias.jpg
     - image: /img/aminka-portret.jpeg
 description: "Aminka je úžasná fenečka. "
+date: 2023-11-18T20:03:06.323Z
 ---
 STANE SE ZÁZRAK?? NAJDOU TIHLE DVA SPOLEČNÝ DOMOV? 
 
