@@ -11,4 +11,4 @@ Přijte si užít den plný radosti a zábavy. Bohatý program pro děti a pejsk
 
 Na akci nebude chybět charitativní tombola. 
 
-Více informací doplníme.
+Více informací na[ oficiální facebookové události.](https://fb.me/e/71UBedVyY)
