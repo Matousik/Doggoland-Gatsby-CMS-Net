@@ -1,7 +1,7 @@
 ---
 templateKey: harmonogram-akce
 title: KPM - Dog show day
-date: 2024-06-29T07:00:16.204Z
+date: 2024-06-22T07:00:39.674Z
 ---
 Charitativní psí a dětský den s voříškiádou a bullsporty.
 
