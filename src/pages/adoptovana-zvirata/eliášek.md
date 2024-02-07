@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovana-zvirata
 title: Eliášek
-featuredimage: /img/tapinka-eliasek-domov.jpg
+featuredimage: /img/aminka-eliasek-domov.jpg
 ---
