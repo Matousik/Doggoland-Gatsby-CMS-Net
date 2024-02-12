@@ -12,7 +12,7 @@ date: 2024-02-12T06:58:27.918Z
 ---
 * P﻿ohlaví: kočka 
 * P﻿lemeno: kočka evropská
-* O﻿dhadovaný věk: 
+* O﻿dhadovaný věk: cca 1 rok
 * H﻿odí se k dětem? spíše ke starším
 * H﻿odí se k dalším zvířátkům? ano
 
