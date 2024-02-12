@@ -3,15 +3,15 @@ templateKey: adopce-post
 featuredimage: /img/moira-sedi.jpg
 image: /img/moira-sirka.jpg
 title: Moira
-date: 2023-11-14T20:03:06.323Z
 heading: Moira hledá domov
 intro:
   blurbs:
     - image: /img/moira-sedi.jpg
 description: "Extrémně mazlivá kočička, která je huňatá jako medvídek. "
+date: 2023-11-14T20:03:06.323Z
 ---
 * Pohlaví: kočka
-* Plemeno: kočka evropský 
+* Plemeno: kočka evropská
 * Odhadovaný věk: 3 roky 
 * Hodí se k dětem? Ano
 * Hodí se k jiným dvířátkům? Ano
