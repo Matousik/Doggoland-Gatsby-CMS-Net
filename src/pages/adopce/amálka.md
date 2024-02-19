@@ -12,4 +12,10 @@ intro:
 description: "Ani ne půlroční kočička, která potřebuje ještě domazlit. "
 date: 2024-02-19T10:47:44.843Z
 ---
+* P﻿ohlaví: kočička
+* O﻿dhadovaný věk: 4-5 měsíců
+* P﻿lemeno: Evropská kočka
+* H﻿odí se k dalším zvířátkům? Ano
+* H﻿odí se k dětem? Ano
+
 A﻿málka je ani ne půlroční kočička, která se ráda pomazlí, avšak stále potřebuje ještě trochu dovymazlit. Nachází se u dočaskové tety v Ústí nad Labem. Více informací na tel. 728 180 656 (prosíme volat po 18 hodině).
