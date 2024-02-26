@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/alvin-kuk.jpeg
 image: /img/alvin-veterina.jpeg
-title: Alvin
+title: Alvin - REZERVACE
 heading: ALVIN HLEDÁ DOMOV
 intro:
   blurbs:
