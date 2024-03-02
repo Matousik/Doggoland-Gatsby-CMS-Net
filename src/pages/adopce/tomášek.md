@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/tomasek-strom.jpg
 image: /img/tomasek-strom.jpg
-title: Tomášek
+title: Tomášek - REZERVACE
 heading: Tomášek hledá domov
 intro:
   blurbs:
