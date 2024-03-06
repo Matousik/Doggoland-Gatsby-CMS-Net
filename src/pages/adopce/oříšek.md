@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/orisek1.jpg
 image: /img/orisek-zdalky.jpg
-title: Oříšek
+title: Oříšek - REZERVACE
 heading: Oříšek hledá domov
 intro:
   blurbs:
