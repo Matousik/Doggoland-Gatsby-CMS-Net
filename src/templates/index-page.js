@@ -25,6 +25,9 @@ export const IndexPageTemplate = ({
       <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
       <section className="section adopce-roll-section-container">
         <div className="container">
+          <p className="text-max-width-margining has-text-centered">Vítejte v našem malém psím světe, kde léčíme nemocné psí duše. Pomáháme pejskům, kterých se ostatní zbavili. Často u nás potkáte pejsky dříve týrané, psychicky zlomené či hodně nemocné. Každý den jim ukazujeme, že ne všichni lidé jsou zlí a že už se není čeho bát. Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo.</p>
+          <br></br>
+          <p className="text-max-width-margining has-text-centered">V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci. Více o naší práci a o tom, jak to u nás chodí, najdete v záložce <Link to="/jaktounaschodi">Jak to u nás chodí</Link>.</p>
           <h2 className="has-text-centered">Zvířátka k adopci</h2>
           <p className="text-max-width-margining has-text-centered">Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo. V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí i kočičí parťáci.</p>
         </div>
