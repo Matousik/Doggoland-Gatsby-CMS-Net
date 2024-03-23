@@ -1,6 +1,6 @@
 ---
 templateKey: harmonogram-akce
-title: veletrh FOR PETS 2024
+title: Veletrh FOR PETS 2024
 date: 2024-04-04T20:00:24.944Z
 ---
 A﻿kce, na které sice nebudeme mít náš stánek, ale i tak se tam s pejsky ukážeme. 
