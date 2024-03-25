@@ -1,7 +1,7 @@
 ---
 templateKey: harmonogram-akce
 title: Doggoland Day
-date: 2024-06-02T19:00:20.794Z
+date: 2024-05-19T20:00:20.794Z
 ---
 Druhý ročník akce pořádaný spolkem Doggoland z.s.: Doggoland day -  Zábavný den na podporu opuštěných pejsků a kočiček 
 
