@@ -21,10 +21,6 @@ date: 2024-03-25T07:24:13.882Z
 * H﻿odí se k dětem? Ano
 * H﻿odí se k dalším zvířátkům? Ano
 
-Náš nejmladší sveřenec Badík ![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/tf3/1.5/16/2764.png). Ten kluk je ďábel ![🤣](https://static.xx.fbcdn.net/images/emoji.php/v9/tab/1.5/16/1f923.png)![👌](https://static.xx.fbcdn.net/images/emoji.php/v9/td4/1.5/16/1f44c.png)!
+Malý štěněcí rošťák Badík hledá aktivní rodinku ![🤩](https://static.xx.fbcdn.net/images/emoji.php/v9/tb1/1.5/16/1f929.png). Je to neuvěřitelně chytrý chlapeček, hygienu už má téměř stoprocentní a když už se stane nehoda, tak jen na plínku ![👌](https://static.xx.fbcdn.net/images/emoji.php/v9/td4/1.5/16/1f44c.png). Bude skvělým akčním parťákem pro aktivní rodinku, která ráda tráví svůj volný čas venku. Maličký je doma zvyklý s dalšími pejsky dočaskové tety zůstávat sám ![🙂](https://static.xx.fbcdn.net/images/emoji.php/v9/ta5/1.5/16/1f642.png).
 
-Velice chytrý![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/ta8/1.5/16/1f601.png)! Hygienu už má ve 4 měsících zvládnutou na 70% ![🥳](https://static.xx.fbcdn.net/images/emoji.php/v9/tc6/1.5/16/1f973.png). ![💩](https://static.xx.fbcdn.net/images/emoji.php/v9/t9d/1.5/16/1f4a9.png) už jsou jen venku a čůrání zvládá na plínku. Od té doby co přijel do dočasky, tak dočaskové tetě přibylo pár šedivých vlasů, stejně tak jejímu pejskovi Karlovi. Badíkův elán je opravdu nezlomný![🤣](https://static.xx.fbcdn.net/images/emoji.php/v9/tab/1.5/16/1f923.png). Naštěstí je doma ještě fenečka Barča, která malého neřáda pěkně rovná do latě.
-
-M﻿aličký už má za sebou kompletní očkování, je tedy řádné připravený odjet do nového domova. 
-
-D﻿o nového domova pojede očkovaný, čipovaný, odčervený a se startovacími balíčky od Zelené Země a Pučálka krmiva. Na svou rodinu čeká v České Lípě. Více informací na tel. 739 071 777.
+Na nový domov čeká v České Lípě. Domů pojede očkovaný, odčervený, odblešený a vymazlený se startovacími balíčky s [](<>)granulkami MARP a CBD produkty (pro hladký přesun do nového domova). Více info o Badíkovi Vám rádi řekneme na tel. 739 071 777.
