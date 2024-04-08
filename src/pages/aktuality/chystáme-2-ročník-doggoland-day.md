@@ -1,14 +1,14 @@
 ---
 title: Chystáme 2.ročník Doggoland Day!
 image: /img/doggolandday-uvodni.jpg
-date: 2024-01-09T17:34:00.400Z
+date: 2024-04-08T06:43:53.656Z
 templateKey: aktuality
 ---
-Nový rok je tu a s ním přichází plánování našeho již druhého ročníku Doggoland Day - Zábavný den na podporu opuštěných pejsků a kočiček. 
+Nový rok je tu a s ním přichází plánování našeho 1.ročníku Doggoland Day Ústí nad Labem - Zábavný den na podporu opuštěných pejsků a kočiček. 
 
-Zapiště si do kalendáře - neděle 2.června 2024 od 10 hodin. 
+Zapiště si do kalendáře - neděle 19.05.2024 od 10 hodin. 
 
-A kde? Na ZKO Ústí nad Labem - střekov. 
+A kde? V Cyklokempu Loděnice v Brné - Ústí nad Labem
 
 Přijte si užít den plný radosti a zábavy. Bohatý program pro děti a pejsky. 
 
