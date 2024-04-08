@@ -1,5 +1,5 @@
 ---
-title: Chystáme 2.ročník Doggoland Day!
+title: Chystáme 1.ročník Doggoland Day - Ústí nad Labem!
 image: /img/doggolandday-uvodni.jpg
 date: 2024-04-08T06:43:53.656Z
 templateKey: aktuality
