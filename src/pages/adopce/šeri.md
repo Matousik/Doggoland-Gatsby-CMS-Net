@@ -1,17 +1,18 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/sery-jazycek.jpeg
-image: /img/spolecne1.jpeg
+featuredimage: /img/sery-fotografka1.jpg
+image: /img/sery-fotografka2.jpg
 title: Šery
 heading: Šery hledá domov
 intro:
   blurbs:
-    - image: /img/seri-dalka.jpeg
     - image: /img/seri-brisko.jpeg
-    - image: /img/sery-portret.jpeg
-    - image: /img/sery-zahrada.jpeg
     - image: /img/sery-deka.jpeg
     - image: /img/sery-jazycek.jpeg
+    - image: /img/sery-mic.jpg
+    - image: /img/sery-vylet.png
+    - image: /img/sery-fotografka1.jpg
+    - image: /img/sery-fotografka2.jpg
 description: "Psí dědoušek, který nepohrdne dlouhodobému drbání. "
 date: 2023-11-12T20:03:06.323Z
 ---
