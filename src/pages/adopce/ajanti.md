@@ -1,16 +1,17 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/aja-deka.jpeg
-image: /img/spolecne1.jpeg
+featuredimage: /img/aja-fotografka1.jpg
+image: /img/aja-fotografka2.jpg
 title: Ajanti
 heading: Ája hledá domov
 intro:
   blurbs:
-    - image: /img/aja-lezi-snih.jpeg
-    - image: /img/aja-portret-snih.jpeg
     - image: /img/aja-sedi.jpeg
     - image: /img/aja-usi.jpeg
-    - image: /img/aja-portret.jpeg
+    - image: /img/aja-sery-fotografka1.jpg
+    - image: /img/aja-kytky-cela.png
+    - image: /img/aja-kytky-profil.png
+    - image: /img/aja-fotografka1.jpg
 description: "Čuba v nejlepším věku. "
 date: 2024-01-09T20:03:06.323Z
 ---
