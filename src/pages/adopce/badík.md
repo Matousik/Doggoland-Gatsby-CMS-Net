@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/bady-3.jpg
-image: /img/bady-profil.jpg
+featuredimage: /img/bady-zlatydest1.jpeg
+image: /img/bady-zlatydest3.jpeg
 title: Badík
 heading: Bady hledá domov
 intro:
@@ -9,9 +9,10 @@ intro:
     - image: /img/bady-kamos.jpg
     - image: /img/bady-klacik.jpg
     - image: /img/bady-let.jpg
-    - image: /img/bady-sedi.jpg
     - image: /img/bady-3.jpg
-    - image: /img/bady-profil.jpg
+    - image: /img/bady-postel.jpeg
+    - image: /img/bady-zlatydest2.jpeg
+    - image: /img/bady-zlatydest3.jpeg
 description: Ten kluk je ďábel!
 date: 2024-03-25T07:24:13.882Z
 ---
