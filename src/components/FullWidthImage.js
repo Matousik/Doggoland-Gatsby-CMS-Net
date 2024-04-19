@@ -8,7 +8,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top center",
+    imgPosition = "center center",
   } = props;
 
   return (
