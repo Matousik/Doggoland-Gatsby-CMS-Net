@@ -1,14 +1,14 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/daisy-klicka.jpg
-image: /img/moira-sirka.jpg
+image: /img/snímek-obrazovky-2024-04-19-v 17.04.26.png
 title: Daisy
 heading: Daisy hledá domov
-date: 2023-11-17T20:03:06.323Z
 intro:
   blurbs:
     - image: /img/daisy-klicka.jpg
 description: Mazlivá kočička hledá ten nejlepší domov.
+date: 2023-11-17T20:03:06.323Z
 ---
 * Pohlaví: kočka
 * Plemeno: kočka evropská
