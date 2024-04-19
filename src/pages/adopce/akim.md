@@ -22,4 +22,4 @@ date: 2024-01-08T20:03:06.323Z
 
 Krásný černý, roční kocourek hledá nový domov![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png)! Akim je plašší kocourek, který se nechá pomazlit, ale potřebuje více času, aby se otrkal. I on si ale zaslouží milující a trpělivý domov, kde bude milován. Není to dominantní kocourek, mohl by být doma s další kočičkou. Na pejsky by si také zvykl určitě ![🙂](https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/1f642.png).\
 \
-Brouček je nyní již odčervený, odblešený, kastrovaný a čipovaný. Na svůj nový domov čeká v Ústí nad Labem. V případě zájmu volejte na tel. 739 071 777.
+Brouček je nyní již odčervený, odblešený, kastrovaný a čipovaný. Na svůj nový domov čeká v Ústí nad Labem. V případě zájmu volejte na tel. 728 180 656 (volat ve všední dny po 18 hodině nebo víkendy v rozumnou dobu).
