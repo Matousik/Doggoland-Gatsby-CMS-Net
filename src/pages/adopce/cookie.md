@@ -1,12 +1,13 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/cookie-lezi.jpg
+featuredimage: /img/cookie-tunel.jpeg
 image: /img/moira-sirka.jpg
 title: Cookie
 heading: Cookie hledá domov
 intro:
   blurbs:
     - image: /img/cookie-lezi.jpg
+    - image: /img/cookie-tunel.jpeg
 description: Bojavá kočička, která hledá milující a trpělivý domov
 date: 2024-02-12T06:58:27.918Z
 ---
