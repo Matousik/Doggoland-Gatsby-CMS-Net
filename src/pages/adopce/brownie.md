@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/brownie-uvod.jpg
-image: /img/snímek-obrazovky-2024-04-19-v 17.04.26.png
+image: /img/cerne-pozadi.png
 title: Brownie
 heading: Brownie hledá domov
 intro:
