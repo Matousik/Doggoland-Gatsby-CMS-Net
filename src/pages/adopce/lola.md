@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/lola-uvod.jpeg
-image: /img/lola-1.jpeg
+image: /img/snímek-obrazovky-2024-04-19-v 17.04.26.png
 title: Lola
 heading: Lola hledá domov
 intro:
