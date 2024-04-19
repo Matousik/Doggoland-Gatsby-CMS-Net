@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/sofie-uvod.jpg
-image: /img/moira-sirka.jpg
+image: /img/snímek-obrazovky-2024-04-19-v 17.04.26.png
 title: "Sofie "
 heading: Sofie hledá domov
 intro:
