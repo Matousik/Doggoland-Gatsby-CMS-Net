@@ -1,12 +1,13 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/moira-sedi.jpg
-image: /img/moira-sirka.jpg
+image: /img/snímek-obrazovky-2024-04-19-v 17.04.26.png
 title: Moira
 heading: Moira hledá domov
 intro:
   blurbs:
     - image: /img/moira-sedi.jpg
+    - image: /img/moira-sirka.jpg
 description: "Extrémně mazlivá kočička, která je huňatá jako medvídek. "
 date: 2023-11-14T20:03:06.323Z
 ---
