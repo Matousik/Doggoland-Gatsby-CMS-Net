@@ -1,14 +1,18 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/akim-naruc.jpg
-image: /img/moira-sirka.jpg
+featuredimage: /img/akim-3.jpeg
+image: /img/akim-2.jpeg
 title: Akim
-date: 2024-01-08T20:03:06.323Z
 heading: Akim hledá domov
 intro:
   blurbs:
     - image: /img/akim-naruc.jpg
+    - image: /img/akim-3.jpeg
+    - image: /img/akim-2.jpeg
+    - image: /img/akim-1.jpeg
+    - image: /img/akim-4.jpeg
 description: "Krásný černý kocourek, který potřebuje více času. "
+date: 2024-01-08T20:03:06.323Z
 ---
 * Pohlaví: kocour
 * Plemeno: kočka evropská
