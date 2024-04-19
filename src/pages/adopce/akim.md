@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/akim-3.jpeg
-image: /img/akim-2.jpeg
+image: /img/snímek-obrazovky-2024-04-19-v 17.04.26.png
 title: Akim
 heading: Akim hledá domov
 intro:
