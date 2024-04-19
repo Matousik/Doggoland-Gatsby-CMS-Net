@@ -14,7 +14,7 @@ description: Povahově naprostý anděl.
 date: 2024-04-19T14:46:52.124Z
 ---
 * Pohlaví: kočka
-* Plemeno: kočka evropská 
+* Plemeno: kočka dlouhosrstá evropská 
 * Odhadovaný věk: 3 roky
 * Hodí se k dětem? Ne
 * Hodí se k dalším zvířátkům? Ne
