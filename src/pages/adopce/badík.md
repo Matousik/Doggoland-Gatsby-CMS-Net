@@ -18,7 +18,7 @@ date: 2024-03-25T07:24:13.882Z
 ---
 * P﻿ohlaví: pes
 * P﻿lemeno: kříženec
-* O﻿dhadovaný věk: 4 měsíce
+* O﻿dhadovaný věk: 6 měsíců
 * H﻿odí se k dětem? Ano
 * H﻿odí se k dalším zvířátkům? Ano
 
