@@ -6,7 +6,7 @@ templateKey: aktuality
 ---
 Nový rok je tu a s ním přichází plánování našeho 1.ročníku Doggoland Day Ústí nad Labem - Zábavný den na podporu opuštěných pejsků a kočiček. 
 
-Zapiště si do kalendáře - neděle 19.05.2024 od 10 hodin. 
+Zapiště si do kalendáře - **neděle 19.05.2024 od 10 do 18 hodin**. 
 
 A kde? V Cyklokempu Loděnice v Brné - Ústí nad Labem
 
