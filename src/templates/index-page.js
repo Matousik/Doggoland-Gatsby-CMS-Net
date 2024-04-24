@@ -23,13 +23,26 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={intro.blurbs} title={"Vítejte v Doggolandu"} height={"95vh"} style={{marginTop: "-5rem"}} />
-      <section className="section adopce-roll-section-container">
+      <section className="section">
         <div className="container">
           <p className="text-max-width-margining has-text-centered">Vítejte v našem malém psím světe, kde léčíme nemocné psí duše. Pomáháme pejskům, kterých se ostatní zbavili. Často u nás potkáte pejsky dříve týrané, psychicky zlomené či hodně nemocné. Každý den jim ukazujeme, že ne všichni lidé jsou zlí a že už se není čeho bát. Pejsci i kočičky s námi bydlí doma u našich dočasných tet. Jsou součástí našich rodin, nikoliv jen obyvatelem studeného kotce, na kterém je evidenční číslo.</p>
           <br></br>
           <p className="text-max-width-margining has-text-centered">V naší péči pejskové projdou kompletním veterinárním vyšetřením, řádnou socializací (návštěvy města, auto, rodinné oslavy) a základním výcvikem tak, aby do domova odcházeli jako bezpečně ovladatelní, spokojení a vyrovnaní psí parťáci. Více o naší práci a o tom, jak to u nás chodí, najdete v záložce <Link to="/jaktounaschodi">Jak to u nás chodí</Link>.</p>
-          <h2 className="has-text-centered">Zvířátka k adopci</h2>
         </div>
+      </section>
+      <section className="section">
+        <p className="line-before-text">Aktuality</p>
+        <div className="container">
+          <h2>Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
+          <NewsFeed limit={3} />
+        </div>
+      </section>
+      <div>
+        <BankAccountQRCode />
+      </div>
+      <section className="section adopce-roll-section-container">
+        <p className="line-before-text">Adopce</p>
+        <h2 className="has-text-centered">Zvířátka k adopci</h2>
         <div className="roller-container">
           <AdopceRoll limit={3} />
         </div>
@@ -39,16 +52,6 @@ export const IndexPageTemplate = ({
               to="/adopce"
             >Další svěřenci
             </Link>
-        </div>
-      </section>
-      <div>
-        <BankAccountQRCode />
-      </div>
-      <section className="section">
-        <p className="line-before-text">Aktuality</p>
-        <div className="container">
-          <h2>Stále se u nás dějí nějaké novinky, tak buďte v obraze!</h2>
-          <NewsFeed limit={3} />
         </div>
       </section>
       <section className="section our-team-section">
