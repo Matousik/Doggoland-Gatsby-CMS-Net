@@ -3,7 +3,7 @@ templateKey: harmonogram-akce
 title: Doggoland Day Ústí nad Labem
 date: 2024-05-19T20:00:20.794Z
 ---
-Druhý ročník akce pořádaný spolkem Doggoland z.s.: Doggoland day -  Zábavný den na podporu opuštěných pejsků a kočiček 
+První ročník akce pořádaný spolkem Doggoland z.s.: Doggoland day -  Zábavný den na podporu opuštěných pejsků a kočiček
 
 Místo konání: [Cyklokemp Loděnice Brná - Ústí nad Labem](https://www.facebook.com/CyklokempLodenice)
 
