@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/bady-zlatydest1.jpeg
 image: /img/bady-zlatydest3.jpeg
-title: Badík
+title: Badík - REZERVACE
 heading: Bady hledá domov
 intro:
   blurbs:
