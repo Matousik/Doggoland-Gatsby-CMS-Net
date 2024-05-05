@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovana-zvirata
-title: Tara
+title: Bailey
 featuredimage: /img/tara-sedi.jpg
 ---
