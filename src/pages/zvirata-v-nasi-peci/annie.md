@@ -6,5 +6,5 @@ description: "Tahle malá beruška byla dalším nechtěných koťátkem, proto�
   nikdo ho nechce. Stav jejích očíček je velmi vážný. Je tam obrovský zánět a
   tkáň víček “srůstá” k sobě. Musíme víčka šetrně “odtrhávat” a několikrat denně
   čistit, kapat, čistit a zase kapat 😞. "
-featuredimage: /img/annie-uvod.jfif
+featuredimage: /img/annie-uvod.jpeg
 ---
