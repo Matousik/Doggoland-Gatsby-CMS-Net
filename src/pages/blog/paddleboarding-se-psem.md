@@ -9,7 +9,7 @@ description: Paddleboarding je v dnešní době velmi oblíbený. Je to skvělý
   sport, zábava a lenošení u vody. Na paddleboardu doplujete prakticky kamkoliv,
   a pokud nikam nechcete, můžete se v půli rybníka nerušeně slunit. Co ale
   posunout paddleboarding na vyšší ležel a posadit na něj i psa?
-author: Daniela Jana Vršková
+author: Daniela Jana Vondráková
 ---
 ![Vladka na paddleboardu](/img/paddleboard-vladka-fuc.png)
 

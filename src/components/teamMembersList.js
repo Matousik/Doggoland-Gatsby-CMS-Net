@@ -32,7 +32,7 @@ const TeamList = () => {
 
   const teamMembers = [
     {
-      title: 'Daniela Jana Vršková',
+      title: 'Daniela Jana Vondráková',
       role: 'předsedkyně',
       description: 'Dája je předsedkyní a zakladatelkou celého spolku. Zároveň je také hlavní dočaskovou tetou, hlavní trenérkou a organizátorkou akcí. Stará se také o sociální sítě a komunikaci se sponzory.'
     },

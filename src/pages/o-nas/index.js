@@ -33,7 +33,7 @@ const AboutPage = () => {
 
   const teamMembers = [
     {
-      title: 'Daniela Jana Vršková',
+      title: 'Daniela Jana Vondráková',
       role: 'předsedkyně',
       description: 'Dája je předsedkyní a zakladatelkou celého spolku.'
     },
