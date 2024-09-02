@@ -7,11 +7,11 @@ heading: Zoro a Julinka hledají společný domov
 intro:
   blurbs:
     - image: /img/julinka2.jpg
-    - image: /img/zoro_julinka-1.jpg
     - image: /img/zoro-julinka-2.jpg
     - image: /img/zoro-trava.jpg
     - image: /img/julinka-uvod.jpg
     - image: /img/zoro-uvod.jpg
+    - image: /img/zoro-julinka-1.jpg
 description: Chlupáči co chtějí lásku celé rodiny.
 date: 2024-09-02T08:43:29.766Z
 ---
