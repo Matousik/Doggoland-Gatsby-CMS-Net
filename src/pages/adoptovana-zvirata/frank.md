@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovana-zvirata
 title: Frank
-featuredimage: /img/frank-domov.jfif
+featuredimage: /img/frank-domov.jpg
 ---
