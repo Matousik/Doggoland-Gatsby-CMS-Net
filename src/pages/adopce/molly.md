@@ -1,13 +1,17 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/molly-okno.jpeg
+featuredimage: /img/molly-2.jpg
 image: /img/cerne-pozadi.png
 title: Molly
 heading: Molly hledá domov
 intro:
   blurbs:
-    - image: /img/molly-okno.jpeg
-    - image: /img/molly-uvod.jpg
+    - image: /img/molly-1.jpg
+    - image: /img/molly-3.jpg
+    - image: /img/molly-4.jpg
+    - image: /img/molly-5.jpg
+    - image: /img/molly-6.jpg
+    - image: /img/molly-2.jpg
 description: Mladá, krásná kočička.
 date: 2024-04-19T14:27:24.201Z
 ---
@@ -17,4 +21,6 @@ date: 2024-04-19T14:27:24.201Z
 * Hodí se k dětem? Ano
 * Hodí se k dalším zvířátkům? Ano
 
-Molly je mladá krásná kočička se kterou se rozhodně nebudete nudit. Ráda prozkoumává, šplhá, skáče, no prostě pořád něco. Je to dominantnější holčička, dalším zvířecím spolubydlícím hned ukáže, kdo je doma šéf. Už jen z toho důvodu bude ráda jedináčkem. Princezna už je nyní vykastrovaná, čipovaná, odčervená a odblešená. Na nový domov čeká v Dobroměřicích (Louny). Více informací na tel. 739 071 777.
+Mladá kočička Molly hledá ten nej domov. Je to taková naše paní ředitelka ![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/t4f/1/16/1f601.png). Stále má přehled o tom, co se v kočičím pokoji děje a když dle ní dělá někdo něco špatně, tak mu hned lupne “jednu výchovnou” ![🫢](https://static.xx.fbcdn.net/images/emoji.php/v9/ta6/1/16/1fae2.png). Je to skvělá kočička, která se ráda mazlí, zkoumá, hraje si. Šťastná bude doma jako jedináček, nebo maximálně s jednou - dvěma dalšíma kočičkama, kterým nebude vadit její dominantní povaha.
+
+Na svůj nový domov čeká v Dobroměřicích (Louny). Domů [](<>)pojede odčervená, čipovaná a vykastrovaná. Více info na tel. 739 071 777.
