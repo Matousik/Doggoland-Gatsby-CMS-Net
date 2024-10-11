@@ -16,8 +16,8 @@ date: 2024-10-11T10:33:46.174Z
 * Pohlaví: fena
 * Plemeno: hrubosrstý jezevčík
 * Odhadovaný věk: 3 roky
-* Hodí se k dětem? ano, 10+ let
-* Hodí se k dalším psům? ano
+* Hodí se k dětem? Ano, 10+ let
+* Hodí se k dalším psům? Ano
 
 3 roky stará jezevčicová princezna hledá krásný nový domov ![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/t7c/2/16/263a.png)! Zkušenosti s jezevčíky ideální ![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/tee/2/16/1f601.png). Angie je naše srdcovka, jakmile získá u člověka jistotu, tak má dá celé své srdce ![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/ted/2/16/2764.png). Je skvěle socializovaná, venku ignoruje lidi i další pejsky. Doma nic neničí/neštěká, hygiena perfektní ![🥳](https://static.xx.fbcdn.net/images/emoji.php/v9/tc/2/16/1f973.png). Miluje hračky všeho druhu.
 
