@@ -6,5 +6,5 @@ description: Arwen je nádherná 8 let stará holčička border colie. Dostala s
   Holčičky jsou obě dvě nesocializované, neznají obojek, vodítko, auto,
   televizi… čeká nás nimi hodně práce, ale věříme, že se nám podaří je dát
   dohromady.
-featuredimage: /img/arwen-uvod.jpg
+featuredimage: /img/arwen2.jpg
 ---
