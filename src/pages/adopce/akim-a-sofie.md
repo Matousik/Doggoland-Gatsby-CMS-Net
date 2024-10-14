@@ -1,6 +1,6 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/sofie_a_akim_inzerce.jfif
+featuredimage: /img/sofie_a_akim_inzerce.jpg
 image: /img/cerne-pozadi.png
 title: Akim a Sofie
 heading: Akim a Sofie hledají nový společný domov

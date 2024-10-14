@@ -1,6 +1,6 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/nesa_a_annie_inzerce.jfif
+featuredimage: /img/nesa_a_annie_inzerce.jpg
 image: /img/cerne-pozadi.png
 title: Nesa a Annie
 heading: Nesa a Annie hledají nový společný domov
