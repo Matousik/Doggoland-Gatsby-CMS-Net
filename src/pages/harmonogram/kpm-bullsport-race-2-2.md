@@ -12,3 +12,5 @@ Wc, prostor na spaní pro pár lidi, kuchyňka a všechny disciplíny na bullspo
 
 Ano, v pátek začneme TOW a pak si ugrilujeme a užijeme si fajn večer a v sobotu to pořádně ROZJEDEME ! ![😍](https://static.xx.fbcdn.net/images/emoji.php/v9/t2/1/16/1f60d.png)![👌🏼](https://static.xx.fbcdn.net/images/emoji.php/v9/t37/1/16/1f44c_1f3fc.png)\
 Na akci bude opět tombola pro DOGGOLAND Z.S ![🩷](https://static.xx.fbcdn.net/images/emoji.php/v9/t99/1/16/1fa77.png)
+
+V﻿íce informací na oficiální [facebookové události](https://fb.me/e/4Z6KxAY3x).
