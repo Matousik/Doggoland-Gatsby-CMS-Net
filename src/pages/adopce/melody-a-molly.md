@@ -1,6 +1,6 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/melody_a_molly.jfif
+featuredimage: /img/melody_a_molly_inzerce.jfif
 image: /img/cerne-pozadi.png
 title: Melody a Molly
 heading: Melody a Molly hledají nový domov
