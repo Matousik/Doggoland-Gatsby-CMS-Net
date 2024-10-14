@@ -9,9 +9,9 @@ intro:
     - image: /img/molly-2.jpg
     - image: /img/molly-5.jpg
     - image: /img/molly-4.jpg
-    - image: /img/melody_1.jfif
-    - image: /img/melody_2.jfif
-    - image: /img/melody_3.jfif
+    - image: /img/melody_4.jpg
+    - image: /img/melody_5.jpg
+    - image: /img/melody_6.jpg
 description: "Dvě krásky, Melody a Molly "
 date: 2024-10-14T08:11:27.608Z
 ---
