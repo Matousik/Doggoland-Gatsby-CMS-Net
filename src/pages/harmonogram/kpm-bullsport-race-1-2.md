@@ -1,9 +1,9 @@
 ---
 templateKey: harmonogram-akce
-title: KPM BULLSPORT RACE 1/2
+title: KPM BULLSPORT RACE 1/3
 date: 2025-06-13T13:00:28.985Z
 ---
-Zveme vás na 1 ročník KPM BULLSPORT RACE 1/2 2025 ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)![👌🏼](https://static.xx.fbcdn.net/images/emoji.php/v9/t37/1/16/1f44c_1f3fc.png)
+Zveme vás na 1 ročník KPM BULLSPORT RACE 1/3 2025 ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)![👌🏼](https://static.xx.fbcdn.net/images/emoji.php/v9/t37/1/16/1f44c_1f3fc.png)
 
 T﻿ermín 13.06.2025 od 15:00 až 14.06.2025 do 19:00
 
