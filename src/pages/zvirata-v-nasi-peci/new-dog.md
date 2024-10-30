@@ -11,5 +11,5 @@ description: >-
 
 
   První dny v dočasce provrčel a neváhal se ohnat. Teď už dočaskovou tetu pusinkuje a velmi se snaží. Při blízkém kontaktu je nesvůj, ale věříme, že pravidelný trénink a práce na vzájemné důvěře to zlepší. 
-featuredimage: /img/micky-v-trave.jpg
+featuredimage: /img/micky_dd1.jpg
 ---
