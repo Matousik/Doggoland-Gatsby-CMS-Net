@@ -6,12 +6,11 @@ title: Ajanti
 heading: Ája hledá domov
 intro:
   blurbs:
-    - image: /img/aja-sedi.jpeg
-    - image: /img/aja-usi.jpeg
     - image: /img/aja-sery-fotografka1.jpg
     - image: /img/aja-kytky-cela.png
     - image: /img/aja-kytky-profil.png
     - image: /img/aja-fotografka1.jpg
+    - image: /img/ajanti-hledadomov.jpg
 description: "Čuba v nejlepším věku. "
 date: 2024-01-09T20:03:06.323Z
 ---
