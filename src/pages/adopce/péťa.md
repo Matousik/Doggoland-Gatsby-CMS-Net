@@ -1,7 +1,7 @@
 ---
 templateKey: adopce-post
 featuredimage: /img/peta-1.jpg
-image: /img/peta-2.jpg
+image: /img/peta-3.jpg
 title: Péťa
 heading: Péťa hledá nový domov
 intro:
