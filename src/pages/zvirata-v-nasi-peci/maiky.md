@@ -1,4 +1,5 @@
 ---
+templateKey: zvirata-v-nasi-peci
 title: Maiky
 description: >-
   Další šílený příběh, který nemá jasný výsledek… Maiky je 8 měsíční xmopsík.
@@ -13,5 +14,5 @@ description: >-
   se pejsek začal zhoršovat až do teď.
 
   Pejska jsme 16.11. převzali od rodiny a jelo se hned na pohotovost vet kliniky. Víkend nevíkend, nechtěli jsme riskovat. Nakonec se ukázalo, že střeva nebudou Maikyho největší problém. 
-featuredimage: /img/maiky_uvod.jpg
+featuredimage: /img/maiky_uvod.jpeg
 ---
