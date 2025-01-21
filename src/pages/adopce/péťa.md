@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/peta-1.jpg
 image: /img/peta-3.jpg
-title: Péťa
+title: Péťa - rezervace
 heading: Péťa hledá nový domov
 intro:
   blurbs:
