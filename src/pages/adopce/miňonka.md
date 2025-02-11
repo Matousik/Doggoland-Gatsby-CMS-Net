@@ -12,11 +12,9 @@ intro:
 description: "Miňonka je mazlivá kočička. "
 date: 2025-02-03T10:51:08.444Z
 ---
-
-
 * P﻿ohlaví: kočka 
 * P﻿lemeno: kočka evropská
 * O﻿dhadovaný věk: 1 rok 
 * H﻿odí se k dalším zvířátkům? ano
 
-M﻿iňonka je mazlivá, kastrovaná kočička. FIV/FELV negativní. Je zvyklá na vychované psy. Na svůj nový domov čeká v Ústí nad Labem, pro více informací volejte na tel.: 728 180 656 všední dny po 18hod a víkendy mezi 9-20h.
+M﻿iňonka je mazlivá, kastrovaná kočička. FIV/FeLV negativní. Je zvyklá na vychované psy. Na svůj nový domov čeká v Ústí nad Labem, pro více informací volejte na tel.: 728 180 656 všední dny po 18hod a víkendy mezi 9-20h.
