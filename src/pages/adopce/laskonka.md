@@ -16,4 +16,4 @@ date: 2025-02-03T10:58:42.879Z
 * O﻿dhadovaný věk: 1 rok
 * H﻿odí se k dalším zvířátkům? ano
 
-L﻿askonka je bázlivá kočička. FIV/FEL negativní. Do nového domova odjede kastrovaná. Laskonka na novou rodinu čeká v Dobroměřicích (Louny). Více informací vám rádi povíme na tel.: +420 739 071 777.
+L﻿askonka je bázlivá kočička. FIV/FeLV negativní. Do nového domova odjede kastrovaná. Laskonka na novou rodinu čeká v Dobroměřicích (Louny). Více informací vám rádi povíme na tel.: +420 739 071 777.
