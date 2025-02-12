@@ -1,5 +1,5 @@
 ---
 templateKey: adoptovana-zvirata
 title: Péťa
-featuredimage: /img/peta-1.jpg
+featuredimage: /img/petrik_domov.jpg
 ---
