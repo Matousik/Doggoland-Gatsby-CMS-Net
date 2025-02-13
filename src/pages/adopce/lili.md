@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/lili3.jpg
 image: /img/lili9.jpg
-title: Lili
+title: Lili - REZERVACE
 heading: Lili hledá nový domov
 intro:
   blurbs:
