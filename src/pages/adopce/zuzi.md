@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/zuzi_1.jpg
 image: /img/zuzi_4.jpg
-title: Zuzi
+title: Zuzi - rezervace
 heading: "Zuzi hledá nový domov "
 intro:
   blurbs:
