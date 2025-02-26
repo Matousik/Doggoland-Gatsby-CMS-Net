@@ -30,7 +30,7 @@ export default class AdopceIndexPage extends React.Component {
         <h2 className="has-text-centered">Níže naleznete zvířátka k adopci</h2>
         <p className="has-text-centered">
           {/* Pokud máte zájem o adopci, vyplňte prosím <Link to="/contact">kontaktní formulář</Link> a my se vám ozveme. */}
-          Pokud máte zájem o adopci, kontaktujte nás, prosím, na čísle <a href="tel:+420739071777">+420 739 071 777</a>.
+          Pokud máte zájem o adopci, kontaktujte nás na tel. čísle uvedeném u inzerátu daného zvířete. Pokud nás na uvedeném čísle nezastihnete, napište nám SMS zprávu na <a href="tel:+420739071777">+420 739 071 777</a> a ozveme se vám zpět.
         </p>
         <div className="has-text-centered" style={{marginTop: "4rem"}}>
           <a className="custom-button has-text-centered" href="#prubeh-adopce">
