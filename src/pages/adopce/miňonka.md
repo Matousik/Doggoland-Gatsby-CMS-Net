@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/minonka_10.jpg
 image: /img/cerne-pozadi.png
-title: Miňonka
+title: Miňonka - REZERVACE
 heading: Miňonka hledá nový domov
 intro:
   blurbs:
