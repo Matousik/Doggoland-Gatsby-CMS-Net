@@ -7,6 +7,8 @@ Již druhý ročník dětské a psí akce na podporu opuštěných pejsků a ko�
 
 K﻿de? Ski areál Hlubočky od 10h do 18h.
 
-Čeká na vás charitativní tombola, soutěže pro děti a pejsky, stánkaři, hadi a bohatý doprovodný program ![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/tfb/1/16/263a.png)
+Čeká na vás charitativní tombola, soutěže pro děti a pejsky, stánkaři, hadi a bohatý doprovodný program ![☺️](https://static.xx.fbcdn.net/images/emoji.php/v9/tfb/1/16/263a.png)\
+\
+V﻿stupné je dobrovolné.
 
 V﻿íce informací na[ oficiální facebookové události](https://fb.me/e/2Qh609HBQ).
