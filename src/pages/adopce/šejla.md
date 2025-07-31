@@ -26,14 +26,9 @@ povíme na tel.: 728 180 656 všední dny po 18hod a víkendy mezi 9-20h.
 
 Princezna pojede domů vykastrovaná, očkovaná, čipovaná, odčervená na adopční smlouvu (po zaplacení adopčního poplatku). Do nového domova nepojede s prázdnou, dostane totiž s sebou spoustu věcí od našich úžasných sponzorů!
 
-![💛](https://static.xx.fbcdn.net/images/emoji.php/v9/t15/1/16/1f49b.png) krmení MARP, na které jsou naši svěřenci zvyklí již z dočasného domova od [krmiva-pucalka](https://www.krmiva-pucalka.cz/)
-
-![💚](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f49a.png) CBD startovací balíček pro jednodušší zvykání si v nové rodině od [Zelená Země](https://www.zelenazeme.cz/)
-
-![❤️](https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png) box plný výborných pamlsků a hraček od [Akinu CZ](https://www.akinu.cz/)
-
-![🩵](https://static.xx.fbcdn.net/images/emoji.php/v9/t97/1/16/1fa75.png) koloidní stříbro na posílení imunity a jako prevence infekce/zánětů při nemoci či úrazu od [Koloidní stříbro.eu](https://koloidnistribro.eu/)
-
-![🤍](https://static.xx.fbcdn.net/images/emoji.php/v9/tc5/1/16/1f90d.png) roční přístup zdarma do aplikace, kde je možné se spojit a konzultovat zdraví zvířátek s veterináři 24/7 a spousta dalších benefitů u [Tlappka](https://www.tlappka.cz/)
-
-Speciální poděkování ještě patří [Emánek](https://www.emanek.cz/), který nám pomáhá s placením vysokých veterinárních nákladů.
+* krmení MARP, na které jsou naši svěřenci zvyklí již z dočasného domova od [krmiva-pucalka](https://www.krmiva-pucalka.cz/)
+* CBD startovací balíček pro jednodušší zvykání si v nové rodině od [Zelená Země](https://www.zelenazeme.cz/)
+* box plný výborných pamlsků a hraček od [Akinu CZ](https://www.akinu.cz/)
+* koloidní stříbro na posílení imunity a jako prevence infekce/zánětů při nemoci či úrazu od [Koloidní stříbro.eu](https://koloidnistribro.eu/)
+* roční přístup zdarma do aplikace, kde je možné se spojit a konzultovat zdraví zvířátek s veterináři 24/7 a spousta dalších benefitů u [Tlappka](https://www.tlappka.cz/)
+* Speciální poděkování ještě patří [Emánek](https://www.emanek.cz/), který nám pomáhá s placením vysokých veterinárních nákladů.
