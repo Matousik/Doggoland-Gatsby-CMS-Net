@@ -1,7 +1,7 @@
 ---
 templateKey: slevy
 title: Zelená Země
-discount: 10% sleva na celý nákup
+discount: 10 % sleva na celý nákup
 code: DOGGOLAND
 website: www.zelenazeme.cz
 featuredimage: /img/zelenazemelogo.webp
