@@ -1,7 +1,7 @@
 ---
 templateKey: slevy
 title: PawMio
-discount: 9% sleva na celý nákup
+discount: 9 % sleva na celý nákup
 code: DOGGO
 website: https://www.pawmio.cz/
 featuredimage: /img/9750ad4036fd1778ab862dcbab0feac1-logo.png
