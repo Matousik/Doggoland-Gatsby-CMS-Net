@@ -1,7 +1,7 @@
 ---
 templateKey: slevy
 title: Vše pro pejska
-discount: 15% sleva na nezlevněné zboží
+discount: 15 % sleva na nezlevněné zboží
 code: DOGGOLAND
 website: www.vsepropejska.cz
 featuredimage: /img/vse-pro-pejska-logo.png
