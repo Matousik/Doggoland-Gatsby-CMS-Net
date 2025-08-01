@@ -1,7 +1,7 @@
 ---
 templateKey: slevy
 title: Pučálka krmiva
-discount: 10% sleva na celý nákup
+discount: 10 % sleva na celý nákup
 code: DOGGOLAND10
 website: www.krmiva-pucalka.cz
 featuredimage: /img/krmiva-pucalka.png
