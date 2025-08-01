@@ -1,7 +1,7 @@
 ---
 templateKey: slevy
 title: Ortopelíšky
-discount: "5% slevy na celý nákup "
+discount: "5 % slevy na celý nákup "
 code: DOGGOLAND
 website: www.ortopelisky.cz
 featuredimage: /img/logo_ortopelisky.jpg
