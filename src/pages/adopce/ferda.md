@@ -1,13 +1,16 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/ferda1.jpg
+featuredimage: /img/ferda_6.jpg
 image: /img/cerne-pozadi.png
 title: Ferda
 heading: Ferda hledá nový domov
 intro:
   blurbs:
-    - image: /img/ferda1.jpg
-    - image: /img/ferda2.jpg
+    - image: /img/ferda_6.jpg
+    - image: /img/ferda_8.jpg
+    - image: /img/ferda_7.jpg
+    - image: /img/ferda_5.jpg
+    - image: /img/ferda_4.jpg
 description: Ferda FeLV+
 date: 2025-08-01T07:06:02.365Z
 ---
