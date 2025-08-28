@@ -1,13 +1,16 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/majda1.jpg
+featuredimage: /img/majda_7.jpg
 image: /img/cerne-pozadi.png
 title: Majda
 heading: Majda hledá nový domov
 intro:
   blurbs:
-    - image: /img/majda1.jpg
-    - image: /img/majda2.jpg
+    - image: /img/majda_7.jpg
+    - image: /img/majda_6.jpg
+    - image: /img/majda_5.jpg
+    - image: /img/majda_4.jpg
+    - image: /img/majda_3.jpg
 description: Majda FeLV+
 date: 2025-08-01T07:01:41.491Z
 ---
