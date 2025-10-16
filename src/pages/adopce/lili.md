@@ -1,12 +1,14 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/lili_uvod.jpg
+featuredimage: /img/lili_2.jpg
 image: /img/cerne-pozadi.png
 title: Lili
 heading: Lili hledá nový domov
 intro:
   blurbs:
     - image: /img/lili_uvod.jpg
+    - image: /img/lili_2.jpg
+    - image: /img/lili_3.jpg
 description: Lili a Jasmína hledají společný domov
 date: 2025-08-18T11:59:46.494Z
 ---
