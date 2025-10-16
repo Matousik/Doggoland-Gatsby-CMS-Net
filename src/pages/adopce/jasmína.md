@@ -1,12 +1,13 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/jasmina_uvod.jpg
+featuredimage: /img/jasmina_2.jpg
 image: /img/cerne-pozadi.png
 title: Jasmína
 heading: Jasmína hledá nový domov
 intro:
   blurbs:
     - image: /img/jasmina_uvod.jpg
+    - image: /img/jasmina_2.jpg
 description: Jasmína a Lili hledají společný domov
 date: 2025-08-18T11:49:33.260Z
 ---
