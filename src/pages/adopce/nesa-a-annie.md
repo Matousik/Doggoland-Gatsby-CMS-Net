@@ -1,13 +1,17 @@
 ---
 templateKey: adopce-post
-featuredimage: /img/annie-7.jpg
+featuredimage: /img/annie_5.jpg
 image: /img/cerne-pozadi.png
 title: Annie
 heading: Annie hledá nový domov
 intro:
   blurbs:
-    - image: /img/annie-6.jpg
     - image: /img/annie-7.jpg
+    - image: /img/annie_5.jpg
+    - image: /img/annie_4.jpg
+    - image: /img/annie_3.jpg
+    - image: /img/annie_2.jpg
+    - image: /img/annie_1.jpg
 description: "Malá bojovnice Annie "
 date: 2024-10-14T08:08:26.775Z
 ---
