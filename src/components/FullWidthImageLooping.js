@@ -80,6 +80,25 @@ export default function FullWidthImage(props) {
                 </h1>
                 <div
                   style={{
+                    maxWidth: "600px",
+                    margin: "0 auto",
+                  }}
+                >
+                  <p
+                    style={{
+                      color: "white",
+                      fontWeight: 400, // Slightly smaller than default h2 (which is usually 600)
+                      fontSize: "2rem",
+                      textAlign: "center",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    Doggoland Day 2026 - 17. 5. v Cyklokempu Loděnice v Brné (Ústí nad Labem)
+                  </p>
+                </div>
+           
+                <div
+                  style={{
                     marginTop: "2rem",
                     display: "flex",
                     justifyContent: "center",
