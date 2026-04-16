@@ -54,7 +54,7 @@ export default class Index extends React.Component {
           <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> IČO: 11719222</li>
           <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> Tel.: <a href="tel:+420739071777">+420 739 071 777</a></li>
           <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> E-mail: <a href="mailto:info@doggoland.cz">info@doggoland.cz</a></li>
-          <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> Adresa: Komenského 354, Dobroměřice, 440 01</li>
+          <li className="presentation-content"><FontAwesomeIcon icon={faCaretRight} className="bullet-icon" /> Adresa: Tisá 132, Tisá, 403 36</li>
         </ul>
       </div>
       <div className="presentation-box">
