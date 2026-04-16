@@ -92,10 +92,24 @@ export default function FullWidthImage(props) {
                       textAlign: "center",
                       marginBottom: "1rem",
                     }}
+                    className="responsive-event-title"
                   >
                     Doggoland Day 2026 - 17. 5. v Cyklokempu Loděnice v Brné (Ústí nad Labem)
                   </p>
+                  <style>{`
+                    @media (max-width: 900px) {
+                      .responsive-event-title {
+                        font-size: 1.5rem !important;
+                      }
+                    }
+                    @media (max-width: 600px) {
+                      .responsive-event-title {
+                        font-size: 1.1rem !important;
+                      }
+                    }
+                  `}</style>
                 </div>
+           
            
                 <div
                   style={{
