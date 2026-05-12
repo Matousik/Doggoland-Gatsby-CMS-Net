@@ -10,7 +10,7 @@ import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 const apiKey = process.env.GATSBY_GOOGLE_MAPS_API_KEY;
 const mapTitle = "Doggoland z.s.";
-const markerPosition = { lat: 50.37150004740581, lng: 13.787847486233012 };
+const markerPosition = { lat: 50.785966132370945, lng: 14.010630943620926 };
 
 function encode(data) {
   return Object.keys(data)
