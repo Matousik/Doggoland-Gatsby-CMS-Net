@@ -1,6 +1,6 @@
 ---
 templateKey: zvirata-v-nasi-peci
 title: Daisy
-description: Daisy se k nám dostala se svou matkou Májkou
+description: Daisy se k nám dostala se svou dcerou Májkou
 featuredimage: /img/daisy_1.jpeg
 ---
