@@ -2,7 +2,7 @@
 templateKey: adopce-post
 featuredimage: /img/majka_1.jpeg
 image: /img/cerne-pozadi.png
-title: MÁJKA A DAISY
+title: Májka a Daisy
 heading: MÁJKA A DAISY HLEDAJÍ DOMOV💔 (společně/zvlášť)
 intro:
   blurbs:
