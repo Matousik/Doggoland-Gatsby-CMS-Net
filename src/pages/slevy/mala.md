@@ -1,8 +1,8 @@
 ---
 templateKey: slevy
 title: Mala
-discount: 15 % sleva na celý nákup
-code: DOGGOLAND15
+discount: 30 % sleva na celý nákup
+code: DOGGOLAND30
 website: www.malagps.cz
 featuredimage: /img/mala-logo.png
 ---
