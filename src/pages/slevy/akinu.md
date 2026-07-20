@@ -2,7 +2,7 @@
 templateKey: slevy
 title: Akinu
 discount: 15 % sleva na celý nákup
-code: AK25DOGGOLAND15
+code: AK26DOGGOLAND15
 website: www.akinu.cz
 featuredimage: /img/akinu-logo-red-rgb.jpg
 ---
