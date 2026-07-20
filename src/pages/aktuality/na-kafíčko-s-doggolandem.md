@@ -1,5 +1,5 @@
 ---
-title: Bazárek v Šichtovce
+title: Bazárky v Šichtovce
 image: /img/bazarek.jpg
 date: 2025-01-21T14:14:24.833Z
 templateKey: aktuality
