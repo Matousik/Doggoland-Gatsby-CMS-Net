@@ -84,7 +84,7 @@ export default function FullWidthImage(props) {
                     margin: "0 auto",
                   }}
                 >
-                  <p
+{/*                   <p
                     style={{
                       color: "white",
                       fontWeight: 400, // Slightly smaller than default h2 (which is usually 600)
@@ -95,7 +95,7 @@ export default function FullWidthImage(props) {
                     className="responsive-event-title"
                   >
                     Doggoland Day 2026 - 17. 5. v Cyklokempu Loděnice v Brné (Ústí nad Labem)
-                  </p>
+                  </p> */}
                   <style>{`
                     @media (max-width: 900px) {
                       .responsive-event-title {
