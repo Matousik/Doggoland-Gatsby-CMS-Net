@@ -1,7 +1,7 @@
 ---
 templateKey: zvirata-v-nasi-peci
 title: Annie
-description: Další extrémně (dle slov vet - život ohrožující) obezita u nově
-  přijaté fenky. Všem ukápne slza u vychrtlých pejsků, ale toto ubližuje také.
-featuredimage: /img/annie_uvod.jpg
+description: Annie čeká operace prasklých vazů v koleno, kastrace, očkování a
+  další potřebné úkony. Jakmile projde celou léčbou, tak bude hledat nový domov.
+featuredimage: /img/annie_8.jpg
 ---
