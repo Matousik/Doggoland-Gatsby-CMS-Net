@@ -1,9 +1,10 @@
 ---
 templateKey: zvirata-v-nasi-peci
-title: Míša
-description: Míša, 9 měsíců starý pejsek border kolie, který utekl hrobníkovi z
-  lopaty. Majitel ho pro jeho zdravotní stav chtěl nechat utratit, to však paní
-  doktorka nedopustila a proto poprosila o pomoc nás. Míša se nachází v
-  doživotní dočasné péči.
+title: "Míša "
+description: Míša zůstává v doživotní dočasné péči spolku. Mlaďoch, který dostal
+  druhou šanci na život. Bohužel má velmi vážnou vrozenou srdeční vadu srdce, na
+  kterou má silnou medikaci, ale i tak ho nečeká dlouhý život, který by si moc
+  zasloužil. Proto zůstává u své dočaskové rodiny v doživotní péči, která pro
+  něj dělá maximum.
 featuredimage: /img/misa_uvod.jpg
 ---
